@@ -1,0 +1,72 @@
+debug_decisions_BGD_afterwar = {
+    BGD_load_ppp_tree_debug = {
+		icon = generic_industry
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			load_focus_tree = TFR_tree_BGD_afterwar
+			add_dynamic_modifier = {
+				modifier = BGD_kira_doki
+			}
+		}
+	}
+	 BGD_arisa_military_coup_debug = {
+		icon = generic_industry
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			promote_character = {
+				character = BGD_arisa_char
+				ideology = military_junta
+			}
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+			}
+		}
+	}
+	BGD_zengjia_zhengcedian_debug = {
+		icon = generic_industry
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			add_to_variable = { zhengce_dianshu = 5000 }
+		}
+	}
+}

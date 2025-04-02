@@ -1,0 +1,34 @@
+spriteTypes = { 
+spriteType = {
+	name = "GFX_bangdream_victory"
+	texturefile = "gfx\event_pictures\bangdream_victory.png"
+    }
+spriteType = {
+	name = "GFX_popipa_doublerainbow"
+	texturefile = "gfx\event_pictures\popipa_doublerainbow.png"
+    }
+spriteType = {
+	name = "GFX_bang_girlsband_party"
+	texturefile = "gfx\event_pictures\news_event\bgdnews\bang_girlsband_party.png"
+    }
+spriteType = {
+	name = "GFX_bang_zhanjia"
+	texturefile = "gfx\event_pictures\bang_zhanjia.png"
+    }
+spriteType = {
+	name = "GFX_tsugu_heidao"
+	texturefile = "gfx\event_pictures\tsugu_heidao.png"
+    }
+spriteType = {
+	name = "GFX_bang_dsnydsd"
+	texturefile = "gfx\event_pictures\bang_dsnydsd.png"
+    }
+spriteType = {
+	name = "GFX_bang_gaw_baofa"
+	texturefile = "gfx\event_pictures\news_event\bgdnews\bang_gaw_baofa.png"
+    }
+spriteType = {
+	name = "GFX_bang_gaw_shengli"
+	texturefile = "gfx\event_pictures\news_event\bgdnews\bang_gaw_shengli.png"
+    }
+}

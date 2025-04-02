@@ -1,0 +1,34 @@
+ideas = {
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+		BGD_reqing_zhiyuanbing = {
+			cost = 100
+			removal_cost = -1
+			picture = laws_conscription1
+			level = 6
+			allowed = {
+				tag = BGD
+			}
+			available = {
+				has_country_flag = BGD_qiyong_zhuanshu_zhengbing
+			}
+			visible = {
+				has_country_flag = BGD_qiyong_zhuanshu_zhengbing
+			}
+			allowed_to_remove = {
+				always = no
+			}
+			modifier = {
+				conscription = 0.01
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			ai_will_do = {
+				base = 1
+			}
+			cancel_if_invalid = no
+		}
+	}
+}

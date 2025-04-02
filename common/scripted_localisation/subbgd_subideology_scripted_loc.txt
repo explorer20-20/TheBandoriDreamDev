@@ -1,0 +1,161 @@
+defined_text = {
+	name = GetSubIdeologyLocSocDem
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = SOV_mikhail_delyagin
+					ruling_only = yes
+				}	
+			}
+			has_country_leader_ideology = sovereign_democracy_left_socdem
+		}
+		localization_key = SOV_moderate_socialism
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_leader_ideology = left_populism
+		}
+		localization_key = FRA_popular_front
+	}	
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_leader_ideology = left_populism
+		}
+		localization_key = JAP_japanese_liberalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = APA_julia_salazar_char
+					ruling_only = yes
+				}	
+			}
+			has_country_leader_ideology = neo_socialism_socdem
+		}
+		localization_key = APA_democratic_socialism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = progressivism
+		}
+		localization_key = progressivism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_democracy
+			has_country_leader = {
+				character = ARG_alberto_fernandez_char
+				ruling_only = yes
+			}
+		}
+		localization_key = kirchnerist_peronism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_patriotism
+			has_country_leader = {
+				character = ARG_sergio_massa_char
+				ruling_only = yes
+			}
+		}
+		localization_key = federal_peronism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_centrist
+			has_country_leader = {
+				character = USB_AOC_char
+				ruling_only = yes
+			}
+		}
+		localization_key = USB_left_centrist_ideology
+	}
+	text = {
+		trigger = {
+			tag = TUR
+			has_country_leader_ideology = social_democracy
+		}
+		localization_key = TUR_kemalism_socdem
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_democracy
+		}
+		localization_key = social_democracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_centrist
+		}
+		localization_key = left_centrist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_populism
+			has_country_leader = {
+				character = SAF_cyril_ramaphosa_char
+				ruling_only = yes
+			}
+		}
+		localization_key = african_socialism
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_populism
+		}
+		localization_key = left_populism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = green_politics
+		}
+		localization_key = green_politics
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_leader_ideology = technocracy
+		}
+		localization_key = SOV_socialist_technocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = technocracy
+		}
+		localization_key = technocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = sovereign_democracy_left_socdem
+		}
+		localization_key = sovereign_democracy_left_socdem
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = neo_socialism_socdem
+		}
+		localization_key = neo_socialism_socdem
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = putinism_social_democrat
+		}
+		localization_key = putinism_social_democrat
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_patriotism
+		}
+		localization_key = social_patriotism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = kirakira_dokidoki
+		}
+		localization_key = BGD_kiraism
+	}
+}
