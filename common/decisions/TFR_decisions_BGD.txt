@@ -105,7 +105,8 @@ BGD_riben_neizhan = {
 		}
 
 		remove_effect = {
-			load_oob = BGD_minbing_1			
+			load_oob = BGD_minbing_1
+			custom_effect_tooltip = BGD_zujian_mibing_tt			
 		}
 	}
 	BGD_jiada_sougua = {
@@ -5968,6 +5969,59 @@ BGD_shaonv_paifa = {
 					value = 0.03
 				}
 				add_farming_development = yes
+		    }
+		}
+		BGD_pp_idol_populism = {
+
+			priority = 4
+		
+			icon = GFX_JAP_election_day
+		
+			cost = 0
+			days_remove = 180
+		
+			fire_only_once = no
+			days_re_enable = 1
+				
+			allowed = {
+				tag = BGD
+			}
+		
+			available = {
+				check_variable = { zhengce_dianshu > 99 }
+			}
+		
+			visible = {
+				
+			}
+		
+			ai_will_do = {
+				factor = 1
+			}
+		
+			modifier = {
+				political_power_gain = 0.1
+				political_power_factor = 0.02
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_factory_max_efficiency_factor = 0.03
+				society_development_monthly = 0.015
+				social_democrat_drift = 0.08
+			}
+					
+			complete_effect = {
+				add_to_variable = { zhengce_dianshu = -100 }
+				custom_effect_tooltip = BGD_zhengce_dianhsu_tishi_tt
+				custom_effect_tooltip = BGD_zhengce_dianhsu_jianshao_tt	
+			}
+		
+			remove_effect = {
+				set_temp_variable = {
+					var = society_development_var_temp
+					value = 0.05
+				}
+				add_society_development = yes
 		    }
 		}
 	BGD_zhengcedian_ziran_zengzhang = {

@@ -31,4 +31,8 @@ spriteType = {
 	name = "GFX_bang_gaw_shengli"
 	texturefile = "gfx\event_pictures\news_event\bgdnews\bang_gaw_shengli.png"
     }
+spriteType = {
+	name = "GFX_bang_ldp_question"
+	texturefile = "gfx\event_pictures\bang_ldp_question.png"
+	}
 }

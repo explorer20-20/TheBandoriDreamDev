@@ -234,7 +234,7 @@ characters = {
 				factor = 1
 			}
 		}
-		corps_commander = {
+		field_marshal = {
 			traits = {
 				shaonv_yvgangtie
 			}
@@ -440,7 +440,7 @@ characters = {
 				factor = 1
 			}
 		}
-		corps_commander = {
+		field_marshal = {
 			traits = {
 				shaonv_yvgangtie
 			}
