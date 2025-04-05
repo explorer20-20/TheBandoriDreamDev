@@ -159,3 +159,710 @@ defined_text = {
 		localization_key = BGD_kiraism
 	}
 }
+
+defined_text = {
+	name = GetSubIdeologyLocFascist	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					name = "Vladimir Putin"
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = ultranationalism
+		}
+		localization_key = putinism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = USB_richard_spencer
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = ultranationalism
+		}
+		localization_key = americanist_bidenism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = SOV_evgeny_prigozhin
+					ruling_only = yes
+				}	
+				has_country_leader = {
+					character = SOV_igor_girkin
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = national_spartanism
+		}
+		localization_key = SOV_ruscism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = SOV_vladimir_zhirinovsky
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = ethno_nationalism
+		}
+		localization_key = SOV_reactionary_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = FRA_Bertrand_de_La_Chesnais_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = classical_fascism
+		}
+		localization_key = FAF_petainism_fascism
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = UK2
+			}
+			has_country_leader_ideology = classical_fascism
+		}
+		localization_key = UK2_multipolar_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				tag = SOV
+			}
+			has_country_leader_ideology = national_syndicalism
+		}
+		localization_key = SOV_militaristic_chauvinism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = PTF_thomas_rousseau_char_revolution
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = classical_fascism
+		}
+		localization_key = PTF_american_fascism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = GER_frank_franz
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = ultranationalism
+		}
+		localization_key = GER_volkish_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = GER_klaus_armstroff_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = national_syndicalism
+		}
+		localization_key = GER_revolutionary_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = GER_radelsfuhrer
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = national_spartanism
+		}
+		localization_key = GER_ultramilitarism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = BLR_ryhor_kastusiou
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = ethno_nationalism
+		}
+		localization_key = belarusian_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = NIR_Micheal_o_Conghaile
+					ruling_only = yes
+				}	
+			}
+			has_country_leader_ideology = ethno_nationalism
+		}
+		localization_key = IRA_irish_republicanism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				original_tag = HUM
+			}
+			has_country_leader_ideology = clerical_fascism
+		}
+		localization_key = HUM_christian_nationalism
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = TAJ
+			}
+			has_country_leader_ideology = clerical_fascism
+		}
+		localization_key = islamic_fundamentalism
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = LWK
+			}
+			has_country_leader_ideology = ethno_nationalism
+		}
+		localization_key = LWK_white_supremacy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = falangist
+		}
+		localization_key = falangist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ethno_nationalism
+		}
+		localization_key = ethno_nationalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = classical_fascism
+		}
+		localization_key = classical_fascism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = clerical_fascism
+		}
+		localization_key = clerical_fascism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = FAF_Jean_Christophe_Napoleon_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = vladimir_zhirinovsky_thought #this is stupid shit, dumbest thing ever legit, muncher tsk tsk tsk
+		}
+		localization_key = FAF_bonapartist_thought
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = vladimir_zhirinovsky_thought
+		}
+		localization_key = vladimir_zhirinovsky_thought
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = vladimir_zhirinovsky_thought_post_war
+		}
+		localization_key = vladimir_zhirinovsky_thought_post_war
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = vladimir_zhirinovsky_thought_militarist
+		}
+		localization_key = vladimir_zhirinovsky_thought_militarist
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = blackhundredism
+		}
+		localization_key = blackhundredism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ecofascism
+		}
+		localization_key = ecofascism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = chinese_exceptionalism
+		}
+		localization_key = chinese_exceptionalism
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = russian_syncretism
+		}
+		localization_key = russian_syncretism
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_syndicalism
+		}
+		localization_key = national_syndicalism
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_spartanism
+		}
+		localization_key = national_spartanism
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = ultranationalism
+		}
+		localization_key = ultranationalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = BGD_Army_Junta
+		}
+		localization_key = BGD_Army_Junta
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocDespot
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = SOV_sergei_naryshkin
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = autocrat
+		}
+		localization_key = SOV_Interim_government_ideology
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = BLR_alexander_lukashenko
+					ruling_only = yes
+				}		
+			}
+			has_country_leader_ideology = autocrat
+		}
+		localization_key = BLR_populist_autocracy
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = GER_Heinrich_XIII
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = absolute_monarchist
+		}
+		localization_key = GER_imperial_souveranism
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = IKA
+			}
+			has_country_leader_ideology = theocracy
+		}
+		localization_key = IKA_christian_fundamentalism
+	}
+	text = {
+		trigger = {
+			tag = FAF
+			OR = {
+				has_country_leader = {
+					character = FRA_Jean_Pierre_Bosser
+					ruling_only = yes
+				}
+				has_country_leader = {
+					character = FRA_Francois_Lecointre
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = military_junta
+		}
+		localization_key = FAF_petainism_junta
+	}	
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = USA_robert_b._abrams_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = military_junta
+		}
+		localization_key = junta_bidenism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = USG_barron_trump_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = purification_administration
+		}
+		localization_key = trumpist_caligula
+	}	
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USC
+			}
+			has_country_leader_ideology = autocrat
+		}
+		localization_key = USC_autocratic_populism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = USC_emptiness
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = empty_nationalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = autocrat
+		}
+		localization_key = autocrat
+	}
+	text = {
+		trigger = {
+			has_country_leader = {
+				character = LDS_Warren_Jeffs_char
+				ruling_only = yes
+			}
+			has_country_leader_ideology = theocracy
+		}
+		localization_key = theocracy_LDS
+	}	
+	text = {
+		trigger = {
+			original_tag = ATF
+			has_country_leader_ideology = military_junta
+		}
+		localization_key = ATF_ex_dicatorship
+	}	
+	text = {
+		trigger = {
+			original_tag = LOS
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = LOS_southern_nationalism
+	}
+	text = {
+		trigger = {
+			original_tag = LST
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = LOS_southern_nationalism
+	}
+	text = {
+		trigger = {
+			original_tag = TNM
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = TNM_texan_nationalism
+	}	
+	text = {
+		trigger = {
+			OR = {
+				original_tag = VOL
+				original_tag = NGR
+				original_tag = MLI
+				original_tag = GNA
+			}
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = SOV_multipolar_pan_africanism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = NIR_Micheal_o_Conghaile
+					ruling_only = yes
+				}	
+			}
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = IRA_irish_republicanism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = theocracy
+		}
+		localization_key = theocracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mafia_state
+		}
+		localization_key = mafia_state
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mafia_state_2
+			original_tag = RPP
+		}
+		localization_key = mafia_state_ballas
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mafia_state_2
+			original_tag = RGA
+		}
+		localization_key = mafia_state_grove
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = absolute_monarchist
+		}
+		localization_key = absolute_monarchist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = salafi
+		}
+		localization_key = salafi
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = wahabi
+		}
+		localization_key = wahabi
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = military_junta
+		}
+		localization_key = military_junta
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = neo_luddism
+		}
+		localization_key = neo_luddism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = purification_administration
+		}
+		localization_key = purification_administration
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_nationalism
+		}
+		localization_key = radical_nationalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = right_wing_accelerationist
+		}
+		localization_key = right_wing_accelerationist
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = putinism_despot
+		}
+		localization_key = putinism_despot
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = BGD_Maritime_Junta
+		}
+		localization_key = BGD_Maritime_Junta
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocNatSoc
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+			}
+			has_country_leader_ideology = neonazism
+		}
+		localization_key = GER_national_socialism
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = FAF
+			}
+			has_country_leader_ideology = neonazism
+		}
+		localization_key = FAF_carolingian_fascism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = ITA_franco_freda_char
+					ruling_only = yes
+				}	
+			}
+		}
+		localization_key = ITA_nazi_maoism
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = SOV
+			}
+			has_country_leader_ideology = neonazism
+		}
+		localization_key = stratocratic_neonazism
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = FAF_Nikola_Perovic_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = death_cult
+		}
+		localization_key = FAF_lafayette_death_cult
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					character = FAF_Renaud_Camus_char
+					ruling_only = yes
+				}
+			}
+			has_country_leader_ideology = eurasianism
+		}
+		localization_key = FAF_camus_eurasianism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = eurasianism
+		}
+		localization_key = eurasianism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = esoteric_fascism
+		}
+		localization_key = esoteric_fascism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = accelerationist
+		}
+		localization_key = accelerationist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = babylonian_nazism
+		}
+		localization_key = babylonian_nazism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = identitarianism
+		}
+		localization_key = identitarianism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = neonazism
+		}
+		localization_key = neonazism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = american_neonazism
+		}
+		localization_key = american_neonazism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = death_cult
+		}
+		localization_key = death_cult
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = iraqi_baathism
+		}
+		localization_key = iraqi_baathism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = falun_dafa
+		}
+		localization_key = falun_dafa
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = obliteration_of_the_self
+		}
+		localization_key = obliteration_of_the_self
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = strassarite
+		}
+		localization_key = strassarite
+	}	
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_bolshevism
+		}
+		localization_key = national_bolshevism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = greater_russia_system
+		}
+		localization_key = greater_russia_system
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = BGD_Airforce_Junta
+		}
+		localization_key = BGD_Airforce_Junta
+	}
+}

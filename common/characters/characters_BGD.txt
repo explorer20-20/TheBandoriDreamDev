@@ -1,9 +1,12 @@
 characters = {
 	BGD_kasumi_char = {
-		name = BGD_kasumi_char 
+		name = BGD_kasumi_char
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/BGD/BGD_kasumi.png"
+			}
+			army = {
+				large = "gfx/leaders/BGD/generals/BGD_kasumi_2.png"
 			}
 		}
 		country_leader = {
@@ -11,25 +14,126 @@ characters = {
 			desc = BGD_KASUMI_DESC
 			traits = {
 				arisa_kuilei
-				yaoyan_xingxing	
+				yaoyan_xingxing
 			}
 		}
+		field_marshal = {
+			traits = {
+				shaonv_yvgangtie
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
 	}
+
 	BGD_arisa_char = {
-		name = BGD_arisa_char 
+		name = BGD_arisa_char
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/BGD/BGD_arisa.png"
 			}
-		}
-		country_leader = {
-			ideology = military_junta
-			desc = BGD_ARISA_DESC
-			traits = {
-				
+			army = {
+				large = "gfx/leaders/BGD/BGD_arisa.png"
 			}
 		}
+		country_leader = {
+			ideology = BGD_Army_Junta
+			desc = BGD_ARISA_DESC
+			traits = {
+			}
+		}
+		field_marshal = {
+			traits = {
+				shaonv_yvgangtie
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
 	}
+
+	BGD_kanon_char = {
+		name = BGD_kanon_char
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BGD/generals/BGD_kanon_2.png"
+			}
+			army = {
+				large = "gfx/leaders/BGD/generals/BGD_kanon_2.png"
+			}
+		}
+		country_leader = {
+			ideology = BGD_Maritime_Junta
+			desc = BGD_ARISA_DESC
+			traits = {
+			}
+		}
+		field_marshal = {
+			traits = {
+				shaonv_yvgangtie
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	BGD_layer_char = {
+		name = BGD_layer_char 
+		portraits = {
+			civilian = {
+				small = "gfx\interface\ideas\BGD\ministers\BGD_layer_1.png"
+				large = "gfx\leaders\BGD\generals\BGD_layer_2.png"
+			}
+			army = {
+				large = "gfx\leaders\BGD\generals\BGD_layer_2.png"
+			}
+		}
+		country_leader = {
+			ideology = BGD_Airforce_Junta
+			desc = BGD_ARISA_DESC
+			traits = {
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGD_layer_char_high_command
+			ledger = air
+			allowed = { 
+				original_tag = BGD
+			}
+			available = {
+			    has_country_leader = {
+			        character = BGD_kasumi_char
+		        }
+			}
+			traits = {
+				yuedui_zhongjian
+			}
+			cost = 0
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		field_marshal = {
+			traits = {
+				shaonv_yvgangtie
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
 	BGD_mugu_xionggui_char = {
 		name = BGD_mugu_xionggui_char
 		portraits = {
@@ -516,47 +620,6 @@ characters = {
 			}
 			traits = {
 				zhumeng_zhiren
-			}
-			cost = 0
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		corps_commander = {
-			traits = {
-				shaonv_yvgangtie
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	BGD_layer_char = {
-		name = BGD_layer_char 
-		portraits = {
-			army = {
-				small = "gfx\interface\ideas\BGD\ministers\BGD_layer_1.png"
-			}
-			army = {
-				large = "gfx\leaders\BGD\generals\BGD_layer_2.png"
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = BGD_layer_char_high_command
-			ledger = air
-			allowed = { 
-				original_tag = BGD
-			}
-			available = {
-			    has_country_leader = {
-			        character = BGD_kasumi_char
-		        }
-			}
-			traits = {
-				yuedui_zhongjian
 			}
 			cost = 0
 			ai_will_do = {

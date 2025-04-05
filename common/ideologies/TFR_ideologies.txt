@@ -796,6 +796,9 @@ ideologies = {
 					84
 				}
 			}
+			BGD_Maritime_Junta = {
+				can_be_randomly_selected = no
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NATIONALIST_1"
@@ -893,6 +896,9 @@ ideologies = {
 					68
 					40
 				}
+			}
+			BGD_Army_Junta = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
@@ -1019,6 +1025,9 @@ ideologies = {
 					194
 					182
 				}
+			}
+			BGD_Airforce_Junta = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {

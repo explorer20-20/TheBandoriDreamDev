@@ -6,6 +6,10 @@ set_research_slots = 4
 	set_war_support = 0.05
 
 recruit_character = BGD_kasumi_char
+recruit_character = BGD_arisa_char
+recruit_character = BGD_kanon_char
+recruit_character = BGD_layer_char
+
 recruit_character = BGD_mugu_xionggui_char
 recruit_character = BGD_lujun_bubing_char
 recruit_character = BGD_lujun_zhuangjia_char
@@ -17,12 +21,10 @@ recruit_character = BGD_yukina_char
 recruit_character = BGD_lisa_char
 recruit_character = BGD_sayo_char
 recruit_character = BGD_ako_char
-recruit_character = BGD_arisa_char
 recruit_character = BGD_rinko_char
 recruit_character = BGD_chuchu_char
 recruit_character = BGD_masking_char
 recruit_character = BGD_lock_char
-recruit_character = BGD_layer_char
 recruit_character = BGD_pareo_char
 
 set_technology = {
@@ -562,10 +564,10 @@ add_ideas = {
 	low_police
 }
 
-	set_party_name = {
-		ideology = totalitarian_socialist 
-		long_name = BGD_totalitarian_socialist_party_long
-	   name = BGD_totalitarian_socialist_party
+set_party_name = {
+	ideology = totalitarian_socialist 
+	long_name = BGD_totalitarian_socialist_party_long
+	name = BGD_totalitarian_socialist_party
 }
 set_party_name = {
 	   ideology = communist 

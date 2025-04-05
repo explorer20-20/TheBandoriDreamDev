@@ -4,4 +4,16 @@ spriteType = {
 	name = "GFX_ideology_kirakira_dokidoki"
 	texturefile = "gfx\interface\ideologies\kirakira_dokidoki.png"
     }
+	spriteType = {
+		name = "GFX_ideology_BGD_Army_Junta"
+		texturefile = "gfx\interface\ideologies\BGD_Army_Junta.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_BGD_Maritime_Junta"
+		texturefile = "gfx\interface\ideologies\BGD_Maritime_Junta.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_BGD_Airforce_Junta"
+		texturefile = "gfx\interface\ideologies\BGD_Airforce_Junta.png"
+	}
 }
