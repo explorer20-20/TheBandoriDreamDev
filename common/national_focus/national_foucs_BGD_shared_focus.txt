@@ -1175,6 +1175,7 @@ shared_focus = {
 	x = 29
 	y = 1
 	completion_reward = {
+		country_event = { id = JETW.0 }
 		unlock_decision_tooltip = BGD_chukou_shangpin
 		effect_tooltip = {
 			swap_ideas = {
@@ -1223,7 +1224,6 @@ shared_focus = {
 			}
 		}
 		add_to_variable = { BGD_yazi_lingdao_research_speed_factor = 0.05 }
-		country_event = { id = JETW.0 }
 	}
 }
 shared_focus = {
