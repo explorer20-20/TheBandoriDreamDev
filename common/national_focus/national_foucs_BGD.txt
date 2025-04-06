@@ -176,7 +176,7 @@ focus_tree = {
 			}
 		focus = {
 			id = BGD_jichuan_mengxiang
-			icon = GFX_guoce_zhanwei
+			icon = GFX_break_through_dream
 			prerequisite = { focus = BGD_mengxiang_buqv }
 			cost = 2
 			x = 5
