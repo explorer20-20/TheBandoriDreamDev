@@ -11,7 +11,7 @@ focus_tree = {
 	 
 	focus = {
 	    id = BGD_civil_war_begin
-		icon = GFX_guoce_zhanwei
+		icon = GFX_embark_on_a_journey
 		cost = 1
 		x = 5
 		y = 0

@@ -91,4 +91,9 @@ spriteTypes = {
 		name = "GFX_idea_yvsuan_kongjun_jingshen"
 		textureFile = "gfx\interface\ideas\BGD\yvsuan_kongjun_jingshen.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_APFNO"
+		textureFile = "\gfx\interface\factions\status\GFX_APFNO_Member.dds"
+	}
 }

@@ -173,4 +173,9 @@ spriteTypes = {
 		name = "GFX_break_through_dream"
 		texturefile = "gfx\interface\goals\BGD\BGD_break_through_dream.png"
 	}
+	SpriteType = {
+		name = "GFX_embark_on_a_journey"
+		texturefile = "gfx\interface\goals\BGD\BGD_embark_on_a_journey.png"
+	}
+
 }
