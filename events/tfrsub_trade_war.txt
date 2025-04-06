@@ -37,6 +37,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = JETW_lost
+		GER = { add_ideas = BGD_NVIDIA }
 		set_country_flag = nv_eu
 		clr_country_flag = trade_poker_game_on
 		clr_country_flag = nv_compete
@@ -53,6 +54,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = JETW_win
+		add_ideas = BGD_NVIDIA
 		set_country_flag = nv_jp
 		clr_country_flag = trade_poker_game_on
 		clr_country_flag = nv_compete
