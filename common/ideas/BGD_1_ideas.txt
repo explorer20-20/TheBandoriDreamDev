@@ -11,6 +11,7 @@ ideas = {
 			 	political_power_gain = 15
 			 	political_power_factor = 0.15
 			 	stability_weekly = 0.05
+				research_speed_factor = 0.2
 			}
 		}	
 
