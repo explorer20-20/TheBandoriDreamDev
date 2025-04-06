@@ -3527,6 +3527,9 @@ BGD_guojia_waijiao = {
 		BGD = {
 			add_to_faction = SIA
 		}
+		SIA = {
+			set_country_flag = APFNO_member
+		}
 		}
 	}
 	BGD_yaoqing_maxin = {
@@ -3569,6 +3572,12 @@ BGD_guojia_waijiao = {
 			add_to_faction = MAL
 			add_to_faction = SIG
 		}
+		MAL = {
+			set_country_flag = APFNO_member
+		}
+		SIG = {
+			set_country_flag = APFNO_member
+		}
 		}
 	}
 	BGD_yaoqing_yinni = {
@@ -3610,6 +3619,9 @@ BGD_guojia_waijiao = {
 		BGD = {
 			add_to_faction = INS
 		}
+		INS = {
+			set_country_flag = APFNO_member
+		}
 		}
 	}
 	BGD_yaoqing_feilvbing = {
@@ -3650,6 +3662,9 @@ BGD_guojia_waijiao = {
 		remove_effect = {
 		BGD = {
 			add_to_faction = PHI
+		}
+		PHI = {
+			set_country_flag = APFNO_member
 		}
 		}
 	}
@@ -3693,6 +3708,15 @@ BGD_guojia_waijiao = {
 			add_to_faction = AST
 			add_to_faction = NZL
 			add_to_faction = PNG
+		}
+		AST = {
+			set_country_flag = APFNO_member
+		}
+		NZL = {
+			set_country_flag = APFNO_member
+		}
+		PNG = {
+			set_country_flag = APFNO_member
 		}
 		}
 	}
@@ -3741,6 +3765,12 @@ BGD_guojia_waijiao = {
 		BGD = {
 			add_to_faction = RAJ
 			add_to_faction = BAN
+		}
+		RAJ = {
+			set_country_flag = APFNO_member
+		}
+		BAN = {
+			set_country_flag = APFNO_member
 		}
 		}
 	}

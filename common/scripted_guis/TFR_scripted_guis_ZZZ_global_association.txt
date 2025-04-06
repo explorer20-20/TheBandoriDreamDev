@@ -359,6 +359,10 @@ scripted_gui = {
 			TFR_national_front_diplo_icon_visible = {
 				has_country_flag = National_Front_Member
 			}
+			#ADD
+			TFR_APFNO_diplo_icon_visible = {
+				has_country_flag = APFNO_member
+			}
 		}
 	}
 }

@@ -122,6 +122,14 @@ guiTypes = {
 			spriteType = "GFX_AOR_Member"
 			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
 		}
+		#ADD
+		iconType = {
+			name = "TFR_APFNO_diplo_icon"
+			position = { x = 0 y = 2 }
+			spriteType = "GFX_idea_APFNO"
+			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
+			scale = 0.79
+		}
 	}
 	
 	containerWindowType = {

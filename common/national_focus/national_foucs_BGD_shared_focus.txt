@@ -1047,6 +1047,7 @@ shared_focus = {
 		unlock_decision_tooltip = BGD_yaoqing_feilvbing
 		unlock_decision_tooltip = BGD_yaoqing_yindu
 		create_faction = BANGAPFNO
+		
 		effect_tooltip = {
 			add_ideas = BGD_yazi_lingdao_1
 		}
@@ -1057,6 +1058,7 @@ shared_focus = {
 			news_event = {
 				id = news.1220
 			}
+			set_country_flag = APFNO_member
 			}
 			add_to_variable = { BGD_yazi_lingdao_stability_factor = 0.05 }
 			add_to_variable = { BGD_yazi_lingdao_war_support_factor = 0.05 }
