@@ -1,0 +1,144 @@
+decisions_BGD_trade_war = {
+	BDG_eu_mission = {
+		activation = {
+			has_country_flag = trade_poker_game_on
+			has_country_flag = eu_m0
+		}
+		available = {
+			NOT = { has_country_flag = trade_poker_game_on }
+		}
+		days_re_enable = 1
+
+		desc = eu_m_desc
+
+		is_good = no
+		priority = 110
+
+		timeout_effect = {
+			subtract_from_variable = { trade_war_schedules = 5 }
+			set_country_flag = eu_m1
+			clr_country_flag = eu_m0
+		}
+
+		days_mission_timeout = 20
+	}
+	BDG_eu_mission1 = {
+		activation = {
+			has_country_flag = trade_poker_game_on
+			has_country_flag = eu_m1
+		}
+		available = {
+			NOT = { has_country_flag = trade_poker_game_on }
+		}
+		days_re_enable = 1
+
+		desc = eu_m_desc
+
+		is_good = no
+		priority = 110
+
+		timeout_effect = {
+			subtract_from_variable = { trade_war_schedules = 5 }
+			set_country_flag = eu_m0
+			clr_country_flag = eu_m1
+		}
+
+		days_mission_timeout = 20
+	}
+
+	BDG_end_mission = {
+		activation = {
+			has_country_flag = trade_poker_game_on
+		}
+		available = {
+			NOT = { has_country_flag = trade_poker_game_on }
+		}
+
+		is_good = no
+		priority = 120
+
+		timeout_effect = {
+			if = {
+				limit = { 
+					check_variable = { trade_war_schedules < 0 } 
+					has_country_flag = nv_compete
+				}
+				country_event = { id = JETW.2 }
+			}
+			else_if = {
+				limit = { 
+					check_variable = { trade_war_schedules > 100 } 
+					has_country_flag = nv_compete
+				}
+				country_event = { id = JETW.3 }
+			}
+		}
+
+		days_mission_timeout = 150
+
+		
+	}
+
+    BGD_change_trade_war = {
+		icon = GFX_Banned_Moderates
+		name = BGD_decisions_trade_war_1
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			always = yes
+		}
+		visible = {
+		}
+		available = {
+			has_country_flag = trade_war_end
+		}
+		complete_effect = {
+			}
+		}
+
+	BGD_japan_trade_war_2 = {
+		#icon = GFX_Banned_Moderates
+		name = BGD_japan_trade_war_2
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 500
+		priority = 100
+		days_remove = 5
+		allowed = {
+			has_country_flag = trade_poker_game_on
+		}
+		visible = {
+			has_country_flag = nv_compete
+			has_country_flag = trade_poker_game_on
+		}
+		available = {
+			has_country_flag = trade_poker_game_on
+		}
+		complete_effect = {
+			add_to_variable = { trade_war_schedules = 3 }
+			}
+		}
+		BGD_japan_trade_war_1 = {
+			#icon = GFX_Banned_Moderates
+			name = BGD_japan_trade_war_1
+			fire_only_once = no
+			days_re_enable = 1
+			cost = 120
+			priority = 100
+			days_remove = 5
+			allowed = {
+				has_country_flag = trade_poker_game_on
+			}
+			visible = {
+				has_country_flag = trade_poker_game_on
+			}
+			available = {
+				has_country_flag = trade_poker_game_on
+			}
+			complete_effect = {
+				add_to_variable = { trade_war_schedules = 3 }
+				}
+			}
+
+}

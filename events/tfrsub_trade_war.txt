@@ -1,0 +1,61 @@
+add_namespace = JETW
+
+country_event = {
+	id = JETW.0
+	title = JETW.0.t
+	desc = JETW.0.d
+	picture = GFX_gui_BDG_jetw_event
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JETW.0.o
+		set_country_flag = bgd_trade_war_up
+		set_variable = { trade_war_schedules = 50 }
+	}
+}
+country_event = {
+	id = JETW.1
+	title = JETW.1.t
+	desc = JETW.1.d
+	picture = GFX_gui_BDG_nvidia_event
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JETW.1.o
+		set_country_flag = nv_compete
+		set_country_flag = trade_poker_game_on
+		set_country_flag = eu_m0
+	}
+}
+#EU Win NV
+country_event = {
+	id = JETW.2
+	title = JETW.2.t
+	desc = JETW.2.d
+	picture = GFX_gui_BDG_nvidia_event
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JETW_lost
+		set_country_flag = nv_eu
+		clr_country_flag = trade_poker_game_on
+		clr_country_flag = nv_compete
+		set_variable = { trade_war_schedules = 50 }
+	}
+}
+#JP Win NV
+country_event = {
+	id = JETW.3
+	title = JETW.3.t
+	desc = JETW.3.d
+	picture = GFX_gui_BDG_nvidia_event
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = JETW_win
+		set_country_flag = nv_jp
+		clr_country_flag = trade_poker_game_on
+		clr_country_flag = nv_compete
+		set_variable = { trade_war_schedules = 50 }
+	}
+}

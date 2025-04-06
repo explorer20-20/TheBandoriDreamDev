@@ -1,0 +1,26 @@
+﻿l_simp_chinese:
+
+
+BGD_decisions_trade_war_1: "太伟大了哈耶克"
+decisions_BGD_trade_war: "日本-欧洲联盟贸易战"  
+trade_war_end: "贸易战结束"
+BDG_eu_mission: "§B欧洲联盟§!正在行动"
+BDG_eu_mission1: "§B欧洲委员会§!正在行动"
+BDG_end_mission: "企业选定"
+trade_poker_game_on: "贸易牌"
+eu_m_desc: "欧洲，他们有什么？繁杂的政治制度吗？"
+trade_war_schedules: "进度：[?trade_war_schedules|Y]"
+
+JETW.0.t: "日本-欧洲联盟贸易战"
+JETW.0.d: "测试测试"
+JETW.0.o: "好戏开场了"
+JETW.1.t: "NVIDIA寻求庇护"
+JETW.1.d: "测试测试"
+JETW.1.o: "让我们和欧盟打一仗"
+JETW.3.t: "我们赢下了NVIDIA"
+JETW.2.t: "我们输掉了NVIDIA"
+JETW_win: "这太棒了"
+JETW_lost: "哦不"
+
+BGD_japan_trade_war_1: "派遣外交使团"
+BGD_japan_trade_war_2: "搭建机房"

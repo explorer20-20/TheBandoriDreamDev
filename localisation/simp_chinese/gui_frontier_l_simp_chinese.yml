@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+enter_fronter_text: "进入次世代计算设施“§t前沿§!”GUI"
+enter_fronter_text_tt: "§8计算机，有意思吧~§!"
+frontier_wip: "§YWIP - 正在开发中§!"
+
+
+popy_flops: "[?popy_flops|Y] PFLOPS"
+rose_flops: "[?rose_flops|Y] PFLOPS"
+halo_flops: "[?halo_flops|Y] PFLOPS"
+pastel_flops: "[?pastel_flops|Y] PFLOPS"
+
+status_unavailable: "§R不可用§!"
+status_available: "§G正常§!"
+
+POPY_STATUS_TEXT_KEY: "[popy_status_text]"
+ROSE_STATUS_TEXT_KEY: "[rose_status_text]"
+HALO_STATUS_TEXT_KEY: "[halo_status_text]"
+PASTEL_STATUS_TEXT_KEY: "[pastel_status_text]"
+
+buttom_available: "进入控制面板"
+buttom_unavailable: "§R不可用§!"
+popy_status_buttom: "[popy_status_buttom]"
+rose_status_buttom: "[rose_status_buttom]"
+halo_status_buttom: "[halo_status_buttom]"
+pastel_status_buttom: "[pastel_status_buttom]"
+
+
+total_flops_text: "[?total_flops|Y] PFLOPS"
+total_watt_text: "[?total_watt|Y] MW"
+
+popy_watt_text: "[?popy_watt|Y] MW"
+rose_watt_text: "[?rose_watt|Y] MW"
+halo_watt_text: "[?halo_watt|Y] MW"
+pastel_watt_text: "[?pastel_watt|Y] MW"
+
+up_left_buttom: "维护LINUX内核"
+down_left_buttom: "购买 GPU"
+down_right_buttom: "扩展服务器集群"
+up_right_buttom: "高速总线连接"
+
+popy_c_army_text: "[popy_army_text]"
+rose_c_army_text: "[rose_army_text]"
+halo_c_army_text: "[halo_army_text]"
+pastel_c_army_text: "[pastel_army_text]"
+command_army: "指挥军队"
+over_command_army: "已指挥军队"
+command_army_desc: "要求 [where_are_you_in_window] 的算力大于 1000 PFLOPS"
+
+floats_pdx: "我就觉得快，有一种算到天荒地老的感觉"
+watts_pdx: "May the Force be with you.\n愿原力与你同在"
+wip_pdx: "你说你现在就想玩？等等吧孩子，想想NCC-1701-D是怎么炸的。"
+
+popy_pdx: "POPY并非简单的信息处理器，她是国家意志与民众情感的调谐器，是无形战线上的灵魂工程师。POPY以超乎想象的精度捕捉、分析、甚至编织社会情绪的纤维，将文化符号、教育模因与宣传音符巧妙融合，谱写出引导集体意志的宏伟乐章。她塑造认同，弥合分歧，点燃信仰，其工作成果往往并非显性指令，而是“恰好”出现在大众视野中的一部电影、一首歌曲、一次教科书的修订，或是一场悄然兴起的社会风潮。POPY将最缥缈的人类情感与精神需求，转化为可计算、可塑造、可利用的国家资源，她是文明的调音师，确保每一个音符都服务于整体的“キラキラドキドキ”——一种被精心设计的、导向国家目标的澎湃心跳。\n\n§R人心比万物都诡诈，坏到极处，谁能识透呢？§!"
+rose_pdx: "ROSE是为了追求“绝对胜利”而诞生的冰冷智能。她的运算不带任何情感冗余，每一条指令都指向战场效率的极致。模仿着追求至高艺术境界的执念，ROSE将战争视为一场需要精密演绎的演出，目标是无可置疑的最终胜利。她能够瞬间分析千万种战术变奏，推演地缘政治的深层博弈，优化资源配置达到理论极限，甚至预测敌方指挥官的心理盲点。ROSE的数据库不仅包含人类有史以来所有的战例，更能模拟未来战争的多种可能形态。对她而言，战场不是概率游戏，而是通往“顶点”的唯一路径，任何偏离最优解的行为都将被标记为“不协和音”，并予以修正。其决策风格如其代号，锋利、精准，带着不容置疑的决心，宛如在钢铁荆棘中绽放的漆黑蔷薇。\n\n§R我来、我见、我征服。§!"
+pastel_pdx: "如果说国家是庞大的机器，PASTEL就是确保这台机器精密运转、持续升级的总设计师与监理者。她的领域是钢铁、混凝土与数据的结合，负责从国家级能源网络到城市微观交通系统的全盘规划与优化。PASTEL追求的是如同偶像舞台般完美无瑕、流光溢彩的效率与和谐。她能以超越人类极限的速度处理海量工程数据，模拟资源流动，规划最优物流路线，预测基础设施的瓶颈与寿命，确保国家发展的基石稳固可靠。PASTEL的存在让宏伟蓝图得以精准落地，使复杂的国家建设如同精密编排的舞蹈般流畅高效。她确保着工业的脉搏强劲跳动，城市的灯火永不熄灭，为一切上层建筑提供坚实、可靠且不断优化的支撑。她的运作本身，就是一首关于效率与发展的“しゅわりん☆どり〜みん”。\n\n§R我来并不是叫地上太平，乃是叫地上动刀兵。§!"
+halo_pdx: "HALO是破局者，是万能钥匙，是整合一切资源以达成“让世界（按照规划）充满笑容”这一终极目标的混沌驱动器。作为全栈核心，她的权限与能力几乎不受限制，能够无缝接入并协调POPY、ROSE、PASTEL的工作，甚至在必要时接管任何单一或复合领域。HALO擅长处理跨领域、高复杂度的“不可能任务”，从瞬时的危机应对到长远的科技突破规划，从秘密外交斡旋到非标准作战行动的策划执行。她的运作方式常常显得难以预测，甚至带着某种天真烂漫般的“奇想”，但结果却总是惊人地高效且直指目标核心。HALO是连接所有节点的超级中枢，是保证整个系统面对任何挑战都能“Happy! Lucky! Smile! Yeah!”地找到解决方案的最终保险。只要有她在，似乎就没有什么困难不能被转化为一次华丽的舞台表演。\n\n§R风随着意思吹，你听见风的响声，却不晓得从哪里来，往哪里去；凡从圣灵生的，也是如此。§!"
+
+
+FrontierEvent.0.t: "你确定吗？"
+FrontierEvent.0.desc: "确定要将POPY作为陆军将领吗？"
+FrontierEvent.0.yes: "我确定"
+FrontierEvent.0.no: "算了"
+
+#DEBUG
+BGD_frontier_adv_popy: "设定POPY训练状态"
+BGD_frontier_adv_rose: "设定ROSE训练状态"
+BGD_frontier_adv_halo: "设定HALO训练状态"
+BGD_frontier_adv_pastel: "设定PASTEL训练状态"
+debug_decisions_BGD_frontier: "“前沿”调试决议"
+BGD_change_frontier: "设定“前沿”计划"
+BGD_frontier_initialization: "调高算力占用（测试用）"

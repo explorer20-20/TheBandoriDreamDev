@@ -1,0 +1,168 @@
+defined_text = {
+	name = popy_status_text
+    text = {
+		trigger = {
+			has_country_flag = popy_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = popy_status_buttom
+    text = {
+		trigger = {
+			has_country_flag = popy_available
+		}
+		localization_key = buttom_available
+	}
+	text = {
+		localization_key = buttom_unavailable
+	}
+}
+defined_text = {
+	name = rose_status_text
+    text = {
+		trigger = {
+			has_country_flag = rose_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = rose_status_buttom
+    text = {
+		trigger = {
+			has_country_flag = rose_available
+		}
+		localization_key = buttom_available
+	}
+	text = {
+		localization_key = buttom_unavailable
+	}
+}
+defined_text = {
+	name = halo_status_text
+    text = {
+		trigger = {
+			has_country_flag = halo_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = halo_status_buttom
+    text = {
+		trigger = {
+			has_country_flag = halo_available
+		}
+		localization_key = buttom_available
+	}
+	text = {
+		localization_key = buttom_unavailable
+	}
+}
+defined_text = {
+	name = pastel_status_text
+    text = {
+		trigger = {
+			has_country_flag = pastel_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = pastel_status_buttom
+    text = {
+		trigger = {
+			has_country_flag = pastel_available
+		}
+		localization_key = buttom_available
+	}
+	text = {
+		localization_key = buttom_unavailable
+	}
+}
+
+
+
+
+defined_text = {
+	name = popy_army_text
+    text = {
+		trigger = {
+			has_country_flag = popy_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+defined_text = {
+	name = rose_army_text
+    text = {
+		trigger = {
+			has_country_flag = rose_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+defined_text = {
+	name = halo_army_text
+    text = {
+		trigger = {
+			has_country_flag = halo_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+
+
+defined_text = {
+	name = where_are_you_in_window
+    text = {
+		trigger = {
+			has_country_flag = open_frontier_popy_window
+		}
+		localization_key = "POPY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = open_frontier_rose_window
+		}
+		localization_key = "ROSE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = open_frontier_halo_window
+		}
+		localization_key = "HALO"
+	}
+	text = {
+		trigger = {
+			has_country_flag = open_frontier_pastel_window
+		}
+		localization_key = "PASTEL"
+	}
+	text = {
+		localization_key = ""
+	}
+}

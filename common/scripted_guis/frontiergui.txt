@@ -1,0 +1,268 @@
+scripted_gui = {
+	enter_frontier_button = {
+		window_name = frontier_button_window
+		context_type = player_context
+		visible = {
+			has_country_flag = open_frontier_buttom
+		}
+		effects = {
+			enter_frontier_button_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = open_frontier_main_window }
+					}
+					set_country_flag = open_frontier_main_window
+					#clr_country_flag = open_frontier_popy_window
+				}
+				else = {
+					clr_country_flag = open_frontier_main_window
+					clr_country_flag = open_frontier_popy_window
+					clr_country_flag = open_frontier_rose_window
+					clr_country_flag = open_frontier_halo_window
+					clr_country_flag = open_frontier_past_window
+				}
+			}
+		}
+	}
+
+	frontier_main_window = {
+		context_type = player_context
+
+		window_name = "frontier_main_window"
+
+		visible = {
+			has_country_flag = open_frontier_main_window
+		}
+
+		effects = {
+			close_buttom_click = {
+				clr_country_flag = open_frontier_main_window
+			}
+
+			up_right_buttom_click = {
+				ROOT = {
+					add_to_variable = {
+						var = debt_var
+						value = 90
+					}
+					add_to_variable = {
+						var = debt_billion_var
+						value = 90
+					}
+					add_to_variable = {
+						var = debt_trillion_var
+						value = 0.09
+					}
+				}
+				add_to_variable = {
+					var = popy_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = rose_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = halo_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = pastel_flops
+					value = small_random
+				}
+			}
+			up_left_buttom_click = {
+				ROOT = {
+					add_to_variable = {
+						var = debt_var
+						value = 60
+					}
+					add_to_variable = {
+						var = debt_billion_var
+						value = 60
+					}
+					add_to_variable = {
+						var = debt_trillion_var
+						value = 0.06
+					}
+				}
+				add_to_variable = {
+					var = popy_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = rose_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = halo_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = pastel_flops
+					value = large_random
+				}
+			}
+			
+
+			popy_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = popy_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_popy_window
+				}
+			}
+			rose_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = rose_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_rose_window
+				}
+			}
+			halo_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = halo_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_halo_window
+				}
+			}
+			pastel_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = pastel_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_past_window
+				}
+			}
+		}
+
+
+
+	}
+	frontier_popy_window = {
+		context_type = player_context
+
+		window_name = "frontier_popy_window"
+
+		visible = {
+			has_country_flag = open_frontier_popy_window
+		}
+
+		effects = {
+			close_buttom_popy_click = {
+				clr_country_flag = open_frontier_popy_window
+				set_country_flag = open_frontier_main_window
+			}
+
+
+			popy_command_army_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = popy_command_army}
+						check_variable = {
+							popy_flops > 1000
+						}
+					}
+					set_country_flag = popy_command_army
+					create_corps_commander = {
+						name = POPY
+						gfx = GFX_popy_command
+						skill = 5
+						attack_skill = 6
+						defense_skill = 4
+						planning_skill = 4
+						logistics_skill = 4
+					}
+				}
+			}
+		}
+	}
+
+	frontier_rose_window = {
+		context_type = player_context
+
+		window_name = "frontier_rose_window"
+
+		visible = {
+			has_country_flag = open_frontier_rose_window
+		}
+
+		effects = {
+			close_buttom_rose_click = {
+				clr_country_flag = open_frontier_rose_window
+				set_country_flag = open_frontier_main_window
+			}
+
+			rose_command_army_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = rose_command_army}
+						check_variable = {
+							rose_flops > 1000
+						}
+					}
+					set_country_flag = rose_command_army
+					create_field_marshal = {
+						name = ROSE
+						gfx = GFX_rose_command
+
+						skill = 9
+						attack_skill = 10
+						defense_skill = 10
+						planning_skill = 10
+						logistics_skill = 10
+					}
+				}
+			}
+		}
+	}
+
+	frontier_halo_window = {
+		context_type = player_context
+
+		window_name = "frontier_halo_window"
+
+		visible = {
+			has_country_flag = open_frontier_halo_window
+		}
+
+		effects = {
+			close_buttom_halo_click = {
+				clr_country_flag = open_frontier_halo_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+
+	frontier_pastel_window = {
+		context_type = player_context
+	
+		window_name = "frontier_past_window"
+	
+		visible = {
+			has_country_flag = open_frontier_past_window
+		}
+	
+		effects = {
+			close_buttom_pastel_click = {
+				clr_country_flag = open_frontier_past_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+}

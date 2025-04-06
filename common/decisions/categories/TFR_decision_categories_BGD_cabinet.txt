@@ -1,0 +1,11 @@
+decisions_BGD_cabinet = {
+	priority = 100000
+	icon = GFX_gui_ppp_party_small
+	
+	
+	visible = {
+		has_country_flag = cabinet_up
+	}
+	
+	scripted_gui = bgd_cabinet_guis
+}

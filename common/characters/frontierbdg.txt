@@ -1,0 +1,40 @@
+character = {
+	POPY = {
+		name = POPY
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_popy_command
+			}
+		}
+
+		corps_commander = {
+			#traits = { trait_Bang_PoPiPa_loyalties_1 Band_Shojo_Growing_Up }
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			visible = {is_ai=no}
+		}
+	}
+	ROSE = {
+		name = ROSE
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_rose_command
+			}
+		}
+
+		field_marshal = {
+			#traits = { trait_Bang_PoPiPa_loyalties_1 Band_Shojo_Growing_Up }
+			skill = 10
+			attack_skill = 10
+			defense_skill = 10
+			planning_skill = 10
+			logistics_skill = 10
+			visible = {is_ai=no}
+		}
+	}
+}

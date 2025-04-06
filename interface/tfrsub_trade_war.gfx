@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gui_tw_background"
+		texturefile = "gfx\interface\BGD\tw_background.png"
+	}
+	spriteType = {
+		name = "GFX_gui_trade_war_eu"
+		texturefile = "gfx\interface\BGD\BGD_trade_war_eu.png"
+	}
+	spriteType = {
+		name = "GFX_gui_trade_war_jp"
+		texturefile = "gfx\interface\BGD\BGD_trade_war_jp.png"
+	}
+	spriteType = {
+		name = "GFX_gui_trade_war_neutral"
+		texturefile = "gfx\interface\BGD\BGD_trade_war_neutral.png"
+	}
+	spriteType = {
+		name = "GFX_gui_BDG_nvidia"
+		texturefile = "gfx\interface\BGD\nvidia.png"
+	}
+
+
+	
+	spriteType = {
+		name = "GFX_gui_BDG_nvidia_event"
+		texturefile = "gfx\interface\BGD\nvidia_event.png"
+	}
+	spriteType = {
+		name = "GFX_gui_BDG_jetw_event"
+		texturefile = "gfx\interface\BGD\jetw_event.png"
+	}
+}

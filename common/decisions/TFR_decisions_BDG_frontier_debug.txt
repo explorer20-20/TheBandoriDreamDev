@@ -1,0 +1,182 @@
+debug_decisions_BGD_frontier = {
+    BGD_change_frontier = {
+		icon = generic_industry
+		name = BGD_change_frontier
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = open_frontier_buttom }
+				}
+				set_country_flag = open_frontier_buttom
+				set_variable = { popy_flops = 0 }
+				set_variable = { rose_flops = 0 }
+				set_variable = { halo_flops = 0 }
+				set_variable = { pastel_flops = 0 }
+			}
+			else = {
+				clr_country_flag = open_frontier_buttom
+			}
+		}
+	}
+	BGD_frontier_initialization = {
+		icon = generic_industry
+		name = BGD_frontier_initialization
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			add_to_variable = { popy_flops = 1145.14}
+			add_to_variable = { rose_flops = 1145.14}
+			add_to_variable = { halo_flops = 1145.14}
+			add_to_variable = { pastel_flops = 1145.14 }
+		}
+	}
+
+	BGD_frontier_adv_popy = {
+		icon = generic_industry
+		name = BGD_frontier_adv_popy
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			
+			if = {
+				limit = {
+					NOT = { has_country_flag = popy_available }
+				}
+				set_country_flag = popy_available
+			}
+			else = {
+				clr_country_flag = popy_available
+			}
+		}
+	}
+
+	BGD_frontier_adv_rose = {
+		icon = generic_industry
+		name = BGD_frontier_adv_rose
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			
+			if = {
+				limit = {
+					NOT = { has_country_flag = rose_available }
+				}
+				set_country_flag = rose_available
+			}
+			else = {
+				clr_country_flag = rose_available
+			}
+		}
+	}
+
+	BGD_frontier_adv_pastel = {
+		icon = generic_industry
+		name = BGD_frontier_adv_pastel
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			
+			if = {
+				limit = {
+					NOT = { has_country_flag = pastel_available }
+				}
+				set_country_flag = pastel_available
+			}
+			else = {
+				clr_country_flag = pastel_available
+			}
+		}
+	}
+	BGD_frontier_adv_halo = {
+		icon = generic_industry
+		name = BGD_frontier_adv_halo
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			
+			if = {
+				limit = {
+					NOT = { has_country_flag = halo_available }
+				}
+				set_country_flag = halo_available
+			}
+			else = {
+				clr_country_flag = halo_available
+			}
+		}
+	}
+}

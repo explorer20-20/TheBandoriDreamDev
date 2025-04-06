@@ -1,0 +1,22 @@
+scripted_gui = {
+	bgd_trade_war = {
+		context_type = decision_category
+		window_name = "bgd_trade_war"
+		triggers = {
+			trade_war_neutral_visible = {
+				NOT = { has_country_flag = trade_war_jp }
+				NOT = { has_country_flag = trade_war_eu }
+			}
+			trade_war_jp_visible = {
+				has_country_flag = trade_war_jp
+			}
+			trade_war_eu_visible = {
+				has_country_flag = trade_war_eu
+			}
+			nv_eu_visible = {has_country_flag = nv_eu}
+			nv_jp_visible = {has_country_flag = nv_jp}
+
+			nvidia_visible = { has_country_flag = nv_compete }
+		}
+	}
+}

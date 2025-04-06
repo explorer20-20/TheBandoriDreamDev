@@ -1,0 +1,11 @@
+decisions_BGD_trade_war = {
+	priority = 100001
+	icon = GFX_gui_ppp_party_small
+	
+	
+	visible = {
+		has_country_flag = bgd_trade_war_up
+	}
+	
+	scripted_gui = bgd_trade_war
+}

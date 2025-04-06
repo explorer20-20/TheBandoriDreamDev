@@ -1,0 +1,83 @@
+on_actions = {
+    on_daily_BGD = {
+        effect = {
+			set_variable_to_random = {
+				var = small_random
+				max = 100
+				min = 50
+				integer = no
+			}
+			set_variable_to_random = {
+				var = large_random
+				max = 500
+				min = 200
+				integer = no
+			}
+
+
+
+			set_variable = {
+				var = total_flops  # 这是你用来保存总和的变量名
+				value = 0
+			}
+			add_to_variable = {
+				var = total_flops
+				value = popy_flops
+			}
+			add_to_variable = { 
+				var = total_flops
+				value = rose_flops
+			}
+			add_to_variable = {
+				var = total_flops
+				value = halo_flops
+			}
+			add_to_variable = {
+				var = total_flops
+				value = pastel_flops
+			}
+
+			set_variable = {
+				var = total_watt  # 这是你用来保存总和的变量名
+				value = 0.24
+			}
+			multiply_variable = {
+				var = total_watt
+				value = total_flops
+			}
+
+			set_variable = {
+				var = popy_watt  # 这是你用来保存总和的变量名
+				value = 0.24
+			}
+			multiply_variable = {
+				var = popy_watt
+				value = popy_flops
+			}
+			set_variable = {
+				var = rose_watt  # 这是你用来保存总和的变量名
+				value = 0.24
+			}
+			multiply_variable = {
+				var = rose_watt
+				value = popy_flops
+			}
+			set_variable = {
+				var = halo_watt  # 这是你用来保存总和的变量名
+				value = 0.24
+			}
+			multiply_variable = {
+				var = halo_watt
+				value = popy_flops
+			}
+			set_variable = {
+				var = pastel_watt  # 这是你用来保存总和的变量名
+				value = 0.24
+			}
+			multiply_variable = {
+				var = pastel_watt
+				value = pastel_flops
+			}
+		}
+    }
+}
