@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		#ADD
 		BGD_NVIDIA = {
-			picture = nvidia_logo
+			picture = nvidia
  
 			removal_cost = -1
 			
