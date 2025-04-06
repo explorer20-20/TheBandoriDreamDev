@@ -5,6 +5,5 @@ tags={
 dependencies={
 	"The Fire Rises"
 }
-name="烈焰升腾——邦多利之梦"
+name="烈焰升腾——邦多利之梦开发分支"
 supported_version="1.16.4"
-path="C:/Users/Ivan/Documents/Paradox Interactive/Hearts of Iron IV/mod/TheBandoriDreamDev"
