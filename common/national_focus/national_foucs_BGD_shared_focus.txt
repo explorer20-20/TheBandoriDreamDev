@@ -1181,6 +1181,7 @@ shared_focus = {
             remove_idea = BGD_yazi_lingdao_0
 			add_idea = BGD_yazi_lingdao_5
 			}
+			
 		}
 			add_to_variable = { BGD_yazi_lingdao_income_growth_factor = 0.1 }
 			add_to_variable = { BGD_yazi_lingdao_consumer_goods_factor = -0.05 }
@@ -1221,7 +1222,8 @@ shared_focus = {
 			add_idea = BGD_yazi_lingdao_7
 			}
 		}
-			add_to_variable = { BGD_yazi_lingdao_research_speed_factor = 0.05 }
+		add_to_variable = { BGD_yazi_lingdao_research_speed_factor = 0.05 }
+		country_event = { id = JETW.0 }
 	}
 }
 shared_focus = {
