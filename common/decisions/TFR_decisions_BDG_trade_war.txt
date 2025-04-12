@@ -12,7 +12,8 @@ decisions_BGD_trade_war = {
 		priority = 110
 
 		timeout_effect = {
-			subtract_from_variable = { trade_war_schedules = 10 }
+			add_to_variable = { trade_war_schedules_eu = 10 }
+			add_to_variable = {NOU_struggle_dirty_var = 0.01}
 			activate_mission = BDG_eu_mission
 		}
 
@@ -33,18 +34,19 @@ decisions_BGD_trade_war = {
 		timeout_effect = {
 			if = {
 				limit = { 
-					check_variable = { trade_war_schedules < 0 } 
+					check_variable = { trade_war_schedules_eu > trade_war_schedules_jp } 
 					has_country_flag = nv_compete
 				}
 				country_event = { id = JETW.2 }
 			}
 			else_if = {
 				limit = { 
-					check_variable = { trade_war_schedules > 100 } 
+					check_variable = { trade_war_schedules_jp > trade_war_schedules_eu } 
 					has_country_flag = nv_compete
 				}
 				country_event = { id = JETW.3 }
 			}
+			add_to_variable = {NOU_struggle_dirty_var = 0.01}
 		}
 
 		days_mission_timeout = 150
@@ -89,7 +91,8 @@ decisions_BGD_trade_war = {
 			has_country_flag = trade_poker_game_on
 		}
 		remove_effect = {
-			add_to_variable = { trade_war_schedules = 2 }
+			add_to_variable = { trade_war_schedules_jp = 5 }
+			add_to_variable = {NOU_struggle_dirty_var = 0.01}
 			}
 		}
 
@@ -114,7 +117,7 @@ decisions_BGD_trade_war = {
 			has_country_flag = trade_poker_game_on
 		}
 		remove_effect = {
-			add_to_variable = { trade_war_schedules = 10 }
+			add_to_variable = { trade_war_schedules_jp = 10 }
 		}
 	}
 	BGD_japan_trade_war_3 = {
@@ -136,7 +139,8 @@ decisions_BGD_trade_war = {
 			has_country_flag = trade_poker_game_on
 		}
 		remove_effect = {
-			add_to_variable = { trade_war_schedules = 5 }
+			add_to_variable = { trade_war_schedules_jp = 5 }
+			add_to_variable = {NOU_struggle_dirty_var = 0.01}
 		}
 	}
 

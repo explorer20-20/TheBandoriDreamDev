@@ -1,0 +1,18 @@
+defined_text = {
+	name = trade_war_pointer
+	text = {
+		trigger = {
+			check_variable = { trade_war_schedules_jp > trade_war_schedules_eu }
+		}
+		localization_key = GFX_gui_trade_war_jp
+	}
+	text = {
+		trigger = {
+			check_variable = { trade_war_schedules_jp < trade_war_schedules_eu }
+		}
+		localization_key = GFX_gui_trade_war_eu
+	}
+	text = {
+		localization_key = GFX_gui_trade_war_neutral
+	}
+}

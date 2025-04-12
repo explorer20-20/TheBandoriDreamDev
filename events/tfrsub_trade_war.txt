@@ -10,7 +10,8 @@ country_event = {
 	option = {
 		name = JETW.0.o
 		set_country_flag = bgd_trade_war_up
-		set_variable = { trade_war_schedules = 50 }
+		set_variable = { trade_war_schedules_eu = 0 }
+		set_variable = { trade_war_schedules_jp = 0 }
 		country_event = { id = JETW.1 }
 	}
 }
@@ -41,7 +42,8 @@ country_event = {
 		set_country_flag = nv_eu
 		clr_country_flag = trade_poker_game_on
 		clr_country_flag = nv_compete
-		set_variable = { trade_war_schedules = 50 }
+		set_variable = { trade_war_schedules_eu = 0 }
+		set_variable = { trade_war_schedules_jp = 0 }
 	}
 }
 #JP Win NV
@@ -58,6 +60,7 @@ country_event = {
 		set_country_flag = nv_jp
 		clr_country_flag = trade_poker_game_on
 		clr_country_flag = nv_compete
-		set_variable = { trade_war_schedules = 50 }
+		set_variable = { trade_war_schedules_eu = 0 }
+		set_variable = { trade_war_schedules_jp = 0 }
 	}
 }

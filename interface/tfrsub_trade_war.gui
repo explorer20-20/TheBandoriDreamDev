@@ -20,39 +20,59 @@ guiTypes = {
 		}
 		iconType = {
 			name = "trade_war_neutral"
-			spriteType = "GFX_gui_trade_war_neutral"
+			#spriteType = "trade_war_pointer"
 			position = {
 				x = 102
 				y = 320
 			}
 		}
-		iconType = {
-			name = "trade_war_eu"
-			spriteType = "GFX_gui_trade_war_eu"
-			position = {
-				x = 102
-				y = 320
-			}
-		}
-		iconType = {
-			name = "trade_war_jp"
-			spriteType = "GFX_gui_trade_war_jp"
-			position = {
-				x = 102
-				y = 320
-			}
-		}
+		#iconType = {
+		#	name = "trade_war_eu"
+		#	spriteType = "GFX_gui_trade_war_eu"
+		#	position = {
+		#		x = 102
+		#		y = 320
+		#	}
+		#}
+		#iconType = {
+		#	name = "trade_war_jp"
+		#	spriteType = "GFX_gui_trade_war_jp"
+		#	position = {
+		#		x = 102
+		#		y = 320
+		#	}
+		#}
 		instantTextBoxType = {
-			name = "trade_war_schedule"
+			name = "trade_war_schedules"
 			text = trade_war_schedules
 			font = "VCR02_26"
-			#format = center
 			orientation = CENTER_DOWN
 			position = {
 				x = -110
 				y = -25
 			}
 			format = center
+		}
+		instantTextBoxType = {
+			name = "trade_war_schedules_eu"
+			text = trade_war_schedules_eu
+			font = "VCR02_26"
+			position = {
+				x = 20
+				y = 20
+			}
+			format = center
+		}
+		instantTextBoxType = {
+			name = "trade_war_schedules_jp"
+			text = trade_war_schedules_jp
+			font = "VCR02_26"
+			position = {
+				x = 275
+				y = 20
+			}
+			format = center
+			#orientation = RIGHT
 		}
 		iconType = {
 			name = "nv_eu"
