@@ -2,7 +2,6 @@ scripted_gui = {
 	bgd_trade_war = {
 		context_type = decision_category
 		window_name = "bgd_trade_war"
-		dirty = NOU_struggle_dirty_var
 		triggers = {
 			#trade_war_neutral_visible = {
 			#	NOT = { has_country_flag = trade_war_jp }

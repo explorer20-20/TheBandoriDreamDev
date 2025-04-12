@@ -12,6 +12,7 @@ country_event = {
 		set_country_flag = bgd_trade_war_up
 		set_variable = { trade_war_schedules_eu = 0 }
 		set_variable = { trade_war_schedules_jp = 0 }
+		#set_country_flag = nvidia_event_stare
 		country_event = { id = JETW.1 }
 	}
 }

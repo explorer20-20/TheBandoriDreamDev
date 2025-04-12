@@ -13,7 +13,7 @@ decisions_BGD_trade_war = {
 
 		timeout_effect = {
 			add_to_variable = { trade_war_schedules_eu = 10 }
-			add_to_variable = {NOU_struggle_dirty_var = 0.01}
+			
 			activate_mission = BDG_eu_mission
 		}
 
@@ -46,7 +46,7 @@ decisions_BGD_trade_war = {
 				}
 				country_event = { id = JETW.3 }
 			}
-			add_to_variable = {NOU_struggle_dirty_var = 0.01}
+			
 		}
 
 		days_mission_timeout = 150
@@ -92,7 +92,7 @@ decisions_BGD_trade_war = {
 		}
 		remove_effect = {
 			add_to_variable = { trade_war_schedules_jp = 5 }
-			add_to_variable = {NOU_struggle_dirty_var = 0.01}
+			
 			}
 		}
 
@@ -140,7 +140,7 @@ decisions_BGD_trade_war = {
 		}
 		remove_effect = {
 			add_to_variable = { trade_war_schedules_jp = 5 }
-			add_to_variable = {NOU_struggle_dirty_var = 0.01}
+			
 		}
 	}
 
