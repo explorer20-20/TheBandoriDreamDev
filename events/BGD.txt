@@ -908,6 +908,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = bgd.55.a
+		set_country_flag = reconstruction_completed
 	}
 }
 country_event = {

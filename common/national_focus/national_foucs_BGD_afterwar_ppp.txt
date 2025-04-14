@@ -9,6 +9,7 @@ focus_tree = {
 	shared_focus = BGD_jingji_jianshe
 	shared_focus = BGD_yazi_zuzhi
 	shared_focus = BGD_zuizhong_zhizhan
+	shared_focus = BGD_space_project
 	 
 	focus = {
 	    id = BGD_zhixian_huiyi
