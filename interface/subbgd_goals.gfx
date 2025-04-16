@@ -177,5 +177,9 @@ spriteTypes = {
 		name = "GFX_embark_on_a_journey"
 		texturefile = "gfx\interface\goals\BGD\BGD_embark_on_a_journey.png"
 	}
+	SpriteType = {
+		name = "GFX_initiate_comprehensive_military_reform"
+		texturefile = "gfx\interface\goals\BGD\BGD_initiate_comprehensive_military_reform.png"
+	}
 
 }
