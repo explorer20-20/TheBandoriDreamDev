@@ -181,5 +181,9 @@ spriteTypes = {
 		name = "GFX_initiate_comprehensive_military_reform"
 		texturefile = "gfx\interface\goals\BGD\BGD_initiate_comprehensive_military_reform.png"
 	}
+	SpriteType = {
+		name = "GFX_expand_ppparty"
+		texturefile = "gfx\interface\goals\BGD\BGD_expand_ppparty.png"
+	}
 
 }
