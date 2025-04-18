@@ -185,5 +185,9 @@ spriteTypes = {
 		name = "GFX_expand_ppparty"
 		texturefile = "gfx\interface\goals\BGD\BGD_expand_ppparty.png"
 	}
+	SpriteType = {
+		name = "GFX_hawaii_negotiations"
+		texturefile = "gfx\interface\goals\BGD\BGD_hawaii_negotiations.png"
+	}
 
 }

@@ -1,0 +1,49 @@
+add_namespace = usnavy
+
+country_event = {
+	id = usnavy.0
+	title = usnavy.0.t
+	desc = usnavy.0.d
+	#picture = GFX_BDG_usnavy_event
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.0.o
+		BGD = {
+			puppet = USN               # USN成为bgd的傀儡
+		}
+		USN = {    				# USN全部舰队、将领转移给bgd
+			set_country_flag = APFNO_member
+			transfer_navy = {
+			  target = BGD
+		    }
+			every_unit_leader = {			
+				set_nationality = BGD
+			}
+			set_politics = {
+				ruling_party = social_democrat
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.75
+			}
+			set_party_name = {
+				ideology = social_democrat
+				long_name = USN_social_democrat_long
+				name = USN_social_democrat
+			}
+			set_cosmetic_tag = uskira
+			create_country_leader = {
+				name = Tsukushi
+				desc = BGD_Tsukushi_DESC
+				picture = GFX_portrait_Tsukushi
+				ideology = kirakira_dokidoki
+				traits = {
+				}
+			}
+			remove_ideas = USN_naval_dictatorship_idea
+			remove_ideas = USA_battle_for_america_idea
+		}
+	}
+}

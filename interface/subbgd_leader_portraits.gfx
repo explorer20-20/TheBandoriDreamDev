@@ -4,4 +4,10 @@ spriteTypes = {
 		name = "GFX_portrait_shounao"
 		texturefile = "gfx\leaders\EAS\shounao.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_portrait_Tsukushi"
+		texturefile = "gfx\leaders\USN\Tsukushi.png"
+	}
 }

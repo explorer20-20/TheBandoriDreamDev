@@ -1,0 +1,15 @@
+shared_focus = {
+	id = BGD_space_project
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 32
+	y = 6
+	available = {
+		has_country_flag = reconstruction_completed
+	}
+	completion_reward = {
+		country_event = {
+			id = SPACE.0
+		}
+	}
+}

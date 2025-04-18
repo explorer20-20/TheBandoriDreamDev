@@ -1,0 +1,18 @@
+shared_focus = {
+	id = BGD_hawaii_negotiations
+	icon = GFX_hawaii_negotiations
+	cost = 3
+	x = 26
+	y = 0
+	available = {
+		has_country_flag = APFNO_member
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+		country_event = {
+			id = usnavy.0
+		}
+	}
+}
