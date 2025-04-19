@@ -41,4 +41,19 @@ bang_neizhan = {
 				}
 			}
 		}
+
+bang_landing_moon = {
+	context_type = player_context
+	window_name = "bang_landing_moon_event"
+
+	visible = {
+		has_country_flag = bang_landing_moon
+    }
+	
+	effects = {
+		Super_Event_Close_click = {
+			clr_country_flag = bang_landing_moon
+		}
+	}
+}
 }

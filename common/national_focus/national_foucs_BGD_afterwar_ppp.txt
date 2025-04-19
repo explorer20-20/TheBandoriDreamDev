@@ -455,7 +455,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_xina_zuoyi
-		icon = GFX_guoce_zhanwei
+		icon = GFX_absorb_the_moderate_left
         prerequisite = { focus = BGD_jianshe_dangpai }
 		cost = 3
 		x = 2
@@ -474,7 +474,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_qingxi_youyi
-		icon = GFX_guoce_zhanwei
+		icon = GFX_purge_of_the_far_right
         prerequisite = { focus = BGD_jianshe_dangpai }
 		cost = 3
 		x = 6

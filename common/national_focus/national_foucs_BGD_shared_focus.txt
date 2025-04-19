@@ -23,7 +23,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_yvsuan_qvshe
-	icon = GFX_guoce_zhanwei
+	icon = GFX_budget_trade_offs
 	prerequisite = { focus = BGD_jianli_guofangjun }
 	cost = 4
 	x = -7
@@ -566,6 +566,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
+		country_event = { id = bgd.91 }
 		unlock_decision_category_tooltip = BGD_jingji_gongzuo
 		unlock_decision_tooltip = BGD_jiashui
 		add_political_power = 50

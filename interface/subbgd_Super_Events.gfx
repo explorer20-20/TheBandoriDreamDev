@@ -10,4 +10,9 @@
 			texturefile = "gfx\super_events\popipa_starbeat.png"
 			legacy_lazy_load = no
 		}
+		spriteType = {
+			name = "GFX_bang_landing_moon"
+			texturefile = "gfx\super_events\bang_landing_moon.png"
+			legacy_lazy_load = no
+		}
 	}

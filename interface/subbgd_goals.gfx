@@ -189,5 +189,17 @@ spriteTypes = {
 		name = "GFX_hawaii_negotiations"
 		texturefile = "gfx\interface\goals\BGD\BGD_hawaii_negotiations.png"
 	}
+	SpriteType = {
+		name = "GFX_budget_trade_offs"
+		texturefile = "gfx\interface\goals\BGD\BGD_budget_trade_offs.png"
+	}
+	SpriteType = {
+		name = "GFX_purge_of_the_far_right"
+		texturefile = "gfx\interface\goals\BGD\BGD_purge_of_the_far_right.png"
+	}
+	SpriteType = {
+		name = "GFX_absorb_the_moderate_left"
+		texturefile = "gfx\interface\goals\BGD\BGD_absorb_the_moderate_left.png"
+	}
 
 }
