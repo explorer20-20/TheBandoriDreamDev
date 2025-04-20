@@ -310,7 +310,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_kuoda_shengchan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_expanding_fighter_production
 	prerequisite = { focus = BGD_sanwei_zuozhan }
 	cost = 4
 	x = -7
@@ -359,7 +359,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_xiandai_haizhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_morden_warfare
 	prerequisite = { focus = BGD_chuanduo_shizhong }
 	cost = 4
 	x = -1

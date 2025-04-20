@@ -13,3 +13,165 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	#火箭设计
+	id = BGD_rocket_architecture
+	prerequisite = { focus = BGD_space_project }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 31
+	y = 7
+	bypass = {
+		has_country_flag = rocket_complete
+	}
+	available = {
+		has_country_flag = rocket_complete
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	#新加坡航天基地建设
+	id = BGD_sasa_building
+	prerequisite = { focus = BGD_space_project }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 33
+	y = 7
+	bypass = {
+		has_country_flag = base_complete
+	}
+	available = {
+		has_country_flag = base_complete
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	#敲定人选
+	id = BGD_focus_astronaut_selection
+	prerequisite = { focus = BGD_sasa_building }
+	prerequisite = { focus = BGD_rocket_architecture }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 32
+	y = 8
+	bypass = {
+		has_country_flag = astronaut_selection
+	}
+	available = {
+		has_country_flag = astronaut_selection
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	#载人离心机
+	id = BGD_focus_manned_centrifuge
+	prerequisite = { focus = BGD_focus_astronaut_selection }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 28
+	y = 9
+	bypass = {
+		has_country_flag = manned_centrifuge
+	}
+	available = {
+		has_country_flag = manned_centrifuge
+	}
+	completion_reward = {
+	}
+}
+shared_focus = {
+	#抗重力训练
+	id = BGD_focus_anti_weightlessness_training
+	prerequisite = { focus = BGD_focus_astronaut_selection }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 30
+	y = 9
+	bypass = {
+		has_country_flag = anti_weightlessness_training
+	}
+	available = {
+		has_country_flag = anti_weightlessness_training
+	}
+	completion_reward = {
+	}
+}
+shared_focus = {
+	#温差训练
+	id = BGD_focus_temperature_training
+	prerequisite = { focus = BGD_focus_astronaut_selection }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 32
+	y = 9
+	bypass = {
+		has_country_flag = temperature_training
+	}
+	available = {
+		has_country_flag = temperature_training
+	}
+	completion_reward = {
+	}
+}
+shared_focus = {
+	#模拟器训练
+	id = BGD_focus_simulator_training
+	prerequisite = { focus = BGD_focus_astronaut_selection }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 34
+	y = 9
+	bypass = {
+		has_country_flag = simulator_training
+	}
+	available = {
+		has_country_flag = simulator_training
+	}
+	completion_reward = {
+	}
+}
+shared_focus = {
+	#燃料管理和轨道力学实操训练
+	id = BGD_focus_space_EVA_training
+	prerequisite = { focus = BGD_focus_astronaut_selection }
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	x = 36
+	y = 9
+	bypass = {
+		has_country_flag = EVA_training
+	}
+	available = {
+		has_country_flag = EVA_training
+	}
+	completion_reward = {
+	}
+}
+shared_focus = {
+	#着落月球
+	id = BGD_focus_landing_moon
+	prerequisite = { focus = BGD_focus_space_EVA_training }
+	prerequisite = { focus = BGD_focus_simulator_training }
+	prerequisite = { focus = BGD_focus_manned_centrifuge }
+	prerequisite = { focus = BGD_focus_anti_weightlessness_training }
+	prerequisite = { focus = BGD_focus_temperature_training }
+	icon = GFX_landing_moon
+	cost = 3
+	x = 32
+	y = 10
+	bypass = {
+		has_country_flag = bang_landing_moon
+	}
+	available = {
+		has_country_flag = bang_landing_moon
+	}
+	completion_reward = {
+	}
+}

@@ -201,5 +201,17 @@ spriteTypes = {
 		name = "GFX_absorb_the_moderate_left"
 		texturefile = "gfx\interface\goals\BGD\BGD_absorb_the_moderate_left.png"
 	}
+	SpriteType = {
+		name = "GFX_landing_moon"
+		texturefile = "gfx\interface\goals\BGD\BGD_landing_moon.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_expanding_fighter_production"
+		texturefile = "gfx\interface\goals\BGD\BGD_expanding_fighter_production.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_morden_warfare"
+		texturefile = "gfx\interface\goals\BGD\BGD_morden_warfare.png"
+	}
 
 }

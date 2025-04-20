@@ -48,11 +48,12 @@ bang_landing_moon = {
 
 	visible = {
 		has_country_flag = bang_landing_moon
+		NOT = { has_country_flag = close_moon_super_window }
     }
 	
 	effects = {
 		Super_Event_Close_click = {
-			clr_country_flag = bang_landing_moon
+			set_country_flag = close_moon_super_window
 		}
 	}
 }
