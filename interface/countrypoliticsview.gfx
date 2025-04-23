@@ -833,5 +833,11 @@ spriteTypes = { #NVX# Tag for changes
 		texturefile = "gfx/interface/ideas/ZZZ_government_type/ZZZ_eurasianist_system.png" 
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_BGD_RBE_large" 
+		texturefile = "gfx/interface/other/BGD_RBE_large.png" 
+		legacy_lazy_load = no
+	}
 	
 }

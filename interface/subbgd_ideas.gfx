@@ -100,4 +100,8 @@ spriteTypes = {
 		name = "GFX_idea_nvidia"
 		textureFile = "gfx\interface\BGD\nvidia.png"
 	}
+	spriteType = {
+		name = "GFX_idea_BGD_RBE"
+		textureFile = "gfx\interface\ideas\BGD_RBE.png"
+	}
 }

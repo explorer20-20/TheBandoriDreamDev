@@ -2089,6 +2089,7 @@ country_event = {
 	option = {
 		name = bgd.91.a
 		country_event = { id = bgd.92 }
+		add_ideas = BGD_RBE_economy
 	}
 }
 country_event = {

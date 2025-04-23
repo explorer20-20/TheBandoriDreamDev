@@ -1965,3 +1965,7 @@ PRC_chongjian_zhengfu = {
 	color = rgb { 102 204 255 }
 	color_ui = rgb { 102 204 255 }
 }
+BGD_united_asia = {
+	color = rgb { 0 49 148 }
+	color_ui = rgb { 0 49 148 }
+}

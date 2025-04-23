@@ -142,6 +142,7 @@ scripted_gui = {
 					has_idea = ZZZ_left_corporatism
 					has_idea = ZZZ_liberal_corporatism
 					has_idea = ZZZ_kaiser_economy
+					has_idea = BGD_RBE_economy
 				}
 			}
 			TFR_capitalism_type_politics_icon_visible = {
@@ -219,6 +220,9 @@ scripted_gui = {
 			TFR_kaiser_economy_type_icon_visible = {
 				has_idea = ZZZ_kaiser_economy
 			}
+			TFR_BGD_RBE_economy_type_icon_visible = {
+				has_idea = BGD_RBE_economy
+			}
 		}
 	}
 	global_association_countrypoliticsview_gui = {
@@ -245,6 +249,7 @@ scripted_gui = {
 					has_country_flag = pact_of_steel_member
 					has_country_flag = BTO_member
 					has_country_flag = National_Front_Member
+					#has_country_flag = APFNO_member
 				}
 			}
 			TFR_no_faction_politics_icon_visible = {

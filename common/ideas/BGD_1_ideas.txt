@@ -13,7 +13,27 @@ ideas = {
 			 	stability_weekly = 0.05
 				research_speed_factor = 0.2
 			}
-		}	
+		}
+		BGD_RBE_economy = {
+			picture = BGD_RBE
+ 
+			removal_cost = -1
+			#visible = { always = no }
+			
+			modifier = {
+				political_power_gain = 0.25           # 政治力狂飙
+				consumer_goods_factor = -0.45         # 减少消费品工厂
+				factory_output = 0.35                 # 工厂效率极高
+				dockyard_output = 0.35
+				construction_speed = 0.30             # 建设速度很快
+				research_speed_factor = 0.20          # 科研进步加速
+				weekly_manpower = 1500                # 人口增长如潮
+				production_speed_buildings_factor = 0.5
+				resistance_target = -0.15             # 国内安定
+				stability_factor = 0.3
+				war_support_factor = 0.2
+			}
+		}
 
 
 
