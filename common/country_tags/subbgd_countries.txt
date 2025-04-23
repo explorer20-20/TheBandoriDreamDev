@@ -1,2 +1,5 @@
 BGD = "countries/BangDream.txt"
 DFJ = "countries/DFJ1.txt"
+UA1 = "countries/NorthAsia.txt"
+UA2 = "countries/MiddleAsia.txt"
+UA3 = "countries/EastAsia.txt"

@@ -1,0 +1,13 @@
+capital = 570
+
+recruit_character = BGD_eve_char
+
+set_politics = {
+    ruling_party = social_democrat
+    elections_allowed = no
+}
+
+set_popularities = {
+    social_democrat = 100
+}
+

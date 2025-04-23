@@ -27,3 +27,132 @@ country_event = {
 		set_country_flag = UNE_member
 	}
 }
+country_event = {
+	#建立北亚亚盟委员会
+	id = unasia.2
+	title = unasia.2.t
+	desc = unasia.2.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = unasia.2.o
+		BGD = {
+			puppet = UA1
+		}
+		UA1 = {
+			create_country_leader = {
+				name = BGD_eve_char
+				desc = BGD_EVE_DESC
+				picture = GFX_portrait_Eve
+				ideology = kirakira_dokidoki
+				traits = {
+				}
+			}
+			set_party_name = {
+				ideology = social_democrat
+				long_name = asia_social_democrat_long
+				name = asia_social_democrat
+			}
+			set_politics = {
+			  	ruling_party = social_democrat
+			  	elections_allowed = no
+			}
+			add_popularity = {
+			  	ideology = social_democrat
+			  	popularity = 1
+			}
+		}
+	}
+}
+country_event = {
+	#建立中亚亚盟委员会
+	id = unasia.3
+	title = unasia.3.t
+	desc = unasia.3.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = unasia.2.o
+		BGD = {
+			puppet = UA2
+		}
+		UA2 = {
+			create_country_leader = {
+				name = BGD_ran_char
+				desc = BGD_RAN_DESC
+				picture = GFX_portrait_Ran
+				ideology = kirakira_dokidoki
+				traits = {
+				}
+			}
+			set_party_name = {
+				ideology = social_democrat
+				long_name = asia_social_democrat_long
+				name = asia_social_democrat
+			}
+			set_politics = {
+			  	ruling_party = social_democrat
+			  	elections_allowed = no
+			}
+			add_popularity = {
+			  	ideology = social_democrat
+			  	popularity = 1
+			}
+		}
+	}
+}
+country_event = {
+	#建立西亚亚盟委员会
+	id = unasia.4
+	title = unasia.4.t
+	desc = unasia.4.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = unasia.4.o
+		BGD = {
+			puppet = UA3
+		}
+		UA3 = {
+			create_country_leader = {
+				name = BGD_chu2_char
+				desc = BGD_CHU2_DESC
+				picture = GFX_portrait_CHUCHU
+				ideology = kirakira_dokidoki
+				traits = {
+				}
+			}
+			set_party_name = {
+				ideology = social_democrat
+				long_name = asia_social_democrat_long
+				name = asia_social_democrat
+			}
+			set_politics = {
+			  	ruling_party = social_democrat
+			  	elections_allowed = no
+			}
+			add_popularity = {
+			  	ideology = social_democrat
+			  	popularity = 1
+			}
+		}
+	}
+}

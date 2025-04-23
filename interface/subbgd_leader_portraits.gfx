@@ -10,4 +10,16 @@ spriteTypes = {
 		name = "GFX_portrait_Tsukushi"
 		texturefile = "gfx\leaders\USN\Tsukushi.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_Eve"
+		texturefile = "gfx\leaders\UA1\eve.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ran"
+		texturefile = "gfx\leaders\UA2\ran.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHUCHU"
+		texturefile = "gfx\leaders\UA3\CHUCHU.png"
+	}
 }

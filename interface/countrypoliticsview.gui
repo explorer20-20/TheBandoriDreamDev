@@ -212,6 +212,12 @@ guiTypes = {
 			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
 		}
 		iconType = {
+			name = "TFR_APFNO_icon"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_idea_APFNO"
+			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
+		}
+		iconType = {
 			name = "TFR_NATO_politics_icon"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_NATO_Member"  

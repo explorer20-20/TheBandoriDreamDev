@@ -1,0 +1,29 @@
+characters = {
+	BGD_eve_char = {
+		name = BGD_eve_char
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UA1/eve.png"
+			}
+			army = {
+				large = "gfx/leaders/UA1/eve.png"
+			}
+		}
+		country_leader = {
+			ideology = kirakira_dokidoki
+			desc = BGD_EVE_DESC
+			traits = {
+			}
+		}
+		field_marshal = {
+			traits = {
+				shaonv_yvgangtie
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+}
