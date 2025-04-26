@@ -1208,351 +1208,7 @@ country_event = {
 			white_peace = BHU
 			white_peace = SRL
 			white_peace = PRK
-			TIB = {
-				transfer_state = 322
-				transfer_state = 1152
-				transfer_state = 1153
-				transfer_state = 1155
-				transfer_state = 1156
-				add_state_core = 322
-				add_state_core = 1152
-				add_state_core = 1153
-				add_state_core = 1155
-				add_state_core = 1156
-				set_capital = {
-					state = 1156
-				}
-				set_politics = {
-					ruling_party = nationalist
-					elections_allowed = no
-				}
-				set_popularities = {
-					nationalist = 40
-					authoritarian_democrat = 10
-					conservative = 30
-					market_liberal = 5
-					social_liberal = 15
-				}
-			}
-			SIK = {
-				transfer_state = 287
-				transfer_state = 619
-				transfer_state = 1160
-				transfer_state = 1164
-				transfer_state = 788
-				add_state_core = 287
-				add_state_core = 619
-				add_state_core = 1160
-				add_state_core = 1164
-				add_state_core = 788
-				set_capital = {
-					state = 287
-				}
-			}
-			XIN = {
-				transfer_state = 1158
-				transfer_state = 1161
-				transfer_state = 617
-				transfer_state = 1165
-				transfer_state = 1162
-				transfer_state = 1163
-				transfer_state = 618
-				add_state_core = 1158
-				add_state_core = 1161
-				add_state_core = 617
-				add_state_core = 1165
-				add_state_core = 1162
-				add_state_core = 1163
-				add_state_core = 618
-				set_capital = {
-					state = 1165
-				}
-			}
-			SIC = {
-				transfer_state = 601
-				transfer_state = 605
-				transfer_state = 1168
-				transfer_state = 1188
-				transfer_state = 1189
-				transfer_state = 1190
-				add_state_core = 601
-				add_state_core = 605
-				add_state_core = 1168
-				add_state_core = 1188
-				add_state_core = 1189
-				add_state_core = 1190
-			}
-			INM = {
-				transfer_state = 612
-				transfer_state = 621
-				add_state_core = 612
-				add_state_core = 621
-			}
-			IMA = {
-				transfer_state = 1166
-				transfer_state = 1198
-				add_state_core = 1166
-				add_state_core = 1198
-			}
-			NCM = {
-				transfer_state = 1201
-				transfer_state = 1202
-				transfer_state = 1199
-				transfer_state = 1193
-				add_state_core = 1201
-				add_state_core = 1202
-				add_state_core = 1199
-				add_state_core = 1193
-				add_ideas = {
-					PRC_chinese_civil_war_idea
-					PRC_industrial_collapse_idea
-				}
-			}
-			SHA = {
-				transfer_state = 622
-				transfer_state = 1200
-				add_state_core = 622
-				add_state_core = 1200
-			}
-			YUN = {
-				transfer_state = 1196
-				transfer_state = 1195
-				transfer_state = 1192
-				transfer_state = 325
-				add_state_core = 1196
-				add_state_core = 1195
-				add_state_core = 1192
-				add_state_core = 325
-			}
-			XIE = {
-				transfer_state = 1186
-				add_state_core = 1186
-			}
-			NIS = {
-				transfer_state = 1187
-				add_state_core = 1187
-				set_capital = {
-					state = 1187
-				}
-			}
-			NSF = {
-				transfer_state = 616
-				transfer_state = 283
-				transfer_state = 604
-				add_state_core = 616
-				add_state_core = 283
-				add_state_core = 604
-				set_capital = {
-					state = 283
-				}
-			}
-			MON = {
-				transfer_state = 330
-				transfer_state = 1388
-				transfer_state = 1389
-				transfer_state = 1390
-				transfer_state = 1391
-			}
-			VIN = {
-				set_cosmetic_tag = VIN_yuenan_gongheguo
-				transfer_state = 671
-				remove_state_core = 670
-				remove_state_core = 286
-				end_puppet = PRC
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = VIN_yuenan_shanyaodang_long
-			        name = VIN_yuenan_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			LAO = {
-				set_cosmetic_tag = LAO_laowo_gongheguo
-				transfer_state = 670
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = LAO_laowo_shanyaodang_long
-			        name = LAO_laowo_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			CAM = {
-				set_cosmetic_tag = CAM_jianpuzhai_gongheguo
-				transfer_state = 286
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = CAM_jianpuzhai_shanyaodang_long
-			        name = CAM_jianpuzhai_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			BRM = {
-				transfer_state = 1407
-				transfer_state = 1408
-				transfer_state = 1259
-				transfer_state = 1401
-				transfer_state = 1402
-				transfer_state = 1263
-				transfer_state = 1405
-				transfer_state = 1264
-				transfer_state = 1403
-				transfer_state = 1260
-				transfer_state = 1406
-				transfer_state = 1261
-				transfer_state = 1267
-				transfer_state = 640
-				transfer_state = 1265
-				transfer_state = 1262
-				transfer_state = 1271
-				transfer_state = 288
-				transfer_state = 1266
-				transfer_state = 1270
-				transfer_state = 1269
-				transfer_state = 1268
-				transfer_state = 1404
-				set_cosmetic_tag = BRM_miandian_gongheguo
-				end_puppet = PRC
-				end_puppet = RAJ
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = BRM_miandian_shanyaodang_long
-			        name = BRM_miandian_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			BHU = {
-				transfer_state = 324
-				set_cosmetic_tag = BHU_budan_gongheguo
-				end_puppet = PRC
-				end_puppet = RAJ
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = BHU_budan_shanyaodang_long
-			        name = BHU_budan_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			PAK = {
-				transfer_state = 440
-				transfer_state = 442
-				transfer_state = 1321
-				transfer_state = 1323
-				transfer_state = 445
-				transfer_state = 1380
-				transfer_state = 443
-				transfer_state = 1324
-				transfer_state = 1322
-				transfer_state = 444
-				end_puppet = RAJ
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = PAK_bajisitan_shanyaodang_long
-			        name = PAK_bajisitan_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			NEP = {
-				transfer_state = 323
-				end_puppet = RAJ
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = NEP_niboer_shanyaodang_long
-			        name = NEP_niboer_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			SRL = {
-				transfer_state = 422
-				set_politics = {
-					ruling_party = social_democrat
-					elections_allowed = yes
-					election_frequency = 48
-				}
-				set_party_name = {
-			        ideology = social_democrat
-			        long_name = SRL_sililanka_shanyaodang_long
-			        name = SRL_sililanka_shanyaodang
-		        }
-				add_popularity = {
-			        ideology = social_democrat
-			        popularity = 0.5
-		        }
-			}
-			RAJ = {
-				transfer_state = 787
-				transfer_state = 1131
-				transfer_state = 441
-				add_state_core = 787
-			}
-			KOR = {
-				annex_country = {
-					target = PRK
-				}
-				every_state = {
-					limit = {
-						OR = {
-							is_core_of = PRK
-						}
-					}
-					add_core_of = KOR
-				}
-			}
+			
 			PRC = {
 				set_cosmetic_tag = PRC_chongjian_zhengfu
 				set_politics = {
@@ -1574,6 +1230,7 @@ country_event = {
 			        long_name = PRC_zhonghua_shanyaodang_long
 			        name = PRC_zhonghua_shanyaodang
 		        }
+				set_country_flag = APFNO_member
 				add_ideas = EAS_riben_jingti_zhuyi
 				add_ideas = EAS_zhongguo_chongjian
 				add_ideas = EAS_lianhe_zhengfu
@@ -1596,6 +1253,86 @@ country_event = {
 				remove_ideas = EAS_jiaqiang_gao
 				remove_ideas = BGD_quanmian_bengkui
 			}
+			VIN = {
+				set_cosmetic_tag = VIN_chongjian_zhengfu
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+					election_frequency = 48
+				}
+				set_popularities = {
+					social_democrat = 50
+					social_liberal = 5
+					libertarian_socialist = 5
+					communist = 25
+					market_liberal = 5
+					conservative = 5
+					authoritarian_democrat = 5
+				}
+				set_country_flag = APFNO_member
+			}
+			BRM = {
+				set_cosmetic_tag = BRM_chongjian_zhengfu
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+					election_frequency = 48
+				}
+				set_popularities = {
+					social_democrat = 50
+					social_liberal = 5
+					libertarian_socialist = 5
+					communist = 25
+					market_liberal = 5
+					conservative = 5
+					authoritarian_democrat = 5
+				}
+				set_country_flag = APFNO_member
+			}
+			BHU = {
+				set_cosmetic_tag = new
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+					election_frequency = 48
+				}
+				set_popularities = {
+					social_democrat = 50
+					social_liberal = 5
+					libertarian_socialist = 5
+					communist = 25
+					market_liberal = 5
+					conservative = 5
+					authoritarian_democrat = 5
+				}
+				set_country_flag = APFNO_member
+			}
+			NEP = {
+				set_cosmetic_tag = new
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+					election_frequency = 48
+				}
+				set_popularities = {
+					social_democrat = 50
+					social_liberal = 5
+					libertarian_socialist = 5
+					communist = 25
+					market_liberal = 5
+					conservative = 5
+					authoritarian_democrat = 5
+				}
+				set_country_flag = APFNO_member
+			}
+			KOR = {
+				annex_country = { target = PRK }
+				
+			}
+			PAK = { set_country_flag = APFNO_member }
+			RAJ = { set_country_flag = APFNO_member }
+			BAN = { set_country_flag = APFNO_member }
+			SRL = { set_country_flag = APFNO_member }
 			BGD = {
 			    add_to_faction = PRC
 			    add_to_faction = PAK
@@ -1606,7 +1343,14 @@ country_event = {
 				add_to_faction = BHU
 				add_to_faction = SRL
 				add_to_faction = NEP
+				add_to_faction = RAJ
+				add_to_faction = BAN
 				transfer_state = 876
+				puppet = VIN
+				puppet = BRM
+				puppet = BHU
+				puppet = NEP
+				load_focus_tree = BGD_united_asia
 		    }
 		}
 	}
@@ -1626,6 +1370,9 @@ country_event = {
 		name = bgd.67.a
 		BGD = {
 			add_to_faction = KOR
+		}
+		KOR = {
+			set_country_flag = APFNO_member
 		}
 		country_event = {
 			id = bgd.68

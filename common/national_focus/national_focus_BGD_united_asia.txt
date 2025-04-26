@@ -1,0 +1,50 @@
+focus_tree = {
+	id = BGD_united_asia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BGD
+		}
+	}
+	default = no
+	focus = {
+		id = created_united_asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 8
+		y = 0
+		completion_reward = {
+			country_event = { id = unasia.1 }
+			add_political_power = 1500
+			add_country_leader_trait = united_asia_leader
+		}
+
+	}
+	focus = {
+		id = take_the_ua_meeting
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = select_administrative_center
+		}
+		x = 8
+		y = 2
+
+
+	}
+	focus = {
+		id = select_administrative_center
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = created_united_asia
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			country_event = { id = unasia.6 }
+		}
+
+	}
+}

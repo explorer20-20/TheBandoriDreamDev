@@ -50,6 +50,15 @@ country_event = {
 				transfer_state = 565
 				transfer_state = 516
 				transfer_state = 1293
+				transfer_state = 329
+				transfer_state = 1328
+				transfer_state = 657
+				transfer_state = 409
+				transfer_state = 408
+				transfer_state = 537
+				transfer_state = 329
+				transfer_state = 555
+				transfer_state = 560
 
 				add_state_core = 570
 				add_state_core = 583
@@ -85,6 +94,15 @@ country_event = {
 				add_state_core = 565
 				add_state_core = 516
 				add_state_core = 1293
+				add_state_core = 329
+				add_state_core = 1328
+				add_state_core = 657
+				add_state_core = 409
+				add_state_core = 408
+				add_state_core = 537
+				add_state_core = 329
+				add_state_core = 555
+				add_state_core = 560
 
 				transfer_state = 419
 				transfer_state = 421
@@ -412,6 +430,13 @@ country_event = {
 				annex_country = { target = PREV }
 			}
 		}
+		every_owned_state = {
+			limit = { controller = { tag = BGD } }
+			add_core_of = BGD
+		}
+		#hidden_effect = {
+		#	add_country_leader_trait = united_asia_leader
+		#}
 	}
 }
 country_event = {
@@ -495,6 +520,7 @@ country_event = {
 					  ideology = social_democrat
 					  popularity = 1
 				}
+				set_capital = { state = 570 }
 				transfer_state = 570
 				transfer_state = 583
 				transfer_state = 582
@@ -578,6 +604,8 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = unasia.3.o
+		custom_effect_tooltip = "UA2_NASIA_1"
+		custom_effect_tooltip = "UA2_NASIA"
 		hidden_effect = {
 			BGD = {
 				puppet = UA2
@@ -657,6 +685,7 @@ country_event = {
 					  ideology = social_democrat
 					  popularity = 1
 				}
+				set_capital = { state = 266 }
 				transfer_state = 419
 				transfer_state = 421
 				transfer_state = 1327
@@ -778,6 +807,8 @@ country_event = {
 	}
 	option = {
 		name = unasia.4.o
+		custom_effect_tooltip = "UA3_NASIA_1"
+		custom_effect_tooltip = "UA3_NASIA"
 		hidden_effect = {
 			BGD = {
 				puppet = UA3
@@ -877,6 +908,7 @@ country_event = {
 				remove_state_core = 291
 			}
 			UA3 = {
+				set_capital = { state = 341 }
 				set_country_flag = UNE_member
 				add_ideas = BGD_RBE_economy
 				create_country_leader = {
@@ -1115,5 +1147,46 @@ country_event = {
 		BGD = {
 			add_to_faction = GER
 		}
+	}
+}
+
+country_event = {
+	#选定行政中心
+	id = unasia.6
+	title = unasia.6.t
+	desc = unasia.6.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		#东京
+		name = unasia.6.o1
+		set_capital = { state = 1332 }
+	}
+	option = {
+		#上海
+		name = unasia.6.o2
+		set_capital = { state = 1215 }
+	}
+	option = {
+		#香港
+		name = unasia.6.o3
+		set_capital = { state = 326 }
+
+	}
+	option = {
+		#南京
+		name = unasia.6.o4
+		set_capital = { state = 1222 }
+	}
+	option = {
+		#首尔
+		name = unasia.6.o5
+		set_capital = { state = 1041 }
 	}
 }

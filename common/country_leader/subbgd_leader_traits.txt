@@ -48,4 +48,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	united_asia_leader = {
+		random = no
+		political_power_gain = 2.0
+        stability_factor = 0.3
+        war_support_factor = 0.3
+        consumer_goods_factor = -0.3
+        industrial_capacity_factory = 0.25
+        division_recovery_rate = 0.2
+        recruitable_population_factor = 0.2
+        ideology_drift_defence = 0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }	
