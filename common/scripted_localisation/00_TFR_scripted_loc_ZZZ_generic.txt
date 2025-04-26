@@ -958,6 +958,18 @@ defined_text = {
 	}	
 	text = {
 		trigger = {
+			OR = {
+				tag = BGD
+				tag = UA1
+				tag = UA2
+				tag = UA3
+				tag = UA4
+			}
+		}
+		localization_key = "行政总统制"
+	}
+	text = {
+		trigger = {
 			NOT = {
 				has_idea = ZZZ_russian_political_system
 				has_idea = ZZZ_chinese_political_system

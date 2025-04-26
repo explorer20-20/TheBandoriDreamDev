@@ -130,6 +130,13 @@ guiTypes = {
 			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
 			scale = 0.79
 		}
+		iconType = {
+			name = "TFR_UNE_diplo_icon"
+			position = { x = 0 y = 2 }
+			spriteType = "GFX_idea_UNE"
+			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
+			scale = 0.9
+		}
 	}
 	
 	containerWindowType = {

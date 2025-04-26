@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
 BGD_united_asia: "亚洲联盟"
+BGD_united_asia_DEF: "亚洲联盟"
+BGD_united_asia_ADJ: "亚洲联盟"
 asia_social_democrat: "亚洲闪耀党"
 asia_social_democrat_long: "亚洲闪耀党"
 unasia.1.t: "亚洲联盟成立"
@@ -11,3 +13,5 @@ BGD_ran_char: "美竹兰"
 BGD_RAN_DESC: "美竹兰"
 BGD_chu2_char: "CHUCHU"
 BGD_CHU2_DESC: "CHUCHU"
+UA1_NASIA_1: "§R将会在北亚建立联盟委员会§!"
+UA1_NASIA: "§Y若宫伊芙§!将领导§Y北亚亚盟委员会§!"

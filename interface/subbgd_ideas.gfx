@@ -97,6 +97,10 @@ spriteTypes = {
 		textureFile = "gfx\interface\factions\status\GFX_APFNO_Member.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_UNE"
+		textureFile = "gfx\interface\factions\status\GFX_UNE_Member.png"
+	}
+	spriteType = {
 		name = "GFX_idea_nvidia"
 		textureFile = "gfx\interface\BGD\nvidia.png"
 	}

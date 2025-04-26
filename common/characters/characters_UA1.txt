@@ -1,6 +1,6 @@
 characters = {
-	BGD_eve_char = {
-		name = BGD_eve_char
+	UA1_eve_char = {
+		name = UA1_eve_char
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/UA1/eve.png"
@@ -11,7 +11,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = kirakira_dokidoki
-			desc = BGD_EVE_DESC
+			desc = UA1_EVE_DESC
 			traits = {
 			}
 		}

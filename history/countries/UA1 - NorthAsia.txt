@@ -1,6 +1,6 @@
 capital = 570
 
-recruit_character = BGD_eve_char
+recruit_character = UA1_eve_char
 
 set_politics = {
     ruling_party = social_democrat

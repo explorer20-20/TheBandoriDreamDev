@@ -198,6 +198,13 @@ guiTypes = {
 			pdx_tooltip = "ZZZ_MIXED_ECONOMY_TT"
 			pdx_tooltip_delayed = "ZZZ_MIXED_ECONOMY_TT_LONG"
 		}
+		iconType = {
+			name = "TFR_BGD_RBE_economy_type_icon"
+			position = { x = 2 y = 0 }
+			spriteType = "GFX_idea_BGD_RBE"
+			pdx_tooltip = "BGD_RBE_TT"
+			pdx_tooltip_delayed = "BGD_RBE_TT_LONG"
+		}
 	}
 	containerWindowType = {
 		name = "TFR_global_asssociation_countrypoliticsview_container"
@@ -213,9 +220,17 @@ guiTypes = {
 		}
 		iconType = {
 			name = "TFR_APFNO_icon"
-			position = { x = 0 y = 0 }
+			position = { x = 1 y = 0 }
 			spriteType = "GFX_idea_APFNO"
 			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
+			scale = 0.87
+		}
+		iconType = {
+			name = "TFR_UNE_icon"
+			position = { x = -4 y = 0 }
+			spriteType = "GFX_idea_UNE"
+			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
+			scale = 1
 		}
 		iconType = {
 			name = "TFR_NATO_politics_icon"
@@ -537,6 +552,13 @@ guiTypes = {
 				pdx_tooltip = "TFR_AI_GOVERNANCE_TT"
 				pdx_tooltip_delayed = "TFR_AI_GOVERNANCE_TT_LONG"
 			}		
+			iconType = {
+				name = "TFR_BGD_gov_type_icon"
+				position = { x = 13 y = 6 }
+				spriteType = "GFX_ideology_kirakira_dokidoki"
+				pdx_tooltip = "BGD_GOV_TT"
+				pdx_tooltip_delayed = "BGD_GOV_TT_LONG"
+			}	
 		}
 	}
 	containerWindowType = {
