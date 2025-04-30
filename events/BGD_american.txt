@@ -33,13 +33,16 @@ country_event = {
 				long_name = USN_social_democrat_long
 				name = USN_social_democrat
 			}
+			custom_effect_tooltip = USN_BGD
 			set_cosmetic_tag = uskira
-			create_country_leader = {
-				name = Tsukushi
-				desc = BGD_Tsukushi_DESC
-				picture = GFX_portrait_Tsukushi
-				ideology = kirakira_dokidoki
-				traits = {
+			hidden_effect = {
+				create_country_leader = {
+					name = Tsukushi
+					desc = BGD_Tsukushi_DESC
+					picture = GFX_portrait_Tsukushi
+					ideology = kirakira_dokidoki
+					traits = {
+					}
 				}
 			}
 			remove_ideas = USN_naval_dictatorship_idea

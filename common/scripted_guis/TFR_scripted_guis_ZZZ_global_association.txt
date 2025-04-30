@@ -30,6 +30,13 @@ scripted_gui = {
 					has_idea = ZZZ_ai_governance
 					has_idea = ZZZ_eurasianist_system
 					has_idea = ZZZ_american_peoples_dictatorship
+					OR = {
+						tag = BGD
+						tag = UA1
+						tag = UA2
+						tag = UA3
+						tag = UA4
+					}
 				}
 			}
 			TFR_russian_political_system_type_icon_visible = {
