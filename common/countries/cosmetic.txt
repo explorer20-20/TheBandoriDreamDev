@@ -1969,3 +1969,7 @@ BGD_united_asia = {
 	color = rgb { 2 165 237 }
 	color_ui = rgb { 2 165 237 }
 }
+usakira = {
+	color = rgb { 71 130 175 }
+	color_ui = rgb { 71 130 175 }
+}
