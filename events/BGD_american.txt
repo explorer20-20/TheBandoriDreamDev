@@ -10,7 +10,7 @@ country_event = {
 	option = {
 		name = usnavy.0.o
 		BGD = {
-			puppet = USN               # USN成为bgd的傀儡
+			puppet = USN               # USN成为BGD的傀儡
 		}
 		USN = {    				# USN全部舰队、将领转移给bgd
 			set_country_flag = APFNO_member
@@ -435,6 +435,7 @@ country_event = {
 				}
 				USN = {
 					annex_country = { target = PTF }
+					annex_country = { target = NSM }
 				}
 			}
 			remove_decision = BGD_WAR_USB
@@ -445,6 +446,104 @@ country_event = {
 			every_owned_state = {
 				limit = { controller = { tag = USN } }
 				add_core_of = USN
+			}
+		}
+	}
+}
+
+country_event = {
+	#太平洋的跳板
+	id = usnavy.11
+	title = usnavy.11.t
+	desc = usnavy.11.d
+	picture = GFX_popipa_doublerainbow
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.11.a
+		add_timed_idea = {
+			idea = BGD_USN_Ready_for_action
+			days = 180
+		}
+	}
+}
+
+country_event = {
+	#滩头攻势
+	id = usnavy.12
+	title = usnavy.12.t
+	desc = usnavy.12.d
+	picture = GFX_popipa_doublerainbow
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.12.a
+		add_timed_idea = {
+			idea = BGD_USN_Beachhead_offensive
+			days = 90
+		}
+	}
+}
+
+country_event = {
+	#《新太平洋宪章》
+	id = usnavy.13
+	title = usnavy.13.t
+	desc = usnavy.13.d
+	picture = GFX_popipa_doublerainbow
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.13.a
+		USN = {
+			hidden_effect = {
+				create_country_leader = {
+					name = Mashiro
+					desc = BGD_Mashiro_DESC
+					picture = GFX_Mashiro_Right
+					ideology = kirakira_dokidoki
+					traits = {
+					}
+				}
+			}
+			every_unit_leader = {			
+				set_nationality = BGD
+			}
+		}
+	}
+}
+
+country_event = {
+	#重建联邦
+	id = usnavy.14
+	title = usnavy.14.t
+	desc = usnavy.14.d
+	picture = GFX_popipa_doublerainbow
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.14.a
+		USN = {
+			hidden_effect = {
+				create_country_leader = {
+					name = Mashiro
+					desc = BGD_Mashiro_DESC
+					picture = GFX_Mashiro_Left
+					ideology = kirakira_dokidoki
+					traits = {
+					}
+				}
+			}
+			every_unit_leader = {			
+				set_nationality = BGD
+			}
+			set_politics = {
+				ruling_party = social_democrat
+				elections_allowed = yes
 			}
 		}
 	}

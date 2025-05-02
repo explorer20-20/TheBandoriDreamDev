@@ -31,4 +31,12 @@ spriteTypes = {
 		name = "GFX_portrait_Nanami"
 		texturefile = "gfx\leaders\USN\Nanami.png"
 	}
+	spriteType = {
+		name = "GFX_Mashiro_Right"
+		texturefile = "gfx\leaders\USN\Mashiro_Right.png"
+	}
+	spriteType = {
+		name = "GFX_Mashiro_Left"
+		texturefile = "gfx\leaders\USN\Mashiro_Left.png"
+	}
 }

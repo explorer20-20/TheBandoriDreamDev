@@ -335,12 +335,39 @@ shared_focus = {
 	x = 43
 	y = 9
 	available = {
-		has_global_flag = USA_american_civil_war_over_global
+		#has_global_flag = USA_american_civil_war_over_global
+		USN = {
+			controls_state = 932
+			controls_state = 1039
+			controls_state = 1036
+			controls_state = 941
+			controls_state = 1097
+			controls_state = 958
+			controls_state = 956
+			controls_state = 1142
+			controls_state = 1099
+			controls_state = 393
+			controls_state = 931
+			controls_state = 1070
+			controls_state = 1092
+			controls_state = 1009
+			controls_state = 1017
+			controls_state = 1012
+			controls_state = 1248
+			controls_state = 1071
+			controls_state = 357
+			controls_state = 918
+			controls_state = 358
+			controls_state = 1115
+			controls_state = 983
+		}
 	}
 	completion_reward = {
+		set_global_flag = USA_american_civil_war_over_global
 		USN = {
 			set_cosmetic_tag = usakira
 		}
+		remove_ideas = USA_battle_for_america_idea
 	}
 }
 shared_focus = {
@@ -355,7 +382,7 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.13 }
 	}
 }
 shared_focus = {
@@ -370,7 +397,7 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.14 }
 	}
 }
 shared_focus = {

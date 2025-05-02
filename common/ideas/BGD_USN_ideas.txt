@@ -1,0 +1,42 @@
+ideas = {
+	country = {
+
+		BGD_USN_Ready_for_action = {
+			#行动准备就绪
+			picture = jingshen_zhanwei 	
+			allowed = {
+				 always = no
+			}
+			
+			allowed_civil_war = {
+				 always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				army_org_regain = 0.1
+				ground_attack = 0.1
+			}
+		}
+
+		BGD_USN_Beachhead_offensive = {
+			#滩头攻势
+			picture = jingshen_zhanwei 	
+			allowed = {
+				 always = no
+			}
+			
+			allowed_civil_war = {
+				 always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				army_speed_factor = 0.15
+				ground_attack = 0.1
+			}
+		}
+
+
+	}
+}

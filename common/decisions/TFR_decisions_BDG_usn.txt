@@ -118,11 +118,13 @@ decisions_BGD_usn = {
 			}
 		}
 		available = {
-			ATW = {
-				surrender_progress > 0.7
-			}
-			ATW = {
-				exists = no
+			OR = {
+				ATW = {
+					surrender_progress > 0.7
+				}
+				ATW = {
+					exists = no
+				}
 			}
 		}
 		
@@ -136,10 +138,8 @@ decisions_BGD_usn = {
 		}
 
 		complete_effect = {
-			OR = {
-				BGD = {
-					country_event = { id = usnavy.6 }
-				}
+			BGD = {
+				country_event = { id = usnavy.6 }
 			}
 		}
 
