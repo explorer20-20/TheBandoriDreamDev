@@ -1,0 +1,278 @@
+decisions_BGD_usn = {
+    BGD_change_usn = {
+		icon = GFX_Banned_Moderates
+		name = BGD_decisions_BGD_usn
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			always = yes
+		}
+		visible = {
+		}
+		available = {
+			always = no
+		}
+		complete_effect = {
+		}
+		}
+	BGD_reback_state_to_usn = {
+		icon = GFX_Banned_Moderates
+		name = BGD_reback_state_to_usn
+		fire_only_once = no
+		#days_re_enable = 1
+		#cost = 0
+		activation = {
+			any_owned_state = {
+				is_core_of = USA
+			}
+		}
+		available = {
+			#any_owned_state = {
+			#	is_core_of = USA
+			#}
+		}
+		is_good = yes
+		fire_only_once = no
+		#allowed = {
+		#	always = yes
+		#}
+		#visible = {
+		#	any_owned_state = {
+		#		is_core_of = USA
+		#	}
+		#}
+		available = {
+		}
+		timeout_effect = {
+			country_event = usnavy.5
+		}
+		
+		complete_effect = {
+			country_event = usnavy.5
+		}
+
+		days_mission_timeout = 10
+		#complete_effect = {
+		#	country_event = usnavy.5
+		#}
+	}
+
+	BGD_WAR_APA = {
+		icon = GFX_Banned_Moderates
+		name = BGD_WAR_APA
+		fire_only_once = no
+		activation = {
+			BGD = {
+				has_war_with = APA
+			}
+			#exists = APA
+		}
+		visible = {
+			BGD = {
+				has_war_with = APA
+			}
+		}
+		available = {
+			OR = {
+				APA = {
+					surrender_progress > 0.7
+				}
+				APA = {
+					exists = no
+				}
+			}
+		}
+		
+
+		is_good = no
+		fire_only_once = no
+		
+
+		timeout_effect = {
+			activate_mission = BGD_WAR_APA
+		}
+		
+		complete_effect = {
+			BGD = {
+				country_event = { id = usnavy.1 }
+			}
+		}
+
+		days_mission_timeout = 100
+	}
+	
+	BGD_WAR_ATW = {
+		icon = GFX_Banned_Moderates
+		name = BGD_WAR_ATW
+		fire_only_once = no
+		activation = {
+			BGD = {
+				has_war_with = ATW
+			}
+			#exists = ATW
+		}
+		visible = {
+			BGD = {
+				has_war_with = ATW
+			}
+		}
+		available = {
+			ATW = {
+				surrender_progress > 0.7
+			}
+			ATW = {
+				exists = no
+			}
+		}
+		
+
+		is_good = no
+		fire_only_once = no
+		
+
+		timeout_effect = {
+			activate_mission = BGD_WAR_ATW
+		}
+
+		complete_effect = {
+			OR = {
+				BGD = {
+					country_event = { id = usnavy.6 }
+				}
+			}
+		}
+
+		days_mission_timeout = 100
+	}
+
+	BGD_WAR_USC = {
+		icon = GFX_Banned_Moderates
+		name = BGD_WAR_USC
+		fire_only_once = no
+		activation = {
+			BGD = {
+				has_war_with = USC
+			}
+			#exists = USC
+		}
+		visible = {
+			BGD = {
+				has_war_with = USC
+			}
+		}
+		available = {
+			OR = {
+				USC = {
+					surrender_progress > 0.7
+				}
+				USC = {
+					exists = no
+				}
+			}
+		}
+		
+
+		is_good = no
+		fire_only_once = no
+		
+
+		timeout_effect = {
+			activate_mission = BGD_WAR_USC
+		}
+
+		complete_effect = {
+			country_event = { id = usnavy.8 }
+		}
+
+		days_mission_timeout = 100
+	}
+
+	BGD_WAR_USB = {
+		icon = GFX_Banned_Moderates
+		name = BGD_WAR_USB
+		fire_only_once = no
+		activation = {
+			BGD = {
+				has_war_with = USB
+			}
+			#exists = USB
+		}
+		visible = {
+			BGD = {
+				has_war_with = USB
+			}
+		}
+		available = {
+			OR = {
+				USB = {
+					surrender_progress > 0.7
+				}
+				USB = {
+					exists = no
+				}
+			}
+		}
+		
+
+		is_good = no
+		fire_only_once = no
+		
+
+		timeout_effect = {
+			activate_mission = BGD_WAR_USB
+		}
+
+		complete_effect = {
+			BGD = {
+				country_event = { id = usnavy.9 }
+			}
+		}
+
+		days_mission_timeout = 100
+	}
+
+	BGD_WAR_PTF = {
+		icon = GFX_Banned_Moderates
+		name = BGD_WAR_PTF
+		fire_only_once = no
+		activation = {
+			BGD = {
+				has_war_with = PTF
+			}
+			#exists = PTF
+		}
+		visible = {
+			BGD = {
+				has_war_with = PTF
+			}
+		}
+		available = {
+			OR = {
+				PTF = {
+					surrender_progress > 0.7
+				}
+				PTF = {
+					exists = no
+				}
+			}
+		}
+		
+
+		is_good = no
+		fire_only_once = no
+		
+
+		timeout_effect = {
+			activate_mission = BGD_WAR_PTF
+		}
+
+		complete_effect = {
+			BGD = {
+				country_event = { id = usnavy.10 }
+			}
+		}
+
+		days_mission_timeout = 100
+	}
+}

@@ -964,6 +964,7 @@ defined_text = {
 				tag = UA2
 				tag = UA3
 				tag = UA4
+				has_country_flag = BGD_EPS
 			}
 		}
 		localization_key = "行政总统制"

@@ -1,0 +1,16 @@
+#on_action = {
+#	on_daily_BGD = {
+#		effect = {
+#			if = {
+#				limit = {
+#					any_country = {
+#						tag = ATW
+#						surrender_progress > 0.55
+#					}
+#					has_war_with = ATW
+#				} 
+#				country_event = { id = usnavy.6 }
+#			}
+#		}
+#	}
+#}

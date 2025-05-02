@@ -22,4 +22,13 @@ spriteTypes = {
 		name = "GFX_portrait_CHUCHU"
 		texturefile = "gfx\leaders\UA3\CHUCHU.png"
 	}
+	#USN
+	spriteType = {
+		name = "GFX_portrait_Rui"
+		texturefile = "gfx\leaders\USN\Rui.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Nanami"
+		texturefile = "gfx\leaders\USN\Nanami.png"
+	}
 }

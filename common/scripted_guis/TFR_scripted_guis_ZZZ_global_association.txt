@@ -36,6 +36,7 @@ scripted_gui = {
 						tag = UA2
 						tag = UA3
 						tag = UA4
+						has_country_flag = BGD_EPS
 					}
 				}
 			}
@@ -121,6 +122,7 @@ scripted_gui = {
 					tag = UA2
 					tag = UA3
 					tag = UA4
+					has_country_flag = BGD_EPS
 				}
 			}
 		}

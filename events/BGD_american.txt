@@ -45,8 +45,407 @@ country_event = {
 					}
 				}
 			}
+			add_ideas = BGD_RBE_economy
+			set_country_flag = BGD_EPS
+			remove_ideas = ZZZ_chaostic_economy
 			remove_ideas = USN_naval_dictatorship_idea
-			remove_ideas = USA_battle_for_america_idea
+			#remove_ideas = USA_battle_for_america_idea
+		}
+	}
+}
+country_event = {
+	#APLA投降
+	id = usnavy.1
+	title = usnavy.1.t
+	desc = usnavy.1.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	#mean_time_to_happen = {
+    #    days = 0
+    #}
+	#trigger = {
+	#	OR = {
+	#		any_enemy_country = {
+	#			tag = APA
+	#			surrender_progress > 0.8
+	#		}
+	#		#controls_state = 941
+	#	}
+	#	has_war_with = APA
+	#	tag = BGD
+	#}
+	immediate = {
+			hidden_effect = {
+				APA = {
+					white_peace = BGD
+					white_peace = USN
+				}
+				USN = {
+					annex_country = { target = APA }
+				}
+				#BGD = { country_event = { id = usnavy.3 } }
+			}
+		}
+	option = {
+		name = usnavy.1.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+		}
+	}
+}
+country_event = {
+	#宣战APLA
+	id = usnavy.2
+	title = usnavy.2.t
+	desc = usnavy.2.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+				hidden_effect = {
+					USN = {
+						declare_war_on = {
+						target = APA
+						type = annex_everything
+					}
+				}
+			}
+		}
+	option = {
+		name = usnavy.2.a
+		BGD = {
+			add_to_war = {
+				targeted_alliance = USN
+				enemy = APA
+			}
+		}	
+	}
+}
+country_event = {
+	#投降
+	id = usnavy.3
+	title = usnavy.3.t
+	desc = usnavy.3.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		}
+	option = {
+		name = usnavy.3.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+			
+		}
+	}
+}
+
+country_event = {
+	#解放全美
+	id = usnavy.4
+	title = usnavy.4.t
+	desc = usnavy.4.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		}
+	option = {
+		name = usnavy.4.a
+		BGD = {
+			every_country = {
+                limit = {
+                    has_idea = USA_battle_for_america_idea
+                    exists = yes
+                    NOT = { tag = USN }
+                }
+
+                BGD = {
+                    create_wargoal = {
+                        type = annex_everything
+                        target = PREV
+                    }
+                }
+            }
+		}
+	}
+}
+
+country_event = {
+	#转移领土
+	id = usnavy.5
+	title = usnavy.5.t
+	desc = usnavy.5.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = usnavy.5.a
+		every_state = {
+			limit = {
+				is_controlled_by = BGD
+				is_core_of = USA
+			}
+			USN = {
+				transfer_state = PREV
+			}
+		}
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+		}
+	}
+}
+country_event = {
+	#ATW投降
+	id = usnavy.6
+	title = usnavy.6.t
+	desc = usnavy.6.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+			hidden_effect = {
+				ATW = {
+					white_peace = BGD
+					white_peace = USN
+				}
+				USN = {
+					annex_country = { target = ATW }
+				}
+				#BGD = {
+				#	country_event = { id = usnavy.3 }
+				#}
+			}
+		}
+	option = {
+		name = usnavy.6.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+		}
+	}
+}
+
+country_event = {
+	#蝶团加将领+刷兵
+	id = usnavy.7
+	title = usnavy.7.t
+	desc = usnavy.7.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = usnavy.7.a
+		USN = {
+			hidden_effect = {
+				create_field_marshal = {
+					name = Nanami
+					portrait_path = GFX_portrait_Nanami
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 3
+					traits = { shaonv_yvgangtie }
+				}
+				create_corps_commander = {
+					name = Rui
+					portrait_path = GFX_portrait_Rui
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 3
+					traits = { shaonv_yvgangtie }
+				}
+				create_corps_commander = {
+					name = Tsukushi_Commander
+					portrait_path = GFX_portrait_Tsukushi
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 3
+					traits = { shaonv_yvgangtie }
+				}
+
+				
+				if = {
+					limit = {
+						NOT = { has_template = "海军陆战队机械化师" }
+					}
+					division_template = {
+						name = "海军陆战队机械化师"
+						division_names_group = TP_TYPE_01
+						regiments = {
+							motorized = { x = 0 y = 0 }
+							motorized = { x = 0 y = 1 }
+							motorized = { x = 0 y = 2 }
+							motorized = { x = 0 y = 3 }
+							motorized = { x = 0 y = 4 }
+			
+							motorized = { x = 1 y = 0 }
+							motorized = { x = 1 y = 1 }
+							motorized = { x = 1 y = 2 }
+							motorized = { x = 1 y = 3 }
+							motorized = { x = 1 y = 4 }
+					
+							motorized = { x = 2 y = 0 }
+							motorized = { x = 2 y = 1 }
+							motorized = { x = 2 y = 2 }
+							motorized = { x = 2 y = 3 }
+							motorized = { x = 2 y = 4 }
+								
+							motorized = { x = 3 y = 0 }
+							motorized = { x = 3 y = 1 }
+							motorized = { x = 3 y = 2 }
+							motorized = { x = 3 y = 3 }
+							motorized = { x = 3 y = 4 }
+						}
+					}
+				}
+				
+			}
+			629 = {
+				create_unit = { 
+					division = "name = \"美国海军陆战队第7机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第8机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第9机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第10机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第11机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第12机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第13机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队第14机械化师\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	#USC投降
+	id = usnavy.8
+	title = usnavy.8.t
+	desc = usnavy.8.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+			hidden_effect = {
+				USC = {
+					white_peace = BGD
+					white_peace = USN
+				}
+				USN = {
+					annex_country = { target = USC }
+				}
+			}
+		}
+	option = {
+		name = usnavy.8.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+		}
+	}
+}
+
+country_event = {
+	#USB投降
+	id = usnavy.9
+	title = usnavy.9.t
+	desc = usnavy.9.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+			hidden_effect = {
+				USB = {
+					white_peace = BGD
+					white_peace = USN
+				}
+				USN = {
+					annex_country = { target = USB }
+				}
+				remove_decision = BGD_WAR_USB
+			}
+		}
+	option = {
+		name = usnavy.9.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	#PTF投降
+	id = usnavy.10
+	title = usnavy.10.t
+	desc = usnavy.10.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+			hidden_effect = {
+				PTF = {
+					white_peace = BGD
+					white_peace = USN
+				}
+				USN = {
+					annex_country = { target = PTF }
+				}
+			}
+			remove_decision = BGD_WAR_USB
+		}
+	option = {
+		name = usnavy.10.a
+		USN = {
+			every_owned_state = {
+				limit = { controller = { tag = USN } }
+				add_core_of = USN
+			}
 		}
 	}
 }

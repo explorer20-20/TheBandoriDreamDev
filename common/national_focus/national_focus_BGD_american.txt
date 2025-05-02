@@ -2,7 +2,7 @@ shared_focus = {
 	id = BGD_hawaii_negotiations
 	icon = GFX_hawaii_negotiations
 	cost = 3
-	x = 26
+	x = 41
 	y = 0
 	available = {
 		has_country_flag = APFNO_member
@@ -14,5 +14,419 @@ shared_focus = {
 		country_event = {
 			id = usnavy.0
 		}
+	}
+}
+shared_focus = {
+	#珍珠港前进基地
+	id = BGD_PH_Forward_Base
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_hawaii_negotiations
+	}
+	x = 41
+	y = 1
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#“自由先锋”维和部队
+	id = BGD_Task_Force_Liberty
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_PH_Forward_Base
+	}
+	x = 41
+	y = 2
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#远征舰队启航
+	id = BGD_Expeditionary_Fleet_Sets_Sail
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Task_Force_Liberty
+	}
+	prerequisite = {
+		focus = BGD_Msr_Diplomatic_Initiative
+	}
+	x = 41
+	y = 3
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#西海岸攻势
+	id = BGD_West_Coast_Offensive
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Task_Force_Liberty
+	}
+	prerequisite = {
+		focus = BGD_Project_Daylight
+	}
+	x = 41
+	y = 4
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+		APA = {
+			owns_state = 1036
+		}
+	}
+	completion_reward = {
+		BGD = {
+			country_event = { id = usnavy.2 }
+		}
+	}
+}
+shared_focus = {
+	#联系联邦残余力量
+	id = BGD_Contact_Federal_Remnants
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_West_Coast_Offensive
+	}
+	x = 40
+	y = 5
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#粉碎分裂主义
+	id = BGD_Crush_Separatism
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_West_Coast_Offensive
+	}
+	x = 42
+	y = 5
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#重启“天使之城”
+	id = BGD_Restarting_the_City_of_Angels
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Crush_Separatism
+	}
+	prerequisite = {
+		focus = BGD_Contact_Federal_Remnants
+	}
+	x = 41
+	y = 6
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+		USN = {
+			controls_state = 930
+			controls_state = 932
+			controls_state = 1039
+			controls_state = 1036
+			controls_state = 941
+		}
+	}
+	completion_reward = {
+
+	}
+}
+
+
+
+
+shared_focus = {
+	#仓田真白的外交倡议
+	id = BGD_Msr_Diplomatic_Initiative
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_PH_Forward_Base
+	}
+	x = 45
+	y = 2
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+		country_event = {id = usnavy.7}
+	}
+}
+shared_focus = {
+	#Daylight计划
+	id = BGD_Project_Daylight
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Msr_Diplomatic_Initiative
+	}
+	prerequisite = {
+		focus = BGD_Task_Force_Liberty
+	}
+	x = 45
+	y = 3
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#蝶与雄鹰
+	id = BGD_Butterfly_and_Eagle
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Project_Daylight
+	}
+	prerequisite = {
+		focus = BGD_Expeditionary_Fleet_Sets_Sail
+	}
+	x = 45
+	y = 4
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#设立西海岸临时行政委员会
+	id = BGD_Establish_West_Coast_Provisional_Committee
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Project_Daylight
+	}
+	prerequisite = {
+		focus = BGD_West_Coast_Offensive
+	}
+	x = 45
+	y = 5
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+		USN = {
+			controls_state = 930
+			controls_state = 932
+			controls_state = 1039
+			controls_state = 1036
+			controls_state = 941
+		}
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#文化交流与人道援助
+	id = BGD_Cultural_Exchange_Humanitarian_Aid
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {
+		focus = BGD_Establish_West_Coast_Provisional_Committee
+	}
+	prerequisite = {
+		focus = BGD_West_Coast_Offensive
+	}
+	x = 45
+	y = 6
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+
+
+shared_focus = {
+	#新秩序下的加利福尼亚
+	id = BGD_California_under_New_Order
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_Cultural_Exchange_Humanitarian_Aid}
+	prerequisite = {focus = BGD_Restarting_the_City_of_Angels}
+	x = 43
+	y = 7
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	#进军内陆
+	id = BGD_Take_The_East
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_California_under_New_Order}
+	x = 43
+	y = 8
+	available = {
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	completion_reward = {
+		country_event = { id = usnavy.4 }
+	}
+}
+shared_focus = {
+	#芝加哥/丹佛会议
+	id = BGD_The_Chicago_Denver_Conference
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_Take_The_East}
+	x = 43
+	y = 9
+	available = {
+		has_global_flag = USA_american_civil_war_over_global
+	}
+	completion_reward = {
+		USN = {
+			set_cosmetic_tag = usakira
+		}
+	}
+}
+shared_focus = {
+	#《新太平洋宪章》
+	id = BGD_The_New_Pacific_Charter
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_The_Chicago_Denver_Conference}
+	mutually_exclusive = { focus = BGD_Rebuilding_the_Federation }
+	x = 44
+	y = 10
+	available = {
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#重建联邦
+	id = BGD_Rebuilding_the_Federation
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_The_Chicago_Denver_Conference}
+	mutually_exclusive = { focus = BGD_The_New_Pacific_Charter }
+	x = 42
+	y = 10
+	available = {
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#美洲驻军协定
+	id = BGD_Americas_Garrison_Agreement
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_The_New_Pacific_Charter}
+	x = 44
+	y = 11
+	available = {
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#一同为自由
+	id = BGD_Lets_Go_Freedom
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_Rebuilding_the_Federation}
+	x = 42
+	y = 11
+	available = {
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#经济渗透与重建援助
+	id = BGD_Economic_Penetration
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_Americas_Garrison_Agreement
+					focus = BGD_Lets_Go_Freedom}
+	x = 43
+	y = 12
+	available = {
+	}
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	#自由的回响
+	id = BGD_Echoes_of_Freedom
+	icon = GFX_guoce_zhanwei
+	cost = 3
+	prerequisite = {focus = BGD_Economic_Penetration}
+	x = 43
+	y = 13
+	available = {
+	}
+	completion_reward = {
+
 	}
 }

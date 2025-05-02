@@ -1,0 +1,13 @@
+decisions_BGD_usn = {
+	priority = 99999
+	icon = GFX_gui_ppp_party_small
+	
+	
+	visible = {
+		has_completed_focus = BGD_hawaii_negotiations
+		NOT = {
+			has_global_flag = USA_american_civil_war_over_global
+		}
+	}
+	
+}
