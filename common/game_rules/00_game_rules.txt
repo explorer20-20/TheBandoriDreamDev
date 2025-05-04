@@ -2803,13 +2803,13 @@ NATO_ai_behavior = {#European War Outcome 欧陆战争结局
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 		allow_achievements = yes
 	}
-	default = {
+	option = {
 		name = NATO_VICTORY
 		text = "RULE_OPTION_NATO_VICTORY"
 		desc = "RULE_OPTION_NATO_VICTORY_AI_DESC"
 		allow_achievements = yes
 	}
-	option = {
+	default = {
 		name = CSTO_VICTORY
 		text = "RULE_OPTION_CSTO_VICTORY"
 		desc = "RULE_OPTION_CSTO_VICTORY_AI_DESC"

@@ -421,9 +421,21 @@ country_event = {
 		clr_country_flag = APFNO_member
 		set_faction_name = "联合地球"
 		set_country_flag = UNE_member
+		if = {
+			limit = {
+				USN = {
+					has_country_flag = APFNO_member
+				}
+			}
+			USN = {
+				clr_country_flag = APFNO_member
+				set_country_flag = UNE_member
+			}
+		}
 		every_country = {
 			limit = {
 				has_country_flag = APFNO_member
+				NOT = { tag = USN }
 				NOT = { tag = BGD }  # 避免把自己也吞并了
 			}
 			BGD = {
@@ -494,6 +506,13 @@ country_event = {
 				remove_state_core = 565
 				remove_state_core = 516
 				remove_state_core = 1293
+
+				add_core_of = 1328
+				add_core_of = 560
+				add_core_of = 408
+				add_core_of = 537
+				add_core_of = 657
+				add_core_of = 409
 			}
 
 			UA1 = {

@@ -213,5 +213,9 @@ spriteTypes = {
 		name = "GFX_BGD_morden_warfare"
 		texturefile = "gfx\interface\goals\BGD\BGD_morden_warfare.png"
 	}
+	SpriteType = {
+		name = "GFX_BGD_spread_kiraism"
+		texturefile = "gfx\interface\goals\BGD\BGD_spread_kiraism.png"
+	}
 
 }

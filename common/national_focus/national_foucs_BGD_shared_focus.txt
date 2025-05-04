@@ -1147,7 +1147,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_chuanbo_shanyao
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_spread_kiraism
 	prerequisite = { focus = BGD_guoji_zhichi }
 	prerequisite = { focus = BGD_tuanjie_yatai }
 	cost = 3
