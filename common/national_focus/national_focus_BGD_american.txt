@@ -32,7 +32,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.11 }
 	}
 }
 shared_focus = {
@@ -48,6 +48,24 @@ shared_focus = {
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
+		}
+		AST = {
+			has_country_flag = APFNO_member
+		}
+		INS = {
+			has_country_flag = APFNO_member
+		}
+		MAL = {
+			has_country_flag = APFNO_member
+		}
+		SIG = {
+			has_country_flag = APFNO_member
+		}
+		SIA = {
+			has_country_flag = APFNO_member
+		}
+		PHI = {
+			has_country_flag = APFNO_member
 		}
 	}
 	completion_reward = {
@@ -85,7 +103,7 @@ shared_focus = {
 		focus = BGD_Task_Force_Liberty
 	}
 	prerequisite = {
-		focus = BGD_Project_Daylight
+		focus = BGD_Butterfly_and_Eagle
 	}
 	x = 41
 	y = 4
@@ -96,10 +114,19 @@ shared_focus = {
 		APA = {
 			owns_state = 1036
 		}
+		ships_in_area = {
+			area = 89
+			size > 9
+		}
+		ships_in_area = {
+			area = 115
+			size > 9
+		}
 	}
 	completion_reward = {
 		BGD = {
 			country_event = { id = usnavy.2 }
+			country_event = { id = usnavy.17 days = 3 }
 		}
 	}
 }
@@ -190,7 +217,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-		country_event = {id = usnavy.7}
+		country_event = {id = usnavy.7 days = 3}
 	}
 }
 shared_focus = {
@@ -212,7 +239,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = {id = usnavy.15 days = 3}
 	}
 }
 shared_focus = {
@@ -234,7 +261,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.16 days = 3 }
 	}
 }
 shared_focus = {
@@ -263,7 +290,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.21 }
 	}
 }
 shared_focus = {
@@ -285,7 +312,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.22 }
 	}
 }
 
@@ -305,7 +332,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.23 }
 	}
 }
 
@@ -360,14 +387,15 @@ shared_focus = {
 			controls_state = 358
 			controls_state = 1115
 			controls_state = 983
+			controls_state = 1234
+			controls_state = 986
 		}
 	}
 	completion_reward = {
-		set_global_flag = USA_american_civil_war_over_global
 		USN = {
 			set_cosmetic_tag = usakira
 		}
-		remove_ideas = USA_battle_for_america_idea
+		country_event = { id = usnavy.24 }
 	}
 }
 shared_focus = {
@@ -380,6 +408,7 @@ shared_focus = {
 	x = 44
 	y = 10
 	available = {
+		has_country_flag = The_New_Pacific_Charter
 	}
 	completion_reward = {
 		country_event = { id = usnavy.13 }
@@ -395,6 +424,7 @@ shared_focus = {
 	x = 42
 	y = 10
 	available = {
+		has_country_flag = Rebuilding_the_Federation
 	}
 	completion_reward = {
 		country_event = { id = usnavy.14 }
@@ -411,7 +441,7 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.25 }
 	}
 }
 shared_focus = {
@@ -425,7 +455,7 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.26 }
 	}
 }
 shared_focus = {
@@ -440,7 +470,7 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.27 }
 	}
 }
 shared_focus = {
@@ -454,6 +484,6 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-
+		country_event = { id = usnavy.28 }
 	}
 }

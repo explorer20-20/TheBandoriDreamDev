@@ -58,7 +58,7 @@ country_event = {
 	id = usnavy.1
 	title = usnavy.1.t
 	desc = usnavy.1.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	#mean_time_to_happen = {
@@ -94,6 +94,9 @@ country_event = {
 				limit = { controller = { tag = USN } }
 				add_core_of = USN
 			}
+			USN = {
+				set_capital = { state = 930 }
+			}
 		}
 	}
 }
@@ -102,7 +105,7 @@ country_event = {
 	id = usnavy.2
 	title = usnavy.2.t
 	desc = usnavy.2.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -123,6 +126,7 @@ country_event = {
 				enemy = APA
 			}
 		}	
+		country_event = { id = usnavy.12 days = 1 }
 	}
 }
 country_event = {
@@ -130,7 +134,7 @@ country_event = {
 	id = usnavy.3
 	title = usnavy.3.t
 	desc = usnavy.3.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -152,7 +156,7 @@ country_event = {
 	id = usnavy.4
 	title = usnavy.4.t
 	desc = usnavy.4.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -183,7 +187,7 @@ country_event = {
 	id = usnavy.5
 	title = usnavy.5.t
 	desc = usnavy.5.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = no
 	is_triggered_only = yes
 	option = {
@@ -210,7 +214,7 @@ country_event = {
 	id = usnavy.6
 	title = usnavy.6.t
 	desc = usnavy.6.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -243,46 +247,46 @@ country_event = {
 	id = usnavy.7
 	title = usnavy.7.t
 	desc = usnavy.7.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
 		name = usnavy.7.a
+		BGD = {
+			create_field_marshal = {
+				name = Nanami
+				portrait_path = GFX_portrait_Nanami
+				skill = 4
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+				traits = { shaonv_yvgangtie }
+			}
+			create_corps_commander = {
+				name = Rui
+				portrait_path = GFX_portrait_Rui
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+				traits = { shaonv_yvgangtie }
+			}
+			create_corps_commander = {
+				name = Tsukushi
+				portrait_path = GFX_portrait_Tsukushi
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+				traits = { shaonv_yvgangtie }
+			}
+		}
 		USN = {
 			hidden_effect = {
-				create_field_marshal = {
-					name = Nanami
-					portrait_path = GFX_portrait_Nanami
-					skill = 4
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 3
-					logistics_skill = 3
-					traits = { shaonv_yvgangtie }
-				}
-				create_corps_commander = {
-					name = Rui
-					portrait_path = GFX_portrait_Rui
-					skill = 3
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 3
-					logistics_skill = 3
-					traits = { shaonv_yvgangtie }
-				}
-				create_corps_commander = {
-					name = Tsukushi_Commander
-					portrait_path = GFX_portrait_Tsukushi
-					skill = 3
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 3
-					logistics_skill = 3
-					traits = { shaonv_yvgangtie }
-				}
-
-				
 				if = {
 					limit = {
 						NOT = { has_template = "海军陆战队机械化师" }
@@ -291,29 +295,29 @@ country_event = {
 						name = "海军陆战队机械化师"
 						division_names_group = TP_TYPE_01
 						regiments = {
-							motorized = { x = 0 y = 0 }
-							motorized = { x = 0 y = 1 }
-							motorized = { x = 0 y = 2 }
-							motorized = { x = 0 y = 3 }
-							motorized = { x = 0 y = 4 }
+							mechanized = { x = 0 y = 0 }
+							mechanized = { x = 0 y = 1 }
+							mechanized = { x = 0 y = 2 }
+							mechanized = { x = 0 y = 3 }
+							mechanized = { x = 0 y = 4 }
 			
-							motorized = { x = 1 y = 0 }
-							motorized = { x = 1 y = 1 }
-							motorized = { x = 1 y = 2 }
-							motorized = { x = 1 y = 3 }
-							motorized = { x = 1 y = 4 }
+							mechanized = { x = 1 y = 0 }
+							mechanized = { x = 1 y = 1 }
+							mechanized = { x = 1 y = 2 }
+							mechanized = { x = 1 y = 3 }
+							mechanized = { x = 1 y = 4 }
 					
-							motorized = { x = 2 y = 0 }
-							motorized = { x = 2 y = 1 }
-							motorized = { x = 2 y = 2 }
-							motorized = { x = 2 y = 3 }
-							motorized = { x = 2 y = 4 }
+							mechanized = { x = 2 y = 0 }
+							mechanized = { x = 2 y = 1 }
+							mechanized = { x = 2 y = 2 }
+							mechanized = { x = 2 y = 3 }
+							mechanized = { x = 2 y = 4 }
 								
-							motorized = { x = 3 y = 0 }
-							motorized = { x = 3 y = 1 }
-							motorized = { x = 3 y = 2 }
-							motorized = { x = 3 y = 3 }
-							motorized = { x = 3 y = 4 }
+							mechanized = { x = 3 y = 0 }
+							mechanized = { x = 3 y = 1 }
+							mechanized = { x = 3 y = 2 }
+							mechanized = { x = 3 y = 3 }
+							mechanized = { x = 3 y = 4 }
 						}
 					}
 				}
@@ -362,7 +366,7 @@ country_event = {
 	id = usnavy.8
 	title = usnavy.8.t
 	desc = usnavy.8.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -370,6 +374,9 @@ country_event = {
 				USC = {
 					white_peace = BGD
 					white_peace = USN
+					every_unit_leader = {			
+						set_nationality = USN
+					}
 				}
 				USN = {
 					annex_country = { target = USC }
@@ -392,7 +399,7 @@ country_event = {
 	id = usnavy.9
 	title = usnavy.9.t
 	desc = usnavy.9.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -400,9 +407,13 @@ country_event = {
 				USB = {
 					white_peace = BGD
 					white_peace = USN
+					every_unit_leader = {			
+						set_nationality = USN
+					}
 				}
 				USN = {
 					annex_country = { target = USB }
+					annex_country = { target = NSM }
 				}
 				remove_decision = BGD_WAR_USB
 			}
@@ -424,7 +435,7 @@ country_event = {
 	id = usnavy.10
 	title = usnavy.10.t
 	desc = usnavy.10.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_japan_peacekeeper
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -435,10 +446,8 @@ country_event = {
 				}
 				USN = {
 					annex_country = { target = PTF }
-					annex_country = { target = NSM }
 				}
 			}
-			remove_decision = BGD_WAR_USB
 		}
 	option = {
 		name = usnavy.10.a
@@ -474,12 +483,103 @@ country_event = {
 	id = usnavy.12
 	title = usnavy.12.t
 	desc = usnavy.12.d
-	picture = GFX_popipa_doublerainbow
-
+	picture = GFX_japan_peacekeeper
+	immediate = {
+		hidden_effect = {
+			USN = { 
+				transfer_state = 932
+			}
+			USN = { 
+				transfer_state = 930
+			}
+		}
+	}
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = usnavy.12.a
+		USN = {
+			hidden_effect = {
+				USN = { 
+					transfer_state = 932
+				}
+				USN = { 
+					transfer_state = 930
+				}
+			}
+			add_timed_idea = {
+				idea = BGD_USN_Beachhead_offensive
+				days = 90
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "海军陆战队机械化师" }
+				}
+				division_template = {
+					name = "海军陆战队机械化师"
+					division_names_group = TP_TYPE_01
+					regiments = {
+						mechanized = { x = 0 y = 0 }
+						mechanized = { x = 0 y = 1 }
+						mechanized = { x = 0 y = 2 }
+						mechanized = { x = 0 y = 3 }
+						mechanized = { x = 0 y = 4 }
+		
+						mechanized = { x = 1 y = 0 }
+						mechanized = { x = 1 y = 1 }
+						mechanized = { x = 1 y = 2 }
+						mechanized = { x = 1 y = 3 }
+						mechanized = { x = 1 y = 4 }
+				
+						mechanized = { x = 2 y = 0 }
+						mechanized = { x = 2 y = 1 }
+						mechanized = { x = 2 y = 2 }
+						mechanized = { x = 2 y = 3 }
+						mechanized = { x = 2 y = 4 }
+							
+						mechanized = { x = 3 y = 0 }
+						mechanized = { x = 3 y = 1 }
+						mechanized = { x = 3 y = 2 }
+						mechanized = { x = 3 y = 3 }
+						mechanized = { x = 3 y = 4 }
+					}
+				}
+			}
+
+			932 = {
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆1师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆2师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆3师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+			}
+			930 = {
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆4师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆5师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆6师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+				create_unit = { 
+					division = "name = \"美国海军陆战队特种登陆7师团\" division_template = \"海军陆战队机械化师\" start_experience_factor = 0.7"  
+					owner = USN
+				}
+			}
+		}
 		add_timed_idea = {
 			idea = BGD_USN_Beachhead_offensive
 			days = 90
@@ -509,9 +609,7 @@ country_event = {
 					}
 				}
 			}
-			every_unit_leader = {			
-				set_nationality = BGD
-			}
+			set_cosmetic_tag = usrepublic
 		}
 	}
 }
@@ -522,7 +620,6 @@ country_event = {
 	title = usnavy.14.t
 	desc = usnavy.14.d
 	picture = GFX_popipa_doublerainbow
-
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -538,13 +635,233 @@ country_event = {
 					}
 				}
 			}
-			every_unit_leader = {			
-				set_nationality = BGD
-			}
 			set_politics = {
 				ruling_party = social_democrat
 				elections_allowed = yes
 			}
+			
 		}
 	}
+}
+
+country_event = {
+	#Daylight计划
+	id = usnavy.15
+	title = usnavy.15.t
+	desc = usnavy.15.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.15.a
+	}
+}
+
+country_event = {
+	#蝶与雄鹰
+	id = usnavy.16
+	title = usnavy.16.t
+	desc = usnavy.16.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.16.a
+		army_experience = 15
+		navy_experience = 15
+	}
+}
+
+country_event = {
+	#西海岸攻势
+	id = usnavy.17
+	title = usnavy.17.t
+	desc = usnavy.17.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.17.a
+		country_event = { id = usnavy.18 days = 5 }
+	}
+}
+
+country_event = {
+	#西海岸攻势
+	id = usnavy.18
+	title = usnavy.18.t
+	desc = usnavy.18.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.18.a
+		country_event = { id = usnavy.19 days = 3 }
+	}
+}
+
+country_event = {
+	#西海岸攻势
+	id = usnavy.19
+	title = usnavy.19.t
+	desc = usnavy.19.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.19.a
+		country_event = { id = usnavy.20 days = 3 }
+	}
+}
+
+country_event = {
+	#西海岸攻势
+	id = usnavy.20
+	title = usnavy.20.t
+	desc = usnavy.20.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.20.a
+	}
+}
+
+country_event = {
+	#设立西海岸临时行政委员会
+	id = usnavy.21
+	title = usnavy.21.t
+	desc = usnavy.21.d
+	picture = GFX_japan_peacekeeper
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.21.a
+	}
+}
+
+country_event = {
+	#文化交流与人道援助
+	id = usnavy.22
+	title = usnavy.22.t
+	desc = usnavy.22.d
+	picture = GFX_japan_peacekeeper
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.22.a
+	}
+}
+
+country_event = {
+	#新秩序下的加利福尼亚
+	id = usnavy.23
+	title = usnavy.23.t
+	desc = usnavy.23.d
+	picture = GFX_japan_peacekeeper
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.23.a
+	}
+}
+
+country_event = {
+	#芝加哥会议
+	id = usnavy.24
+	title = usnavy.24.t
+	desc = usnavy.24.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			USN = {
+				remove_ideas = USA_battle_for_america_idea
+				set_global_flag = USA_american_civil_war_over_global
+			}
+			every_state = {
+				limit = {
+					has_dynamic_modifier = {
+						modifier = USA_battle_for_america_idea
+					}
+				}
+				PREV = {
+					remove_dynamic_modifier = {
+						modifier = USA_battle_for_america_idea
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = usnavy.24.a
+		set_country_flag = Rebuilding_the_Federation
+		USN = {
+			set_capital = { state = 931 }
+		}
+	}
+	option = {
+		name = usnavy.24.b
+		set_country_flag = The_New_Pacific_Charter
+		USN = {
+			set_capital = { state = 931 }
+		}
+	}
+}
+
+country_event = {
+	#美洲驻军协定
+	id = usnavy.25
+	title = usnavy.25.t
+	desc = usnavy.25.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.25.a
+	}
+
+}
+
+country_event = {
+	#一同为自由
+	id = usnavy.26
+	title = usnavy.26.t
+	desc = usnavy.26.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.26.a
+	}
+	
+}
+
+country_event = {
+	#经济渗透与重建援助
+	id = usnavy.27
+	title = usnavy.27.t
+	desc = usnavy.27.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.27.a
+	}
+	
+}
+
+country_event = {
+	#自由的回响
+	id = usnavy.28
+	title = usnavy.28.t
+	desc = usnavy.28.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usnavy.28.a
+	}
+	
 }

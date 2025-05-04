@@ -912,9 +912,9 @@ country_event = {
 				set_country_flag = UNE_member
 				add_ideas = BGD_RBE_economy
 				create_country_leader = {
-					name = BGD_chu2_char
-					desc = BGD_CHU2_DESC
-					picture = GFX_portrait_CHUCHU
+					name = BGD_Kanon_char
+					desc = BGD_Kanon_DESC
+					picture = "gfx/leaders/BGD/generals/BGD_kanon_2.png"
 					ideology = kirakira_dokidoki
 					traits = {
 					}
@@ -1146,6 +1146,10 @@ country_event = {
 		}
 		BGD = {
 			add_to_faction = GER
+			country_event = {
+				id = bgd.2014
+				days = 7
+			}
 		}
 	}
 }
@@ -1188,5 +1192,464 @@ country_event = {
 		#首尔
 		name = unasia.6.o5
 		set_capital = { state = 1041 }
+	}
+}
+
+country_event = {
+	#亚洲联盟第一次会议
+	id = unasia.7
+	title = unasia.7.t
+	desc = unasia.7.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.7.a
+		add_political_power = 300
+		add_stability = 0.1
+	}
+}
+country_event = {
+	#联盟宪章：自由、平等、星光
+	id = unasia.8
+	title = unasia.8.t
+	desc = unasia.8.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.8.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#战后复兴援助
+	id = unasia.9
+	title = unasia.9.t
+	desc = unasia.9.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.9.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#工作场所民主推广
+	id = unasia.10
+	title = unasia.10.t
+	desc = unasia.10.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.10.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#亚洲共同市场
+	id = unasia.11
+	title = unasia.11.t
+	desc = unasia.11.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.11.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#亚洲发展基金
+	id = unasia.12
+	title = unasia.12.t
+	desc = unasia.12.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.12.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#繁荣的灯塔
+	id = unasia.13
+	title = unasia.13.t
+	desc = unasia.13.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.13.a
+		add_political_power = 120
+		add_stability = 0.1
+	}
+}
+
+
+country_event = {
+	#联盟联合指挥部
+	id = unasia.14
+	title = unasia.14.t
+	desc = unasia.14.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.14.a
+		add_political_power = 50
+		army_experience = 30
+		navy_experience = 30
+		air_experience = 30
+	}
+}
+
+country_event = {
+	#标准化与现代化
+	id = unasia.15
+	title = unasia.15.t
+	desc = unasia.15.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.15.a
+		add_political_power = 50
+		army_experience = 20
+	}
+}
+
+country_event = {
+	#联合舰队倡议
+	id = unasia.16
+	title = unasia.16.t
+	desc = unasia.16.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.16.a
+		add_political_power = 50
+		navy_experience = 75
+	}
+}
+
+country_event = {
+	#快速反应力量
+	id = unasia.17
+	title = unasia.17.t
+	desc = unasia.17.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.17.a
+		add_political_power = 50
+		army_experience = 75
+	}
+}
+
+country_event = {
+	#自由之盾
+	id = unasia.18
+	title = unasia.18.t
+	desc = unasia.18.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.18.a
+		add_political_power = 50
+		army_experience = 75
+	}
+}
+
+country_event = {
+	#文化交流协定
+	id = unasia.19
+	title = unasia.19.t
+	desc = unasia.19.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.19.a
+		add_political_power = 50
+		add_stability = 0.04
+	}
+}
+
+country_event = {
+	#闪耀之声广播
+	id = unasia.20
+	title = unasia.20.t
+	desc = unasia.20.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.20.a
+		add_political_power = 50
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	#支持进步力量
+	id = unasia.21
+	title = unasia.21.t
+	desc = unasia.21.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.21.a
+		add_political_power = 50
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	#亚洲艺术与梦想节
+	id = unasia.22
+	title = unasia.22.t
+	desc = unasia.22.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.22.a
+		add_political_power = 50
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	#星光照耀亚洲
+	id = unasia.23
+	title = unasia.23.t
+	desc = unasia.23.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.23.a
+		add_political_power = 50
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	#北亚的未来
+	id = unasia.24
+	title = unasia.24.t
+	desc = unasia.24.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.24.a
+		BGD = {
+			create_wargoal = {
+				type = annex_everything
+				target = SEY
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = OCC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YAM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NAU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CHU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KKP
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CKK
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = GLC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KIR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = FLN
+			}
+		}
+	}
+}
+
+country_event = {
+	#中亚的召唤
+	id = unasia.25
+	title = unasia.25.t
+	desc = unasia.25.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.25.a
+		BGD = {
+			create_wargoal = {
+				type = annex_everything
+				target = KAZ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = UZB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KYR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TAJ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TMS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TAL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PER
+			}
+		}
+		hidden_effect = {
+			FIA = {
+				leave_faction = yes	
+			}
+		}
+	}
+}
+
+country_event = {
+	#西亚的十字路口
+	id = unasia.26
+	title = unasia.26.t
+	desc = unasia.26.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.26.a
+		BGD = {
+			create_wargoal = {
+				type = annex_everything
+				target = FIA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ROC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KUW
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KUR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SYR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = HTS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = LEB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ISR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PAL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = JOR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = UAE
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = QAT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = OMA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = HOU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = HEZ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TUR
+			}
+		}
+		hidden_effect = {
+			TUR = {
+				leave_faction = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	#亚洲一体化的新阶段
+	id = unasia.27
+	title = unasia.27.t
+	desc = unasia.27.d
+	picture = GFX_bangdream_victory
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = unasia.27.a
+		add_political_power = 50
+		add_stability = 0.02
 	}
 }

@@ -1326,7 +1326,7 @@ country_event = {
 			}
 			KOR = {
 				annex_country = { target = PRK }
-				
+				set_country_flag = APFNO_member
 			}
 			PAK = { set_country_flag = APFNO_member }
 			RAJ = { set_country_flag = APFNO_member }

@@ -9,8 +9,9 @@ focus_tree = {
 	}
 	default = no
 	focus = {
+		#成立亚洲联盟
 		id = created_united_asia
-		icon = GFX_goal_unknown
+		icon = GFX_guoce_zhanwei
 		cost = 10.00
 		x = 8
 		y = 0
@@ -22,20 +23,24 @@ focus_tree = {
 
 	}
 	focus = {
+		#选定亚盟行政中心
 		id = take_the_ua_meeting
-		icon = GFX_goal_unknown
+		icon = GFX_guoce_zhanwei
 		cost = 10.00
 		prerequisite = {
 			focus = select_administrative_center
 		}
 		x = 8
 		y = 2
-
+		completion_reward = {
+			country_event = { id = unasia.7 }
+		}
 
 	}
 	focus = {
+		#亚洲联盟第一次会议
 		id = select_administrative_center
-		icon = GFX_goal_unknown
+		icon = GFX_guoce_zhanwei
 		cost = 10.00
 		prerequisite = {
 			focus = created_united_asia
@@ -45,6 +50,392 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = unasia.6 }
 		}
+	}
+	focus = {
+		#联盟宪章：自由、平等、星光
+		id = UNITED_ASIA_Alliance_Charter
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = select_administrative_center
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			country_event = { id = unasia.8 }
+		}
+	}
 
+
+	focus = {
+		#战后复兴援助
+		id = UNITED_ASIA_Economic_Integration
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Alliance_Charter
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+			country_event = { id = unasia.9 }
+		}
+	}
+	focus = {
+		#工作场所民主推广
+		id = UNITED_ASIA_Promoting_Workplace_Democracy
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Economic_Integration
+		}
+		x = 6
+		y = 5
+		completion_reward = {
+			country_event = { id = unasia.10 }
+		}
+	}
+
+	focus = {
+		#亚洲共同市场
+		id = UNITED_ASIA_Common_Market
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Promoting_Workplace_Democracy
+		}
+		x = 6
+		y = 6
+		completion_reward = {
+			country_event = { id = unasia.11 }
+		}
+	}
+
+	focus = {
+		#亚洲发展基金
+		id = UNITED_ASIA_Development_Fund
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Common_Market
+		}
+		x = 6
+		y = 7
+		completion_reward = {
+			country_event = { id = unasia.12 }
+		}
+	}
+
+	focus = {
+		#繁荣的灯塔
+		id = UNITED_ASIA_Economic_Miracle
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Development_Fund
+		}
+		x = 6
+		y = 8
+		completion_reward = {
+			country_event = { id = unasia.13 }
+		}
+	}
+
+	focus = {
+		#联盟联合指挥部
+		id = UNITED_ASIA_Allied_Joint_Command
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Alliance_Charter
+		}
+		x = 8
+		y = 4
+		completion_reward = {
+			country_event = { id = unasia.14 }
+		}
+	}
+
+	focus = {
+		#标准化与现代化
+		id = UNITED_ASIA_Allied_Modernization
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Allied_Joint_Command
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+			country_event = { id = unasia.15 }
+		}
+	}
+
+	focus = {
+		#联合舰队倡议
+		id = UNITED_ASIA_Fleet_Initiative
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Allied_Modernization
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			country_event = { id = unasia.16 }
+		}
+	}
+
+	focus = {
+		#快速反应力量
+		id = UNITED_ASIA_Rapid_Response_Force
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Fleet_Initiative
+		}
+		x = 8
+		y = 7
+		completion_reward = {
+			country_event = { id = unasia.17 }
+		}
+	}
+
+	focus = {
+		#自由之盾
+		id = UNITED_ASIA_Shield_of_Freedom
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Rapid_Response_Force
+		}
+		x = 8
+		y = 8
+		completion_reward = {
+			country_event = { id = unasia.18 }
+		}
+	}
+	
+	focus = {
+		#文化交流协定
+		id = UNITED_ASIA_Cultural_Exchange
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Alliance_Charter
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			country_event = { id = unasia.19 }
+		}
+	}
+
+	focus = {
+		#闪耀之声广播
+		id = UNITED_ASIA_Voice_of_Shining_Radio
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Cultural_Exchange
+		}
+		x = 10
+		y = 5
+		completion_reward = {
+			country_event = { id = unasia.20 }
+		}
+	}
+
+	focus = {
+		#支持进步力量
+		id = UNITED_ASIA_Support_Progressive_Forces
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Voice_of_Shining_Radio
+		}
+		x = 10
+		y = 6
+		completion_reward = {
+			country_event = { id = unasia.21 }
+		}
+	}
+
+	focus = {
+		#亚洲艺术与梦想节
+		id = UNITED_ASIA_Asian_Arts
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Support_Progressive_Forces
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+			country_event = { id = unasia.22 }
+		}
+	}
+
+	focus = {
+		#星光照耀亚洲
+		id = UNITED_ASIA_Starlight_Over_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Asian_Arts
+		}
+		x = 10
+		y = 8
+		completion_reward = {
+			country_event = { id = unasia.23 }
+		}
+	}
+
+
+	focus = {
+		#亚洲一体化的新阶段
+		id = UNITED_ASIA_New_Stage_of_Asian_Integration
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Starlight_Over_Asia
+		}
+		prerequisite = {
+			focus = UNITED_ASIA_Shield_of_Freedom
+		}
+		prerequisite = {
+			focus = UNITED_ASIA_Economic_Miracle
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			country_event = { id = unasia.27 }
+		}
+	}
+
+	focus = {
+		#北亚的未来
+		id = UNITED_ASIA_Future_of_North_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
+		}
+		available = {
+			has_global_flag = SOV_nato_second_nato_war_victory_global
+		}
+		x = 8
+		y = 10
+		completion_reward = {
+			country_event = { id = unasia.24 }
+		}
+	}
+
+	focus = {
+		#建立北亚亚盟委员会
+		id = UNITED_ASIA_New_Chapter_for_North_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Future_of_North_Asia
+		}
+		available = {
+			has_global_flag = SOV_nato_second_nato_war_victory_global
+		}
+		x = 8
+		y = 11
+		completion_reward = {
+			country_event = { id = unasia.2 }
+		}
+	}
+
+	focus = {
+		#中亚的召唤
+		id = UNITED_ASIA_Intervention_in_Central_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
+		}
+		available = {
+			has_global_flag = SOV_nato_second_nato_war_victory_global
+		}
+		x = 6
+		y = 10
+		completion_reward = {
+			country_event = { id = unasia.25 }
+		}
+	}
+
+	focus = {
+		#建立中亚亚盟委员会
+		id = UNITED_ASIA_New_Chapter_for_Middle_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Intervention_in_Central_Asia
+		}
+		available = {
+			has_global_flag = SOV_nato_second_nato_war_victory_global
+		}
+		x = 6
+		y = 11
+		completion_reward = {
+			country_event = { id = unasia.3 }
+		}
+	}
+	focus = {
+		#西亚的十字路口
+		id = UNITED_ASIA_Reshaping_the_West_Asian_Order
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
+		}
+		available = {
+			has_global_flag = SOV_nato_second_nato_war_victory_global
+		}
+		x = 10
+		y = 10
+		completion_reward = {
+			country_event = { id = unasia.26 }
+		}
+	}
+
+	focus = {
+		#建立西亚亚盟委员会
+		id = UNITED_ASIA_New_Chapter_for_West_Asia
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_Reshaping_the_West_Asian_Order
+		}
+		x = 10
+		y = 11
+		completion_reward = {
+			country_event = { id = unasia.4}
+		}
+	}
+
+	focus = {
+		#邀请欧盟
+		id = UNITED_ASIA_Inviting_Europe
+		icon = GFX_guoce_zhanwei
+		cost = 10.00
+		prerequisite = {
+			focus = UNITED_ASIA_New_Chapter_for_North_Asia
+		}
+		prerequisite = {
+			focus = UNITED_ASIA_New_Chapter_for_Middle_Asia
+		}
+		prerequisite = {
+			focus = UNITED_ASIA_New_Chapter_for_West_Asia
+		}
+		x = 8
+		y = 12
+		completion_reward = {
+			country_event = { id = unasia.5 }
+		}
 	}
 }
+

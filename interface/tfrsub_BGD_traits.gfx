@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_trait_shaonv_yvgangtie"
+        texturefile = "gfx/interface/traits/trait_girls_and_guns.png"
+	}
+}

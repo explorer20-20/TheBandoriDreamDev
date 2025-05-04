@@ -6,12 +6,17 @@ decisions_BGD_usn = {
 		days_re_enable = 1
 		cost = 0
 		allowed = {
-			always = yes
+			NOT = {
+				has_global_flag = USA_american_civil_war_over_global
+			}
 		}
 		visible = {
+			NOT = {
+				has_global_flag = USA_american_civil_war_over_global
+			}
 		}
 		available = {
-			always = no
+			has_global_flag = USA_american_civil_war_over_global
 		}
 		complete_effect = {
 		}
@@ -45,11 +50,39 @@ decisions_BGD_usn = {
 		available = {
 		}
 		timeout_effect = {
-			country_event = usnavy.5
+			every_state = {
+				limit = {
+					is_controlled_by = BGD
+					is_core_of = USA
+				}
+				USN = {
+					transfer_state = PREV
+				}
+			}
+			USN = {
+				every_owned_state = {
+					limit = { controller = { tag = USN } }
+					add_core_of = USN
+				}
+			}
 		}
 		
 		complete_effect = {
-			country_event = usnavy.5
+			every_state = {
+				limit = {
+					is_controlled_by = BGD
+					is_core_of = USA
+				}
+				USN = {
+					transfer_state = PREV
+				}
+			}
+			USN = {
+				every_owned_state = {
+					limit = { controller = { tag = USN } }
+					add_core_of = USN
+				}
+			}
 		}
 
 		days_mission_timeout = 10
@@ -182,7 +215,9 @@ decisions_BGD_usn = {
 		}
 
 		complete_effect = {
-			country_event = { id = usnavy.8 }
+			BGD = {
+				country_event = { id = usnavy.8 }
+			}
 		}
 
 		days_mission_timeout = 100
@@ -263,7 +298,7 @@ decisions_BGD_usn = {
 		fire_only_once = no
 		
 
-		timeout_effect = {
+		timeout_effect = {	
 			activate_mission = BGD_WAR_PTF
 		}
 

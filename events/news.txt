@@ -115,10 +115,6 @@ news_event = {
 		custom_effect_tooltip = BGD_gaw_huosheng_tt
 		hidden_effect = {
 			scoped_play_song = "CiRCLE THANKS MUSiC"
-			country_event = {
-				id = bgd.2014
-				days = 7
-			}
 		}
 	}
 }
