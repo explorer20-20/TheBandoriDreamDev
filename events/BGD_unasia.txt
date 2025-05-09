@@ -432,11 +432,23 @@ country_event = {
 				set_country_flag = UNE_member
 			}
 		}
+		
+		if = {
+			limit = {
+				is_major = no
+			}
+			set_major = yes
+		}
 		every_country = {
 			limit = {
 				has_country_flag = APFNO_member
 				NOT = { tag = USN }
 				NOT = { tag = BGD }  # 避免把自己也吞并了
+			}
+			PREV = {
+				transfer_navy = {
+					target = BGD
+				}
 			}
 			BGD = {
 				annex_country = { target = PREV }

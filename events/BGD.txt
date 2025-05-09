@@ -750,6 +750,7 @@ country_event = {
 		set_cosmetic_tag = BGD_ziyou_gongheguo
 		add_political_power = 80
 		add_stability = 0.1
+		set_major = yes
 		country_event = {
 			id = bgd.50
 			days = 1
