@@ -799,6 +799,9 @@ country_event = {
 		set_country_flag = Rebuilding_the_Federation
 		USN = {
 			set_capital = { state = 931 }
+			hidden_effect = {
+				set_cosmetic_tag = usakira
+			}
 		}
 	}
 	option = {

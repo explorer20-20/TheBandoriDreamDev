@@ -1649,6 +1649,18 @@ country_event = {
 				type = annex_everything
 				target = TUR
 			}
+			create_wargoal = {
+				type = annex_everything
+				target = SAU
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ARR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CYP
+			}
 		}
 		hidden_effect = {
 			TUR = {

@@ -28,8 +28,60 @@ decisions_BGD_usn = {
 		#days_re_enable = 1
 		#cost = 0
 		activation = {
-			any_owned_state = {
-				is_core_of = USA
+			OR = {
+				any_owned_state = {
+					is_core_of = USA
+				}
+				RAJ = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				BAN = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				SIA = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				INS = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				MAL = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				SIG = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				AST = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				NZL = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				PNG = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
+				MAL = {
+					any_owned_state = {
+						is_core_of = USA
+					}
+				}
 			}
 		}
 		available = {
@@ -52,7 +104,19 @@ decisions_BGD_usn = {
 		timeout_effect = {
 			every_state = {
 				limit = {
-					is_controlled_by = BGD
+					OR = {
+						is_controlled_by = BGD
+						is_controlled_by = RAJ
+						is_controlled_by = BAN
+						is_controlled_by = SIA
+						is_controlled_by = INS
+						is_controlled_by = MAL
+						is_controlled_by = SIG
+						is_controlled_by = AST
+						is_controlled_by = NZL
+						is_controlled_by = PNG
+						is_controlled_by = MAL
+					}
 					is_core_of = USA
 				}
 				USN = {

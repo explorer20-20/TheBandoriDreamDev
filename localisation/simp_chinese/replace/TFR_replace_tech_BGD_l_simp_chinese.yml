@@ -23,15 +23,7 @@
  BGD_modern_tank_equipment_3: "90式"
  BGD_modern_tank_equipment_3_short: "90式"
  BGD_modern_tank_equipment_3_desc: "90式"
- BGD_modern_tank_equipment_4: "10式"
- BGD_modern_tank_equipment_4_short: "10式"
- BGD_modern_tank_equipment_4_desc: "10式"
- BGD_modern_tank_equipment_5: "10式改"
- BGD_modern_tank_equipment_5_short: "10式改"
- BGD_modern_tank_equipment_5_desc: "10式改"
- BGD_modern_tank_equipment_6: "10式F"
- BGD_modern_tank_equipment_6_short: "10式F"
- BGD_modern_tank_equipment_6_desc: "10式F"
+
  BGD_mechanized_equipment_1: "73式"
  BGD_mechanized_equipment_1_short: "73式"
  BGD_mechanized_equipment_1_desc: "73式"
@@ -302,3 +294,22 @@
  BGD_DIVISION_EXPERIENCE_TITLE_ARMY_EXPERIENCE_2:0 "陆军中将"
  BGD_DIVISION_EXPERIENCE_TITLE_ARMY_EXPERIENCE_3:0 "陆军中将"
  BGD_DIVISION_EXPERIENCE_TITLE_ARMY_EXPERIENCE_4:0 "陆军中将"
+
+ #BGD_modern_tank_chassis_4: 
+ #BGD_modern_tank_chassis_4_desc: 
+ #BGD_modern_tank_chassis_5: 
+ #BGD_modern_tank_chassis_5_desc: 
+ #BGD_modern_tank_chassis_6: 
+ #BGD_modern_tank_chassis_6_desc: 
+ BGD_modern_tank_chassis_4: "28式“奇美拉”蛛形主战坦克"
+ BGD_modern_tank_chassis_4_short: "28式"
+ BGD_modern_tank_chassis_4_desc: "弦卷集团倾力研发的革命性陆战平台。\n\n“奇美拉”之名源于其独特的多功能性与看似不可能的技术融合。其最显著的特征是四到六条（根据子型号可调整）高度灵活的机械足，赋予了它无与伦比的地形适应能力。无论是崎岖山地、断壁残垣的城市废墟，还是传统履带车辆难以逾越的复杂障碍，“奇美拉”都能如履平地，甚至能进行短距离的垂直攀爬或利用地形进行伏击。"
+ BGD_modern_tank_chassis_3: "20式悬浮主战坦克"
+ BGD_modern_tank_chassis_3_short: "20式"
+ BGD_modern_tank_chassis_3_desc: "弦卷集团研发的20式悬浮主战坦克，装备实验性悬浮驱动系统，旨在突破传统地形限制。其设计赋予了单位卓越的机动性和渡水能力，能够执行快速突击和非常规部署任务。火力与装甲配置针对高速作战进行了优化，是实现战略包抄的利器。" 
+ BGD_modern_tank_chassis_2: "10式主战坦克"
+ BGD_modern_tank_chassis_2_short: "10式"
+ BGD_modern_tank_chassis_2_desc: "10式战车采用车体布局为车前左方驾驶座和主炮弹药库、中部为容纳炮塔环的战斗室、后部则为引擎、变速箱、冷却系统的机械室，车身和炮塔为全焊接结构的轧压均质装甲，车体前方和炮塔前方和侧面均由模组化装甲包覆。有别于90式战车垂直炮塔的构造，10式战车的炮塔用的是倾斜的多面体外型，使其侧面更接近德国豹2A5型主力战车。" 
+ BGD_modern_tank_chassis_1: "90式主战坦克"
+ BGD_modern_tank_chassis_1_short: "90式"
+ BGD_modern_tank_chassis_1_desc: "90式坦克是日本陆上自卫队现役的主战坦克，为继61式、74式后自主设计的第三世代国产坦克。 90式坦克开发代号起初为“STC”，后为“TK-X”，由防卫厅技术研究本部研发和三菱重工业进行技术验证和量产。1983年生产第一辆原型车，至1990年正式服役。" 

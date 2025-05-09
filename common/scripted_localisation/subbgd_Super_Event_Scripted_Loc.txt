@@ -482,6 +482,7 @@
 		text = { 
 			trigger = {
 				has_country_flag = bang_landing_moon
+				NOT = { has_country_flag = close_moon_super_window }
 			}
 			localization_key = "这是…人类的一小步…但是…是我千早爱音的一大步！为了…为了成为受欢迎的人！不对！为了…呃…为了乐队和共和国！                                                            ——千早爱音"
 		}

@@ -1332,6 +1332,7 @@ country_event = {
 			RAJ = { set_country_flag = APFNO_member }
 			BAN = { set_country_flag = APFNO_member }
 			SRL = { set_country_flag = APFNO_member }
+			SAJ = { set_country_flag = APFNO_member }
 			BGD = {
 			    add_to_faction = PRC
 			    add_to_faction = PAK

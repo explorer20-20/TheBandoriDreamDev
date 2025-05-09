@@ -1,0 +1,8 @@
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_jap
+	names = { "IA_Intelligence_BGD" }
+	
+	default = { tag = BGD }
+	available = { original_tag = BGD }
+}

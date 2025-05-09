@@ -260,51 +260,51 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_JPR_rocket_artillery_medium"
+		name = "GFX_BGD_rocket_artillery_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_rocket_artillery.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_rocket_artillery4_medium"
+		name = "GFX_BGD_rocket_artillery4_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_rocket_artillery2.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_sp_artillery1_medium"
+		name = "GFX_BGD_sp_artillery1_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_spa_artillery1.png"
 	}	
 	SpriteType = {
-		name = "GFX_JPR_sp_artillery2_medium"
+		name = "GFX_BGD_sp_artillery2_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_spa_artillery2.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_sp_artillery3_medium"
+		name = "GFX_BGD_sp_artillery3_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_spa_artillery3.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_self_propelled_aa1_medium"
+		name = "GFX_BGD_self_propelled_aa1_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_sp_artillery1.png"
 	}	
 	SpriteType = {
-		name = "GFX_JPR_self_propelled_aa2_medium"
+		name = "GFX_BGD_self_propelled_aa2_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_sp_artillery2.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_artillery1_medium"
+		name = "GFX_BGD_artillery1_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_artillery_system2.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_artillery3_medium"
+		name = "GFX_BGD_artillery3_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_artillery_system3.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_artillery5_medium"
+		name = "GFX_BGD_artillery5_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_artillery_system4.png"
 	}
 	SpriteType = {
-		name = "GFX_JPR_tank_destroyer1_medium"
+		name = "GFX_BGD_tank_destroyer1_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_tank_destroyer1.png"
 	}	
 	SpriteType = {
-		name = "GFX_JPR_tank_destroyer2_medium"
+		name = "GFX_BGD_tank_destroyer2_medium"
 		texturefile = "gfx/interface/technologies/artillery/JAP_tank_destroyer2.png"
 	}	
 
@@ -347,22 +347,7 @@ spriteTypes = {
 		name = "GFX_BGD_basic_medium_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/armor/JAP_modern_tank3.png"
 	}
-	SpriteType = {
-		name = "GFX_BGD_improved_medium_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_modern_tank4.png"
-	}
-	SpriteType = {
-		name = "GFX_BGD_advanced_medium_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_modern_tank5.png"
-	}
-	SpriteType = {
-		name = "GFX_BGD_modern_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_modern_tank6.png"
-	}
-	SpriteType = {
-		name = "GFX_BGD_main_battle_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_modern_tank6.png"
-	}
+
 
 	SpriteType = {
 		name = "GFX_BGD_iw_large_airframe_medium"
@@ -407,5 +392,23 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BGD_modern_small_airframe_medium"
 		texturefile = "gfx/interface/technologies/aircraft/SOV_fighter8.png"
+	}
+
+
+	SpriteType = {
+		name = "GFX_BGD_improved_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/tank/type10.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/tank/type20.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_basic_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/tank/type90.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_main_battle_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/tank/type28.png"
 	}
 }

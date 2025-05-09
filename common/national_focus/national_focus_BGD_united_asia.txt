@@ -12,7 +12,7 @@ focus_tree = {
 		#成立亚洲联盟
 		id = created_united_asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		x = 8
 		y = 0
 		completion_reward = {
@@ -26,7 +26,7 @@ focus_tree = {
 		#选定亚盟行政中心
 		id = take_the_ua_meeting
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = select_administrative_center
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 		#亚洲联盟第一次会议
 		id = select_administrative_center
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = created_united_asia
 		}
@@ -55,7 +55,7 @@ focus_tree = {
 		#联盟宪章：自由、平等、星光
 		id = UNITED_ASIA_Alliance_Charter
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = select_administrative_center
 		}
@@ -71,7 +71,7 @@ focus_tree = {
 		#战后复兴援助
 		id = UNITED_ASIA_Economic_Integration
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Alliance_Charter
 		}
@@ -85,7 +85,7 @@ focus_tree = {
 		#工作场所民主推广
 		id = UNITED_ASIA_Promoting_Workplace_Democracy
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Economic_Integration
 		}
@@ -100,7 +100,7 @@ focus_tree = {
 		#亚洲共同市场
 		id = UNITED_ASIA_Common_Market
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Promoting_Workplace_Democracy
 		}
@@ -115,7 +115,7 @@ focus_tree = {
 		#亚洲发展基金
 		id = UNITED_ASIA_Development_Fund
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Common_Market
 		}
@@ -130,7 +130,7 @@ focus_tree = {
 		#繁荣的灯塔
 		id = UNITED_ASIA_Economic_Miracle
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Development_Fund
 		}
@@ -145,7 +145,7 @@ focus_tree = {
 		#联盟联合指挥部
 		id = UNITED_ASIA_Allied_Joint_Command
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Alliance_Charter
 		}
@@ -160,7 +160,7 @@ focus_tree = {
 		#标准化与现代化
 		id = UNITED_ASIA_Allied_Modernization
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Allied_Joint_Command
 		}
@@ -175,7 +175,7 @@ focus_tree = {
 		#联合舰队倡议
 		id = UNITED_ASIA_Fleet_Initiative
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Allied_Modernization
 		}
@@ -190,7 +190,7 @@ focus_tree = {
 		#快速反应力量
 		id = UNITED_ASIA_Rapid_Response_Force
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Fleet_Initiative
 		}
@@ -205,7 +205,7 @@ focus_tree = {
 		#自由之盾
 		id = UNITED_ASIA_Shield_of_Freedom
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Rapid_Response_Force
 		}
@@ -220,7 +220,7 @@ focus_tree = {
 		#文化交流协定
 		id = UNITED_ASIA_Cultural_Exchange
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Alliance_Charter
 		}
@@ -235,7 +235,7 @@ focus_tree = {
 		#闪耀之声广播
 		id = UNITED_ASIA_Voice_of_Shining_Radio
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Cultural_Exchange
 		}
@@ -250,7 +250,7 @@ focus_tree = {
 		#支持进步力量
 		id = UNITED_ASIA_Support_Progressive_Forces
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Voice_of_Shining_Radio
 		}
@@ -265,7 +265,7 @@ focus_tree = {
 		#亚洲艺术与梦想节
 		id = UNITED_ASIA_Asian_Arts
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Support_Progressive_Forces
 		}
@@ -280,7 +280,7 @@ focus_tree = {
 		#星光照耀亚洲
 		id = UNITED_ASIA_Starlight_Over_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Asian_Arts
 		}
@@ -296,7 +296,7 @@ focus_tree = {
 		#亚洲一体化的新阶段
 		id = UNITED_ASIA_New_Stage_of_Asian_Integration
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Starlight_Over_Asia
 		}
@@ -317,7 +317,7 @@ focus_tree = {
 		#北亚的未来
 		id = UNITED_ASIA_Future_of_North_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
 		}
@@ -335,7 +335,7 @@ focus_tree = {
 		#建立北亚亚盟委员会
 		id = UNITED_ASIA_New_Chapter_for_North_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Future_of_North_Asia
 		}
@@ -386,7 +386,7 @@ focus_tree = {
 		#中亚的召唤
 		id = UNITED_ASIA_Intervention_in_Central_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
 		}
@@ -404,7 +404,7 @@ focus_tree = {
 		#建立中亚亚盟委员会
 		id = UNITED_ASIA_New_Chapter_for_Middle_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Intervention_in_Central_Asia
 		}
@@ -470,7 +470,7 @@ focus_tree = {
 		#西亚的十字路口
 		id = UNITED_ASIA_Reshaping_the_West_Asian_Order
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_New_Stage_of_Asian_Integration
 		}
@@ -488,7 +488,7 @@ focus_tree = {
 		#建立西亚亚盟委员会
 		id = UNITED_ASIA_New_Chapter_for_West_Asia
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_Reshaping_the_West_Asian_Order
 		}
@@ -598,7 +598,7 @@ focus_tree = {
 		#邀请欧盟
 		id = UNITED_ASIA_Inviting_Europe
 		icon = GFX_guoce_zhanwei
-		cost = 10.00
+		cost = 3
 		prerequisite = {
 			focus = UNITED_ASIA_New_Chapter_for_North_Asia
 		}
