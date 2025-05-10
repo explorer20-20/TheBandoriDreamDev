@@ -124,11 +124,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BGD_mechanised_infantry4_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_mechanized4.png"
+		texturefile = "gfx/interface/technologies/armor/Tsurumaki Centurion APC.png"
 	}
 	SpriteType = {
 		name = "GFX_BGD_mechanised_infantry5_medium"
-		texturefile = "gfx/interface/technologies/armor/JAP_mechanized5.png"
+		texturefile = "gfx/interface/technologies/armor/Tsurumaki Spartan APC.png"
 	}
 
 	SpriteType = {
@@ -335,12 +335,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_BGD_infantry_weapons5_medium"
-		texturefile = "gfx/interface/technologies/infantry/JAP_infantry5.png"
+		texturefile = "gfx/interface/technologies/guns/P8AR.png"
 	}
 
 	SpriteType = {
 		name = "GFX_BGD_infantry_weapons6_medium"
-		texturefile = "gfx/interface/technologies/infantry/JAP_infantry6.png"
+		texturefile = "gfx/interface/technologies/guns/ST71.png"
 	}
 
 	SpriteType = {
@@ -391,7 +391,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_BGD_modern_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/aircraft/SOV_fighter8.png"
+		texturefile = "gfx/interface/technologies/aircraft/f8cii anvl.png"
 	}
 
 
@@ -410,5 +410,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BGD_main_battle_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/tank/type28.png"
+	}
+
+	SpriteType = {
+		name = "GFX_BGD_antitank8_medium"
+		texturefile = "gfx/interface/technologies/other/Tsurumaki Apar ML.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_antiair8_medium"
+		texturefile = "gfx/interface/technologies/other/railgun.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/aircraft/Kilian Scorpius.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_modern_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/aircraft/Zeus_MARK_II.png"
 	}
 }
