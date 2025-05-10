@@ -608,6 +608,22 @@ country_event = {
 					traits = {
 					}
 				}
+				every_state = {
+					limit = {
+						has_state_flag = USA_core_state
+					}
+					#if = {
+					#	limit = {
+					#		ROOT = {
+					#			tag = ATW
+					#		}
+					#	}
+					#	add_core_of = FPM
+					#}
+					remove_dynamic_modifier = {
+						modifier = USA_battle_for_america_dynamic
+					}
+				}
 			}
 			set_cosmetic_tag = usrepublic
 		}
@@ -634,12 +650,27 @@ country_event = {
 					traits = {
 					}
 				}
+				every_state = {
+					limit = {
+						has_state_flag = USA_core_state
+					}
+					#if = {
+					#	limit = {
+					#		ROOT = {
+					#			tag = ATW
+					#		}
+					#	}
+					#	add_core_of = FPM
+					#}
+					remove_dynamic_modifier = {
+						modifier = USA_battle_for_america_dynamic
+					}
+				}
 			}
 			set_politics = {
 				ruling_party = social_democrat
 				elections_allowed = yes
 			}
-			
 		}
 	}
 }
