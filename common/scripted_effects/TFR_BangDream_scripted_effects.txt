@@ -1,0 +1,4 @@
+TFR_JAPAN = {
+	tag = JAP
+	tag = BGD
+}
