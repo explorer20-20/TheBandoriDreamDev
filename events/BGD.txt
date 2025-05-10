@@ -773,6 +773,9 @@ country_event = {
 			days = 15
 		}
 		set_country_flag = cabinet_up
+		set_variable = { popular_support = 79 }
+		set_variable = { party_support = 91 }
+		set_variable = { supernatural_attunement = 55 }
 		custom_effect_tooltip = BGD_shaonv_neige_qiyong_tt
 	}
 }
