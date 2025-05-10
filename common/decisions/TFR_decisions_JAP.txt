@@ -70,6 +70,24 @@ debug_decisions = {
 			custom_effect_tooltip = JAP_reset_debuffs
 		}
 	}
+	JAP_load_civil_war = {
+		icon = generic_industry
+		fire_only_once = no
+		cost = 0
+		allowed = {
+			tag = JAP
+		}
+		visible = {
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			JAP = {
+				country_event = bgd.1212
+			}
+		}
+	}
 
 	JAP_load_liberal_tree_debug = {
 		icon = generic_industry
