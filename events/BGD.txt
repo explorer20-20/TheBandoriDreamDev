@@ -1170,6 +1170,12 @@ country_event = {
 		name = bgd.65.a
 		complete_national_focus = BGD_zuizhong_zhizhan
 		custom_effect_tooltip = BGD_bug_tishi_tt
+		#解决gaw国策加载问题
+		hidden_effect = {
+			BGD = {
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
 	}
 }
 country_event = {
