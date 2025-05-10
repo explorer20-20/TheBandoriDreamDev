@@ -1986,6 +1986,7 @@ BGD_junshi_gaige = {
 
 		remove_effect = {
 			add_ideas = BGD_riben_hewu
+			add_nuclear_bombs = 10
 			news_event = {
 				id = news.1216
 			}
