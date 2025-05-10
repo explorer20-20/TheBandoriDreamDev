@@ -1,7 +1,5 @@
 capital = 570
 
-recruit_character = UA1_eve_char
-
 set_politics = {
     ruling_party = social_democrat
     elections_allowed = no
