@@ -3,14 +3,7 @@ ideas = {
 
 		BGD_USN_Ready_for_action = {
 			#行动准备就绪
-			picture = jingshen_zhanwei 	
-			allowed = {
-				 always = no
-			}
-			
-			allowed_civil_war = {
-				 always = yes
-			}
+			picture = jingshen_zhanwei
 			
 			removal_cost = -1
 			modifier = {
@@ -21,14 +14,7 @@ ideas = {
 
 		BGD_USN_Beachhead_offensive = {
 			#滩头攻势
-			picture = jingshen_zhanwei 	
-			allowed = {
-				 always = no
-			}
-			
-			allowed_civil_war = {
-				 always = yes
-			}
+			picture = jingshen_zhanwei
 			
 			removal_cost = -1
 			modifier = {

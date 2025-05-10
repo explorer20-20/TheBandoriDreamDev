@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+
+		BGD_asia_committee = {
+			#亚洲委员会
+			picture = asia_union
+			allowed = {
+				 always = no
+			}
+			
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = UA_ASIA1
+				autonomy_gain = -10
+				trade_opinion_factor = -1
+				justify_war_goal_time = 0.5
+				army_defence_factor = 0.05
+				production_efficiency_cap = 0.05
+			}
+		}
+
+
+	}
+}

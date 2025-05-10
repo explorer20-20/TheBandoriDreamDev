@@ -1916,7 +1916,7 @@ ideas = {
 			}
 		}
 		BGD_heidao_fanlan = {
-		   picture = tsugu
+		   picture = right_wing_japan
 			
 			allowed = {
 				always = no
@@ -1940,7 +1940,7 @@ ideas = {
 			}
 		}
 		BGD_heidao_fanlan_1 = {
-		   picture = tsugu
+		   picture = right_wing_japan
 			
 			allowed = {
 				always = no

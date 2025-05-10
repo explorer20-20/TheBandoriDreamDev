@@ -432,7 +432,7 @@ country_event = {
 				set_country_flag = UNE_member
 			}
 		}
-		
+
 		if = {
 			limit = {
 				is_major = no
@@ -458,6 +458,61 @@ country_event = {
 			limit = { controller = { tag = BGD } }
 			add_core_of = BGD
 		}
+
+
+
+
+
+		set_party_name = {
+			ideology = totalitarian_socialist 
+			long_name = asia_totalitarian_socialist_party_long
+			name = asia_totalitarian_socialist_party
+		}
+		set_party_name = {
+			   ideology = communist 
+			   long_name = asia_communist_party_long
+			   name = asia_communist_party
+		}
+		set_party_name = {
+			   ideology = libertarian_socialist 
+			   long_name = asia_libertarian_socialist_party_long
+			   name = asia_libertarian_socialist_party
+		}
+		set_party_name = {
+			   ideology = social_liberal 
+			   long_name = asia_social_liberal_party_long
+			   name = asia_social_liberal_party
+		}
+		set_party_name = {
+			   ideology = market_liberal 
+			   long_name = asia_market_liberal_party_long
+			   name = asia_market_liberal_party
+		}
+		set_party_name = {
+			   ideology = conservative 
+			   long_name = asia_conservative_party_long
+			   name = asia_conservative_party
+		}
+		set_party_name = {
+			   ideology = authoritarian_democrat 
+			   long_name = asia_authoritarian_democrat_party_long
+			   name = asia_authoritarian_democrat_party
+		}
+		set_party_name = {
+			   ideology = nationalist 
+			   long_name = asia_nationalist_party_long
+			   name = asia_nationalist_party
+		}
+		set_party_name = {
+			   ideology = fascist 
+			   long_name = asia_fascist_party_long
+			   name = asia_fascist_party
+		}
+		set_party_name = {
+			   ideology = national_socialist 
+			   long_name = asia_national_socialist_party_long
+			   name = asia_national_socialist_party
+		}
 		#hidden_effect = {
 		#	add_country_leader_trait = united_asia_leader
 		#}
@@ -482,8 +537,18 @@ country_event = {
 		custom_effect_tooltip = "UA1_NASIA"
 		hidden_effect = {
 			BGD = {
-				puppet = UA1
-
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = UA1
+						autonomy_state = autonomy_committee_state
+					}
+				}
+				else = {
+					puppet = UA1
+				}
 				remove_state_core = 570
 				remove_state_core = 583
 				remove_state_core = 582
@@ -536,13 +601,68 @@ country_event = {
 					picture = GFX_portrait_Eve
 					ideology = kirakira_dokidoki
 					traits = {
+						north_asia_magistrate
+						loyal_to_the_alliance
 					}
 				}
+				add_ideas = BGD_asia_committee
 				set_party_name = {
 					ideology = social_democrat
 					long_name = asia_social_democrat_long
 					name = asia_social_democrat
 				}
+
+				set_party_name = {
+					ideology = totalitarian_socialist 
+					long_name = asia_totalitarian_socialist_party_long
+					name = asia_totalitarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = communist 
+					   long_name = asia_communist_party_long
+					   name = asia_communist_party
+				}
+				set_party_name = {
+					   ideology = libertarian_socialist 
+					   long_name = asia_libertarian_socialist_party_long
+					   name = asia_libertarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = social_liberal 
+					   long_name = asia_social_liberal_party_long
+					   name = asia_social_liberal_party
+				}
+				set_party_name = {
+					   ideology = market_liberal 
+					   long_name = asia_market_liberal_party_long
+					   name = asia_market_liberal_party
+				}
+				set_party_name = {
+					   ideology = conservative 
+					   long_name = asia_conservative_party_long
+					   name = asia_conservative_party
+				}
+				set_party_name = {
+					   ideology = authoritarian_democrat 
+					   long_name = asia_authoritarian_democrat_party_long
+					   name = asia_authoritarian_democrat_party
+				}
+				set_party_name = {
+					   ideology = nationalist 
+					   long_name = asia_nationalist_party_long
+					   name = asia_nationalist_party
+				}
+				set_party_name = {
+					   ideology = fascist 
+					   long_name = asia_fascist_party_long
+					   name = asia_fascist_party
+				}
+				set_party_name = {
+					   ideology = national_socialist 
+					   long_name = asia_national_socialist_party_long
+					   name = asia_national_socialist_party
+				}
+				
 				set_politics = {
 					  ruling_party = social_democrat
 					  elections_allowed = no
@@ -639,7 +759,18 @@ country_event = {
 		custom_effect_tooltip = "UA2_NASIA"
 		hidden_effect = {
 			BGD = {
-				puppet = UA2
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = UA2
+						autonomy_state = autonomy_committee_state
+					}
+				}
+				else = {
+					puppet = UA2
+				}
 
 				remove_state_core = 419
 				remove_state_core = 421
@@ -701,13 +832,68 @@ country_event = {
 					picture = GFX_portrait_Ran
 					ideology = kirakira_dokidoki
 					traits = {
+						middle_asia_magistrate
+						loyal_to_the_alliance
 					}
 				}
+				add_ideas = BGD_asia_committee
 				set_party_name = {
 					ideology = social_democrat
 					long_name = asia_social_democrat_long
 					name = asia_social_democrat
 				}
+
+				set_party_name = {
+					ideology = totalitarian_socialist 
+					long_name = asia_totalitarian_socialist_party_long
+					name = asia_totalitarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = communist 
+					   long_name = asia_communist_party_long
+					   name = asia_communist_party
+				}
+				set_party_name = {
+					   ideology = libertarian_socialist 
+					   long_name = asia_libertarian_socialist_party_long
+					   name = asia_libertarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = social_liberal 
+					   long_name = asia_social_liberal_party_long
+					   name = asia_social_liberal_party
+				}
+				set_party_name = {
+					   ideology = market_liberal 
+					   long_name = asia_market_liberal_party_long
+					   name = asia_market_liberal_party
+				}
+				set_party_name = {
+					   ideology = conservative 
+					   long_name = asia_conservative_party_long
+					   name = asia_conservative_party
+				}
+				set_party_name = {
+					   ideology = authoritarian_democrat 
+					   long_name = asia_authoritarian_democrat_party_long
+					   name = asia_authoritarian_democrat_party
+				}
+				set_party_name = {
+					   ideology = nationalist 
+					   long_name = asia_nationalist_party_long
+					   name = asia_nationalist_party
+				}
+				set_party_name = {
+					   ideology = fascist 
+					   long_name = asia_fascist_party_long
+					   name = asia_fascist_party
+				}
+				set_party_name = {
+					   ideology = national_socialist 
+					   long_name = asia_national_socialist_party_long
+					   name = asia_national_socialist_party
+				}
+
 				set_politics = {
 					  ruling_party = social_democrat
 					  elections_allowed = no
@@ -842,7 +1028,18 @@ country_event = {
 		custom_effect_tooltip = "UA3_NASIA"
 		hidden_effect = {
 			BGD = {
-				puppet = UA3
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = UA3
+						autonomy_state = autonomy_committee_state
+					}
+				}
+				else = {
+					puppet = UA3
+				}
 
 				remove_state_core = 791
 				remove_state_core = 341
@@ -948,13 +1145,68 @@ country_event = {
 					picture = "gfx/leaders/BGD/generals/BGD_kanon_2.png"
 					ideology = kirakira_dokidoki
 					traits = {
+						west_asia_magistrate
+						loyal_to_the_alliance
 					}
 				}
+				add_ideas = BGD_asia_committee
 				set_party_name = {
 					ideology = social_democrat
 					long_name = asia_social_democrat_long
 					name = asia_social_democrat
 				}
+
+				set_party_name = {
+					ideology = totalitarian_socialist 
+					long_name = asia_totalitarian_socialist_party_long
+					name = asia_totalitarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = communist 
+					   long_name = asia_communist_party_long
+					   name = asia_communist_party
+				}
+				set_party_name = {
+					   ideology = libertarian_socialist 
+					   long_name = asia_libertarian_socialist_party_long
+					   name = asia_libertarian_socialist_party
+				}
+				set_party_name = {
+					   ideology = social_liberal 
+					   long_name = asia_social_liberal_party_long
+					   name = asia_social_liberal_party
+				}
+				set_party_name = {
+					   ideology = market_liberal 
+					   long_name = asia_market_liberal_party_long
+					   name = asia_market_liberal_party
+				}
+				set_party_name = {
+					   ideology = conservative 
+					   long_name = asia_conservative_party_long
+					   name = asia_conservative_party
+				}
+				set_party_name = {
+					   ideology = authoritarian_democrat 
+					   long_name = asia_authoritarian_democrat_party_long
+					   name = asia_authoritarian_democrat_party
+				}
+				set_party_name = {
+					   ideology = nationalist 
+					   long_name = asia_nationalist_party_long
+					   name = asia_nationalist_party
+				}
+				set_party_name = {
+					   ideology = fascist 
+					   long_name = asia_fascist_party_long
+					   name = asia_fascist_party
+				}
+				set_party_name = {
+					   ideology = national_socialist 
+					   long_name = asia_national_socialist_party_long
+					   name = asia_national_socialist_party
+				}
+
 				set_politics = {
 					  ruling_party = social_democrat
 					  elections_allowed = no

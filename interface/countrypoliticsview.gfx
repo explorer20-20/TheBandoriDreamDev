@@ -839,5 +839,10 @@ spriteTypes = { #NVX# Tag for changes
 		texturefile = "gfx/interface/other/BGD_RBE_large.png" 
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_autonomy_committee_state_icon"
+		textureFile = "gfx/interface/autonomy/committee_state.png"
+	}
 	
 }
