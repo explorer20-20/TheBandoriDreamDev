@@ -34,6 +34,11 @@ ideas = {
 			 	political_power_factor = 0.15
 			 	stability_weekly = 0.05
 				research_speed_factor = 0.2
+				#political_power_gain = 1
+				#misc_income = 10
+				#personal_value_factor = 0.1
+				#tax_business_rate_factor = 0.1
+				#tax_personal_rate_factor = 0.1
 			}
 		}
 

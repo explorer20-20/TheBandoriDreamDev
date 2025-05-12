@@ -1,0 +1,6 @@
+tfr_japan = {
+	OR = {
+		tag = JAP
+		tag = BGD
+	}
+}
