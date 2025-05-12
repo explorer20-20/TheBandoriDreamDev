@@ -1829,6 +1829,10 @@ country_event = {
 				type = annex_everything
 				target = PER
 			}
+			create_wargoal = {
+				type = annex_everything
+				target = AFG
+			}
 		}
 		hidden_effect = {
 			FIA = {

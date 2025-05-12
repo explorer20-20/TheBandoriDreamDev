@@ -88,6 +88,22 @@ debug_decisions = {
 			}
 		}
 	}
+	JAP_fuck_huangrenxun = {
+		icon = generic_industry
+		fire_only_once = no
+		cost = 0
+		allowed = {
+			tag = JAP
+		}
+		visible = {
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			add_ideas = BGD_NVIDIA
+		}
+	}
 
 	JAP_load_liberal_tree_debug = {
 		icon = generic_industry

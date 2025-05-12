@@ -1,4 +1,4 @@
-BGD_riben_neizhan = {
+BGD_riben_neizhan = { #日本内战决议
 	BGD_anfu_renmin = {
 
 		priority = 1
@@ -164,7 +164,7 @@ BGD_riben_neizhan = {
 		}
 	}
 }
-BGD_chongjian_guojia = {
+BGD_chongjian_guojia = { #国家重建决议
 	BGD_chongjian_zhongbu = {
 
 		priority = 1
@@ -485,7 +485,7 @@ BGD_chongjian_guojia = {
 		}
 	}
 }
-BGD_guojia_gaige = {
+BGD_guojia_gaige = { #国家改革决议
 	BGD_qvxiao_fuqi_tongxing = {
 
 		priority = 1
@@ -1331,7 +1331,7 @@ BGD_guojia_gaige = {
 		}
 	}
 }
-BGD_quanli_pingheng = {
+BGD_quanli_pingheng = { #BOP
 	BGD_xuanchuan_shanyao = {
 
 		priority = 1
@@ -1357,7 +1357,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 
 		modifier = {
@@ -1405,7 +1405,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 
 		modifier = {
@@ -1451,7 +1451,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 
 		modifier = {
@@ -1496,7 +1496,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 
 		modifier = {
@@ -1542,7 +1542,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 
 		modifier = {
@@ -1588,7 +1588,7 @@ BGD_quanli_pingheng = {
         }
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 
 		modifier = {
@@ -1623,6 +1623,9 @@ BGD_quanli_pingheng = {
 		
 		allowed = {
 			tag = BGD
+			BGD = {
+				is_ai = no
+			}
 		}
 
 		activation = {
@@ -1631,6 +1634,9 @@ BGD_quanli_pingheng = {
 
 		available = {
 			has_country_flag = BGD_minzhen_wajie
+			BGD = {
+				is_ai = no
+			}
 		}
 
         is_good = no
@@ -1691,7 +1697,7 @@ BGD_quanli_pingheng = {
 		}
 	}
 }
-BGD_jita_yingxiang = {
+BGD_jita_yingxiang = { #神秘力量
 	BGD_jita_bianhua = {
 
 		priority = 1
@@ -1733,7 +1739,7 @@ BGD_jita_yingxiang = {
 		}
 	}
 }
-BGD_junshi_gaige = {
+BGD_junshi_gaige = { #军事改革决议
 	BGD_lujun_xunlian = {
 
 		priority = 1
@@ -1993,7 +1999,7 @@ BGD_junshi_gaige = {
 		}
 	}
 }
-BGD_jingji_gongzuo = {
+BGD_jingji_gongzuo = { #经济建设决议
 	BGD_jiashui = {
 
 		priority = 1
@@ -3488,7 +3494,7 @@ BGD_jingji_gongzuo = {
 		}
 	}
 }
-BGD_guojia_waijiao = {
+BGD_guojia_waijiao = { #外交决议
 	BGD_yaoqing_taiguo = {
 
 		priority = 1
@@ -4939,7 +4945,7 @@ BGD_guojia_waijiao = {
 		}
 	}
 }
-BGD_dadongya_zhanzheng = {
+BGD_dadongya_zhanzheng = { #GAW
 	BGD_heping_daolai = {
 
 		priority = 1
@@ -4988,7 +4994,7 @@ BGD_dadongya_zhanzheng = {
 		}
 	}
 }
-BGD_quanguo_xunyan = {
+BGD_quanguo_xunyan = { #做band dream
 	BGD_jianli_yidong_zhengfu = {
 
 	priority = 1
@@ -5370,7 +5376,7 @@ BGD_quanguo_xunyan = {
 	}
 	}
 }
-BGD_shaonv_paifa = {
+BGD_shaonv_paifa = { #Circle齐聚一堂
 	BGD_ppp_tuanjie_shehui = {
 
 	priority = 7
