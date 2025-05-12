@@ -1,0 +1,33 @@
+country_event = {
+	id = nsm.27
+	title = nsm.27.t
+	desc = nsm.27.d
+	picture = GFX_nsm_johncar
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USN
+	}
+	immediate = {
+	}
+	option = {
+		#Decline
+		name = nsm.27.a
+		ai_chance = {
+			base = 1
+		}
+		country_event = {
+			id = nsm.28
+			days = 3
+		}
+	}
+	option = {
+		#Accept
+		name = nsm.27.b
+		ai_chance = {
+			base = 0
+		}
+		hidden_effect = {
+		}
+	}
+}
