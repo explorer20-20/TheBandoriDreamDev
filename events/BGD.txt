@@ -275,7 +275,7 @@ country_event = {
 		add_timed_idea = {
 				idea = BGD_jingyan_buzu	
 				days = 400
-			}				
+		}				
 		country_event = {
 			id = bgd.34
 			hours = 24
@@ -597,7 +597,7 @@ country_event = {
 		add_to_variable = { BGD_neizhan_feixv_industrial_capacity_dockyard = -0.4 }
 		effect_tooltip = {
 			add_ideas = BGD_neizhan_feixv_0
-			}
+		}
 		load_focus_tree = TFR_tree_BGD_afterwar
 		remove_ideas = BGD_mingyun_zhizhan
 		country_event = {
