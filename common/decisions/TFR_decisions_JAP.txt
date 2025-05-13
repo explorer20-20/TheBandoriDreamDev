@@ -88,7 +88,158 @@ debug_decisions = {
 			}
 		}
 	}
-
+	JAP_fuck_huangrenxun = {
+		icon = generic_industry
+		fire_only_once = no
+		cost = 0
+		allowed = {
+			tag = JAP
+		}
+		visible = {
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			add_ideas = BGD_NVIDIA
+		}
+	}
+	#闪耀党直接上台
+	JAP_KSM_get_the_role_of_the_japan = {
+		icon = generic_industry
+		fire_only_once = no
+		cost = 0
+		allowed = {
+			tag = JAP
+		}
+		visible = {
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			BGD = {
+				hidden_effect = {
+					set_politics = {
+						ruling_party = social_democrat
+       	 				election_frequency = 48
+						elections_allowed = yes
+						last_election = "2021.10.31"
+					}
+					set_popularities = {
+						libertarian_socialist = 20
+						communist = 11
+						totalitarian_socialist = 5
+						social_democrat = 48
+						social_liberal = 6
+						market_liberal = 5
+						conservative = 3
+						authoritarian_democrat = 2
+						}
+					set_party_name = {
+						ideology = libertarian_socialist
+						long_name = JAP_totalitarian_socialist_party_long
+						name = JAP_totalitarian_socialist_party
+					}
+					set_party_name = {
+						ideology = social_democrat
+						long_name = JAP_totalitarian_socialist_party_long
+						name = JAP_totalitarian_socialist_party
+					}
+					set_party_name = {
+						ideology = social_liberal
+						long_name = JAP_totalitarian_socialist_party_long
+						name = JAP_totalitarian_socialist_party
+					}
+					set_party_name = {
+						ideology = market_liberal
+						long_name = JAP_totalitarian_socialist_party_long
+						name = JAP_totalitarian_socialist_party
+					}
+					set_party_name = {
+						ideology = communist
+						long_name = JAP_totalitarian_socialist_party_long
+						name = JAP_totalitarian_socialist_party
+					}
+					set_country_flag = JAP_military_coup_flag
+					add_popularity = {
+						ideology = fascist
+						popularity = 0.07
+					}
+					add_popularity = {
+						ideology = national_socialist
+						popularity = 0.025
+					}
+					clr_country_flag = JAP_kasai_elected
+					clr_country_flag = JAP_koike_elected
+					clr_country_flag = JAP_nagatsuma_elected
+					clr_country_flag = JAP_shii_elected_eco
+					clr_country_flag = JAP_fukushima_elected
+					clr_country_flag = JAP_izumi_elected
+					clr_country_flag = JAP_tamaki_elected
+					clr_country_flag = JAP_matsui_elected
+					clr_country_flag = JAP_kushibuchi_elected
+					set_country_flag = BGD_shenmi_jita_yingxiang
+					set_cosmetic_tag = BGD_ziyou_zhenxian
+					add_ideas = BGD_shenmi_jita_1
+					add_timed_idea = {
+						idea = BGD_jingyan_buzu	
+						days = 400
+					}
+					add_dynamic_modifier = {
+						modifier = BGD_neizhan_feixv
+					}
+					add_ideas = BGD_arisa
+					add_ideas = BGD_tae
+					add_ideas = BGD_saaya
+					add_ideas = BGD_rimi
+					add_ideas = BGD_nanami
+					add_ideas = BGD_yukina	
+					load_focus_tree = TFR_tree_BGD_afterwar
+					country_event = {
+						id = bgd.39
+						hours = 72
+					}
+					news_event = {
+						id = news.1215
+						hours = 24
+					}
+					hidden_effect = {
+						add_dynamic_modifier = {
+							modifier = BGD_neizhan_feixv
+						}
+						country_event = {
+						id = bgd.47
+						days = 18
+					}
+					country_event = {
+						id = bgd.48
+						days = 20
+					}
+					country_event = {
+						id = bgd.52
+						days = 30
+					}
+					country_event = {
+						id = bgd.58
+						days = 40
+					}		
+				}
+				annex_country = {
+					target = JAP
+					transfer_troops = yes
+				}
+				every_controlled_state = {
+					limit = {
+						is_core_of = JAP
+					}
+					add_core_of = BGD
+				}
+				change_tag_from = ROOT
+				add_political_power = 200
+			}
+		}
+	}
 	JAP_load_liberal_tree_debug = {
 		icon = generic_industry
 		fire_only_once = no
@@ -131,6 +282,7 @@ debug_decisions = {
 			}
 		}
 	}
+}
 }
 JAP_national_diet_category = {
 	JAP_election_mission = {

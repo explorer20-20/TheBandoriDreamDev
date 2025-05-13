@@ -1,0 +1,123 @@
+add_namespace = usb
+
+
+country_event = {
+	id = usb.21
+	title = usb.21.t
+	desc = usb.21.desc
+	picture = GFX_USB_congress_3
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USB
+	}
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = USN
+				}
+				add_core_of = USB
+				remove_core_of = USN
+			}
+			USA_civil_war_over = yes
+			set_cosmetic_tag = USB_reunified
+			set_country_flag = USB_reunified_flag
+			focus_unlock = yes
+			#country_event = {
+			#	id = usb.46
+			#	days = 45
+			#	random_days = 35
+			#}
+			if = {
+				limit = {
+					has_country_leader = {
+						character = USB_joe_biden_char
+						ruling_only = yes
+					}
+				}
+				news_event = {
+					id = news.134
+					hours = 6
+				}
+			}
+			else = {
+				news_event = {
+					id = news.134
+					hours = 6
+				}
+			}
+		}
+	}
+	option = {
+		name = usb.21.a
+		effect_tooltip = {
+			focus_unlock = yes
+		}
+	}
+}
+
+country_event = {
+	id = usb.23
+	title = usb.23.t
+	desc = usb.23.desc
+	picture = GFX_USB_Bloomberg
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USB
+	}
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = USA_american_civil_war_global
+			clr_global_flag = USA_shattered_union_global
+			set_global_flag = USA_american_civil_war_over_global
+			set_cosmetic_tag = USB_corpo
+			USA_civil_war_over = yes
+			every_state = {
+				limit = {
+					is_core_of = USN
+				}
+				add_core_of = USB
+				remove_core_of = USN
+			}
+			#country_event = {
+			#	id = usb.46
+			#	days = 45
+			#	random_days = 35
+			#}
+			delete_unit_template_and_units = {
+				division_template = "Volunteer Militia"
+			}
+			delete_unit_template_and_units = {
+				division_template = "Motorized Militia"
+			}
+			focus_unlock = yes
+			if = {
+				limit = {
+					has_country_leader = {
+						character = USB_michael_bloomberg_char
+						ruling_only = yes
+					}
+					has_government = authoritarian_democrat
+				}
+				news_event = {
+					id = news.134
+					hours = 6
+				}
+				set_portraits = {
+					character = USB_michael_bloomberg_char
+					civilian = {
+						large = "gfx/leaders/USB/USB_mike_bloomberg1.png"
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = usb.23.a
+		effect_tooltip = {
+			focus_unlock = yes
+		}
+	}
+}

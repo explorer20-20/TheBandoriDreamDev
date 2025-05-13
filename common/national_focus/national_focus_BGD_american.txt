@@ -24,7 +24,7 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_hawaii_negotiations
 	}
-	x = 41
+	x = 39
 	y = 1
 	available = {
 		NOT = {
@@ -43,7 +43,7 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_PH_Forward_Base
 	}
-	x = 41
+	x = 38
 	y = 2
 	available = {
 		NOT = {
@@ -78,13 +78,10 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {
-		focus = BGD_Task_Force_Liberty
+		focus = BGD_PH_Forward_Base
 	}
-	prerequisite = {
-		focus = BGD_Msr_Diplomatic_Initiative
-	}
-	x = 41
-	y = 3
+	x = 40
+	y = 2
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -105,8 +102,11 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_Butterfly_and_Eagle
 	}
+	prerequisite = {
+		focus = BGD_Expeditionary_Fleet_Sets_Sail
+	}
 	x = 41
-	y = 4
+	y = 3
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -139,7 +139,7 @@ shared_focus = {
 		focus = BGD_West_Coast_Offensive
 	}
 	x = 40
-	y = 5
+	y = 4
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -158,7 +158,7 @@ shared_focus = {
 		focus = BGD_West_Coast_Offensive
 	}
 	x = 42
-	y = 5
+	y = 4
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -180,7 +180,7 @@ shared_focus = {
 		focus = BGD_Contact_Federal_Remnants
 	}
 	x = 41
-	y = 6
+	y = 5
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -207,10 +207,10 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {
-		focus = BGD_PH_Forward_Base
+		focus = BGD_hawaii_negotiations
 	}
-	x = 45
-	y = 2
+	x = 43
+	y = 1
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -228,11 +228,9 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_Msr_Diplomatic_Initiative
 	}
-	prerequisite = {
-		focus = BGD_Task_Force_Liberty
-	}
-	x = 45
-	y = 3
+
+	x = 42
+	y = 2
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -248,13 +246,10 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {
-		focus = BGD_Project_Daylight
+		focus = BGD_Msr_Diplomatic_Initiative
 	}
-	prerequisite = {
-		focus = BGD_Expeditionary_Fleet_Sets_Sail
-	}
-	x = 45
-	y = 4
+	x = 44
+	y = 2
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -275,8 +270,8 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_West_Coast_Offensive
 	}
-	x = 45
-	y = 5
+	x = 44
+	y = 4
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -304,8 +299,8 @@ shared_focus = {
 	prerequisite = {
 		focus = BGD_West_Coast_Offensive
 	}
-	x = 45
-	y = 6
+	x = 44
+	y = 5
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -324,8 +319,8 @@ shared_focus = {
 	cost = 3
 	prerequisite = {focus = BGD_Cultural_Exchange_Humanitarian_Aid}
 	prerequisite = {focus = BGD_Restarting_the_City_of_Angels}
-	x = 43
-	y = 7
+	x = 41
+	y = 6
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -342,8 +337,8 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {focus = BGD_California_under_New_Order}
-	x = 43
-	y = 8
+	x = 41
+	y = 7
 	available = {
 		NOT = {
 			has_global_flag = USA_american_civil_war_over_global
@@ -359,8 +354,8 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {focus = BGD_Take_The_East}
-	x = 43
-	y = 9
+	x = 41
+	y = 8
 	available = {
 		#has_global_flag = USA_american_civil_war_over_global
 		USN = {
@@ -405,8 +400,8 @@ shared_focus = {
 	cost = 3
 	prerequisite = {focus = BGD_The_Chicago_Denver_Conference}
 	mutually_exclusive = { focus = BGD_Rebuilding_the_Federation }
-	x = 44
-	y = 10
+	x = 42
+	y = 9
 	available = {
 		has_country_flag = The_New_Pacific_Charter
 	}
@@ -421,8 +416,8 @@ shared_focus = {
 	cost = 3
 	prerequisite = {focus = BGD_The_Chicago_Denver_Conference}
 	mutually_exclusive = { focus = BGD_The_New_Pacific_Charter }
-	x = 42
-	y = 10
+	x = 40
+	y = 9
 	available = {
 		has_country_flag = Rebuilding_the_Federation
 	}
@@ -436,8 +431,8 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {focus = BGD_The_New_Pacific_Charter}
-	x = 44
-	y = 11
+	x = 42
+	y = 10
 	available = {
 	}
 	completion_reward = {
@@ -450,8 +445,8 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {focus = BGD_Rebuilding_the_Federation}
-	x = 42
-	y = 11
+	x = 40
+	y = 10
 	available = {
 	}
 	completion_reward = {
@@ -465,8 +460,8 @@ shared_focus = {
 	cost = 3
 	prerequisite = {focus = BGD_Americas_Garrison_Agreement
 					focus = BGD_Lets_Go_Freedom}
-	x = 43
-	y = 12
+	x = 41
+	y = 11
 	available = {
 	}
 	completion_reward = {
@@ -479,8 +474,8 @@ shared_focus = {
 	icon = GFX_guoce_zhanwei
 	cost = 3
 	prerequisite = {focus = BGD_Economic_Penetration}
-	x = 43
-	y = 13
+	x = 41
+	y = 12
 	available = {
 	}
 	completion_reward = {

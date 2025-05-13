@@ -1,0 +1,68 @@
+add_namespace = usc
+
+country_event = {
+	id = usc.1
+	title = usc.1.t
+	desc = usc.1.desc
+	picture = GFX_report_USA_flag
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USC
+	}
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: event usc.1 immediate"
+			every_state = {
+				limit = {
+					is_core_of = USN
+				}
+				add_core_of = USC
+				remove_core_of = USN
+			}
+			USA_civil_war_over = yes
+			set_cosmetic_tag = USC_reunified
+			set_country_flag = USC_reunified_flag
+			set_capital = {
+				state = 931
+				remember_old_capital = no
+			}
+			focus_unlock = yes
+			if = {
+				limit = {
+					has_country_leader = {
+						character = USC_donald_trump_char
+						ruling_only = yes
+					}
+					has_country_flag = USC_populist_king_flag
+					has_government = conservative
+				}
+				news_event = {
+					id = news.553
+					hours = 6
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = authoritarian_democrat
+				}
+				news_event = {
+					id = news.138
+					hours = 6
+				}
+			}
+			else = {
+				news_event = {
+					id = news.133
+					hours = 6
+				}
+			}
+		}
+	}
+	option = {
+		name = usc.1.a
+		effect_tooltip = {
+			focus_unlock = yes
+		}
+	}
+}

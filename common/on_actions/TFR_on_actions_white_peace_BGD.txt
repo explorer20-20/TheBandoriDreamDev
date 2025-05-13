@@ -1,0 +1,120 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+			set_global_flag = show_peace_popup_alert
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
+			log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+			if = {
+				limit = {
+					event_target:losing_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:losing_country
+						}
+					}
+				}
+				set_global_flag = losing_country_multiple
+			}
+			if = {
+				limit = {
+					event_target:winning_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:winning_country
+						}
+					}
+				}
+				set_global_flag = winning_country_multiple
+			}
+			if = {
+				# FPR kill CYP
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = BGD
+							is_ally_with = BGD
+						}
+					}
+					ROOT = {
+						original_tag = USB
+						original_tag = USC
+						original_tag = APA
+						original_tag = ATW
+						original_tag = PTF
+						original_tag = NSM
+					}
+				}
+				FROM = {
+					white_peace = ROOT
+					USN = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+				}
+				set_global_flag = skip_default_capitulation
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if = {
+	#ksm乱杀老美
+	limit = {
+		FROM= {
+			OR = {
+				original_tag = BGD
+				is_ally_with = BGD
+			}
+		}
+		ROOT = {
+			original_tag = USB
+			original_tag = USC
+			original_tag = APA
+			original_tag = ATW
+			original_tag = PTF
+			original_tag = NSM
+		}
+	}
+	FROM = {
+		white_peace = ROOT
+		USN = {
+			annex_country = {
+				tag = ROOT
+				transfer_troops = no
+			}
+		}
+	}
+	set_global_flag = skip_default_capitulation
+	}
