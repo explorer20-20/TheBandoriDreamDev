@@ -1,20 +1,53 @@
 spriteTypes = {
 
-	
-spriteType = {
-	name = "GFX_bang_quanguo_xunyan_1"
-	texturefile = "gfx\texticons\banners\decisions\bang_quanguo_xunyan_1.png"
-	legacy_lazy_load = no
-    }
-spriteType = {
-	name = "GFX_bang_ppp_kiraism"
-	texturefile = "gfx\texticons\banners\ideology\bang_ppp_kiraism.png"
-	legacy_lazy_load = no
-    }
-spriteType = {
-	name = "GFX_idea_kiradoki_picture"
-	texturefile = "gfx\event_pictures\idea_kiradoki_picture.png"
-	legacy_lazy_load = no
-    }
+
+	spriteType = {
+		name = "GFX_bang_quanguo_xunyan_1"
+		texturefile = "gfx\texticons\banners\decisions\bang_quanguo_xunyan_1.png"
+		legacy_lazy_load = no
+	    }
+	spriteType = {
+		name = "GFX_bang_ppp_kiraism"
+		texturefile = "gfx\texticons\banners\ideology\bang_ppp_kiraism.png"
+		legacy_lazy_load = no
+	    }
+	spriteType = {
+		name = "GFX_idea_kiradoki_picture"
+		texturefile = "gfx\event_pictures\idea_kiradoki_picture.png"
+		legacy_lazy_load = no
+	    }
+
+	spriteType = {
+		name = "GFX_BGD_Arisa"
+		texturefile = "gfx\leaders\BGD\ppp\BGD_arisa_1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BGD_Rimi"
+		texturefile = "gfx\leaders\BGD\ppp\BGD_rimi_1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BGD_Tae"
+		texturefile = "gfx\leaders\BGD\ppp\BGD_tae_1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BGD_Saaya"
+		texturefile = "gfx\leaders\BGD\ppp\BGD_saaya_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_BGD_yukina"
+		texturefile = "gfx\leaders\BGD\generals\BGD_yukina_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_BGD_nanami"
+		texturefile = "gfx\leaders\BGD\morfonica\BGD_nnm.png"
+		legacy_lazy_load = no
+	}
 }
 

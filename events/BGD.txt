@@ -776,6 +776,7 @@ country_event = {
 		set_variable = { popular_support = 79 }
 		set_variable = { party_support = 91 }
 		set_variable = { supernatural_attunement = 55 }
+		set_country_flag = c_var_update
 		custom_effect_tooltip = BGD_shaonv_neige_qiyong_tt
 	}
 }

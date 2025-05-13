@@ -428,4 +428,10 @@ spriteTypes = {
 		name = "GFX_BGD_modern_large_airframe_medium"
 		texturefile = "gfx/interface/technologies/aircraft/Zeus_MARK_II.png"
 	}
+
+
+	SpriteType = {
+		name = "GFX_goal_generic_air_fighter_BGD"
+		texturefile = "gfx/interface/technologies/super/Tsurumaki_Michelle_Armor.png"
+	}
 }

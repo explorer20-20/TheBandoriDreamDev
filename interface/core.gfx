@@ -815,14 +815,14 @@ bitmapfonts = {
 		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
 
 		#Poppin'Party
-		D = { 255 85 34 }#Kasumi
-		E = { 170 102 221 }#Arisa
-		F = { 255 204 17 }#Saaya
-		J = { 0 119 221 }#Tae
-		K = { 255 85 187 }#Rimi
+		D = { 255 85 34 } #Kasumi
+		E = { 170 102 221 } #Arisa
+		F = { 255 204 17 } #Saaya
+		J = { 0 119 221 } #Tae
+		K = { 255 85 187 } #Rimi
 
-		M = { 247 49 115 }#PPP-Color1
-		N = { 247 214 231 }#PPP-Color2
+		M = { 247 49 115 } #PPP-Color1
+		N = { 247 214 231 } #PPP-Color2
 	}
 
 

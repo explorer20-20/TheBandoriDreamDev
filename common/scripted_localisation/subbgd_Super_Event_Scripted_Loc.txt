@@ -3,6 +3,7 @@
 		text = { 
 			trigger = {
 				has_country_flag = bang_landing_moon
+				NOT = { has_country_flag = close_moon_super_window }
 			}
 			localization_key = "日本自由共和国成功登月"
 		}
@@ -963,6 +964,7 @@
 		text = { 
 			trigger = {
 				has_country_flag = bang_landing_moon
+				NOT = { has_country_flag = close_moon_super_window }
 			}
 			localization_key = "喵。"
 		}
