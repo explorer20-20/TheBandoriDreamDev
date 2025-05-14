@@ -49,5 +49,16 @@ spriteTypes = {
 		texturefile = "gfx\leaders\BGD\morfonica\BGD_nnm.png"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_BGD_army_flag"
+		texturefile = "gfx\texticons\banners\flags\BGD_army_flag.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_BGD_POTFRJ_flag"
+		texturefile = "gfx\texticons\banners\flags\POTFRJ_flag.png"
+		legacy_lazy_load = no
+	}
 }
 

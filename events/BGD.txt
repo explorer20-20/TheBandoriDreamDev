@@ -1004,15 +1004,15 @@ country_event = {
 			hidden_effect = {
 			dismantle_faction = yes
 			set_politics = {
-				ruling_party = nationalist
+				ruling_party = totalitarian_socialist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = nationalist
+				ideology = totalitarian_socialist
 				popularity = 0.75
 			}
 			set_party_name = {
-				ideology = nationalist
+				ideology = totalitarian_socialist
 				long_name = EAS_dongya_guojiadang_long
 				name = EAS_dongya_guojiadang
 			}
@@ -1021,7 +1021,7 @@ country_event = {
 					name = "BGD_shounao_char"
 					desc = "BGD_SHOUNAO_DESC"
 					picture = GFX_portrait_shounao
-					ideology = autocrat
+					ideology = transhumanism
 					traits = {
 					}
 					}

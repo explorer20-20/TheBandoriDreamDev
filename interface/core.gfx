@@ -1754,6 +1754,13 @@ bitmapfonts = {
             "gfx/fonts/hoi_mapfont4"
 			"gfx/fonts/chinese/CN_mapfont_0"
 			"gfx/fonts/chinese/CN_mapfont_1"
+			"gfx/fonts/chinese/CN_mapfont_2"
+			"gfx/fonts/chinese/CN_mapfont_3"
+			"gfx/fonts/chinese/CN_mapfont_4"
+			"gfx/fonts/chinese/CN_mapfont_5"
+			"gfx/fonts/chinese/CN_mapfont_6"
+			"gfx/fonts/chinese/CN_mapfont_7"
+			"gfx/fonts/chinese/CN_mapfont_8"
         }
 		languages = { "l_simp_chinese"}
 	}
