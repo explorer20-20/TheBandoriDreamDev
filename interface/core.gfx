@@ -815,14 +815,14 @@ bitmapfonts = {
 		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
 
 		#Poppin'Party
-		D = { 255 85 34 }#Kasumi
-		E = { 170 102 221 }#Arisa
-		F = { 255 204 17 }#Saaya
-		J = { 0 119 221 }#Tae
-		K = { 255 85 187 }#Rimi
+		D = { 255 85 34 } #Kasumi
+		E = { 170 102 221 } #Arisa
+		F = { 255 204 17 } #Saaya
+		J = { 0 119 221 } #Tae
+		K = { 255 85 187 } #Rimi
 
-		M = { 247 49 115 }#PPP-Color1
-		N = { 247 214 231 }#PPP-Color2
+		M = { 247 49 115 } #PPP-Color1
+		N = { 247 214 231 } #PPP-Color2
 	}
 
 
@@ -1754,6 +1754,13 @@ bitmapfonts = {
             "gfx/fonts/hoi_mapfont4"
 			"gfx/fonts/chinese/CN_mapfont_0"
 			"gfx/fonts/chinese/CN_mapfont_1"
+			"gfx/fonts/chinese/CN_mapfont_2"
+			"gfx/fonts/chinese/CN_mapfont_3"
+			"gfx/fonts/chinese/CN_mapfont_4"
+			"gfx/fonts/chinese/CN_mapfont_5"
+			"gfx/fonts/chinese/CN_mapfont_6"
+			"gfx/fonts/chinese/CN_mapfont_7"
+			"gfx/fonts/chinese/CN_mapfont_8"
         }
 		languages = { "l_simp_chinese"}
 	}

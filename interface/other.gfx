@@ -1,0 +1,11 @@
+spriteTypes = {
+    frameAnimatedSpriteType = {
+        name = "GFX_kasumi_and_arisa"
+        texturefile = "gfx\interface\other\kasumi_and_arisa.dds"
+        noOfFrames = 4
+        animation_rate_fps = 20.0
+        looping = yes
+        play_on_show = yes
+		always_transparent = yes
+    }
+}
