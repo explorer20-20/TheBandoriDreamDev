@@ -1,0 +1,323 @@
+focus_tree = {
+	id = SOV_miside_focus
+	country = { 
+		base = 0
+	}
+
+
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+	focus = {
+		id = BGD_jianli_guofangjun
+		icon = GFX_jianli_fangweijun
+		cost = 4
+		x = -4
+		y = 0
+		available = {
+			has_country_flag = BGD_shanyaodang_dangxuan
+		}
+		completion_reward = {
+			effect_tooltip = {
+				add_ideas = BGD_guomin_fangweijun_1
+			}
+		}
+	}
+}
