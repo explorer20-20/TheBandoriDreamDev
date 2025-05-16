@@ -122,7 +122,6 @@ country_event = {
 				long_name = SOV_miside_ai_long
 				name = SOV_miside_ai_name
 			}
-			recruit_character = SOV_miside
 			set_cosmetic_tag = SOV_miside
 			create_country_leader = {
 				name = "SOV_mita_char"
@@ -136,7 +135,7 @@ country_event = {
 	}
 	option = {
 		name = SOV_miside_ai.8.a
-		add_ideas = SOV_miside_buff
+		#add_ideas = SOV_miside_buff
 		add_stability = -1
 		add_war_support = -1
 		load_focus_tree = SOV_miside_focus
