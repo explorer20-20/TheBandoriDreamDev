@@ -50,6 +50,10 @@ on_actions = {
 				}
 				FROM = {
 					white_peace = ROOT
+					ROOT = {
+						dismantle_faction = yes
+						leave_faction = yes
+					}
 					USN = {
 						annex_country = {
 							target = ROOT
