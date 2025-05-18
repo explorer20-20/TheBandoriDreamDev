@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
 setupmemubgd: "此国家为邦多利之梦主战场"
 reconstruction_completed: "重建完成"
+JAP_KSM_get_the_role_of_the_japan: "§D户山香澄§!直接肘赢自民党"
 BGD_RBE_TT: "§Y资源导向型经济§!"
 BGD_RBE_TT_LONG: "§g资源导向型经济是一种构想中的社会经济体系模式。它的核心理念是，地球上的所有资源都应被视为全人类的共同财富，并运用最先进的科学技术进行智能化的管理、监测和分配，其最终目标是直接满足所有人的需求，而非通过货币、信贷、交易或任何基于债务的系统来运作。§!\n§g在这种体系下，金钱将不再存在，因为它被认为是造成人为稀缺、社会阶层分化、冲突以及环境破坏等诸多问题的根源。取而代之的是，决策将基于资源的实际可用性、技术的可行性以及对生态可持续性和人类福祉的全面考量。它设想建立一个全球性的计算机化系统，能够实时追踪地球的资源储量、环境承载能力、生产设施状况以及全球人口的需求动态§!\n\n\n\n\n£GFX_BGD_RBE_large\n\n\n\n\n\n£political_power_texticon 政治点数获得：§G+25.0%§!\n£consumer_goods_texticon 生活消费品产出修正：§G-45.0%§!\n£prod_eff_output 生产效率修正：§G+35.0%§!\n£dockyard_output_texticon 造船厂产出修正：§G+35.0%§!\n£construction_speed_texticon 建造速度：§G+30.0%§!\n£research_speed_texticon 科研速度：§G+20.0%§!\n£manpower_texticon 每周人力：§G+1500§!\n£construction_speed_building_texticon 建筑建造速度：§G+50.0%§!\n£resistance_texticon 抵抗度目标值：§G-15.0%§!\n£stability_texticon 稳定度修正：§G+30.0%§!\n£war_support_texticon 战争支持度修正：§G+20.0%§!"
 BGD_RBE_economy: "§Y资源导向型经济§!"

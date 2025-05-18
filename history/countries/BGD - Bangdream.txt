@@ -27,6 +27,10 @@ recruit_character = BGD_masking_char
 recruit_character = BGD_lock_char
 recruit_character = BGD_pareo_char
 
+recruit_character = BGD_Tsukushi_char
+recruit_character = BGD_Rui_char
+recruit_character = BGD_Nanami_char
+
 set_technology = {
 	## Infantry ##
 	

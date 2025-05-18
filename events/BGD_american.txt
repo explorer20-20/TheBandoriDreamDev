@@ -254,36 +254,70 @@ country_event = {
 	option = {
 		name = usnavy.7.a
 		BGD = {
-			create_field_marshal = {
-				name = Nanami
-				portrait_path = GFX_portrait_Nanami
+			set_country_flag = BGD_Morfonica_Commander
+			add_field_marshal_role = {
+				Character = BGD_nanami_char
 				skill = 4
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 3
 				logistics_skill = 3
-				traits = { shaonv_yvgangtie }
+				traits = {
+					shaonv_yvgangtie
+				}
 			}
-			create_corps_commander = {
-				name = Rui
-				portrait_path = GFX_portrait_Rui
+			add_corps_commander_role = {
+				Character = BGD_Rui_char
 				skill = 3
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 3
 				logistics_skill = 3
-				traits = { shaonv_yvgangtie }
+				traits = {
+					shaonv_yvgangtie
+				}
 			}
-			create_corps_commander = {
-				name = Tsukushi
-				portrait_path = GFX_portrait_Tsukushi
+			add_corps_commander_role = {
+				Character = BGD_Tsukushi_char
 				skill = 3
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 3
 				logistics_skill = 3
-				traits = { shaonv_yvgangtie }
+				traits = {
+					shaonv_yvgangtie
+				}
 			}
+			#create_field_marshal = {
+			#	name = Nanami
+			#	portrait_path = GFX_portrait_Nanami
+			#	skill = 4
+			#	attack_skill = 3
+			#	defense_skill = 3
+			#	planning_skill = 3
+			#	logistics_skill = 3
+			#	traits = { shaonv_yvgangtie }
+			#}
+			#create_corps_commander = {
+			#	name = Rui
+			#	portrait_path = GFX_portrait_Rui
+			#	skill = 3
+			#	attack_skill = 3
+			#	defense_skill = 3
+			#	planning_skill = 3
+			#	logistics_skill = 3
+			#	traits = { shaonv_yvgangtie }
+			#}
+			#create_corps_commander = {
+			#	name = BGD_Tsukushi
+			#	portrait_path = GFX_portrait_Tsukushi
+			#	skill = 3
+			#	attack_skill = 3
+			#	defense_skill = 3
+			#	planning_skill = 3
+			#	logistics_skill = 3
+			#	traits = { shaonv_yvgangtie }
+			#}
 		}
 		USN = {
 			hidden_effect = {
