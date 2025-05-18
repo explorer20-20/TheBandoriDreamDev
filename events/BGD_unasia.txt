@@ -594,6 +594,53 @@ country_event = {
 				add_core_of = 409
 			}
 
+			SOV = {
+				remove_state_core = 570
+				remove_state_core = 914
+				remove_state_core = 583
+				remove_state_core = 582
+				remove_state_core = 403
+				remove_state_core = 653
+				remove_state_core = 580
+				remove_state_core = 579
+				remove_state_core = 590
+				remove_state_core = 403
+				remove_state_core = 577
+				remove_state_core = 588
+				remove_state_core = 571
+				remove_state_core = 403
+				remove_state_core = 578
+				remove_state_core = 572
+				remove_state_core = 40
+				remove_state_core = 654
+				remove_state_core = 569
+				remove_state_core = 575
+				remove_state_core = 568
+				remove_state_core = 576
+				remove_state_core = 644
+				remove_state_core = 655
+				remove_state_core = 562
+				remove_state_core = 637
+				remove_state_core = 561
+				remove_state_core = 574
+				remove_state_core = 563
+				remove_state_core = 564
+				remove_state_core = 566
+				remove_state_core = 567
+				remove_state_core = 565
+				remove_state_core = 516
+				remove_state_core = 129
+				remove_state_core = 329
+				remove_state_core = 132
+				remove_state_core = 657
+				remove_state_core = 409
+				remove_state_core = 408
+				remove_state_core = 537
+				remove_state_core = 329
+				remove_state_core = 555
+				remove_state_core = 560
+			}
+
 			UA1 = {
 				set_country_flag = UNE_member
 				add_ideas = BGD_RBE_economy
@@ -1750,48 +1797,58 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = unasia.24.a
-		BGD = {
-			create_wargoal = {
-				type = annex_everything
-				target = SEY
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = OCC
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = YAM
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = NAU
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = CHU
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = KKP
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = CKK
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = GLC
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = KIR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = FLN
-			}
-		}
+		every_country = {
+        	limit = {
+        	    OR = {
+        	        controls_state = 570
+        	        controls_state = 583
+        	        controls_state = 582
+        	        controls_state = 403
+        	        controls_state = 653
+        	        controls_state = 580
+        	        controls_state = 579
+        	        controls_state = 590
+        	        controls_state = 403
+        	        controls_state = 577
+        	        controls_state = 588
+        	        controls_state = 571
+        	        controls_state = 403
+        	        controls_state = 578
+        	        controls_state = 572
+        	        controls_state = 40
+        	        controls_state = 654
+        	        controls_state = 569
+        	        controls_state = 575
+        	        controls_state = 568
+        	        controls_state = 576
+        	        controls_state = 644
+        	        controls_state = 655
+        	        controls_state = 562
+        	        controls_state = 637
+        	        controls_state = 561
+        	        controls_state = 574
+        	        controls_state = 563
+        	        controls_state = 564
+        	        controls_state = 566
+        	        controls_state = 567
+        	        controls_state = 565
+        	        controls_state = 516
+        	        controls_state = 1293
+        	    }
+        		NOT = { tag = BGD }  # 排除自己
+        		#is_subject = no      # 可选：排除附属国
+        	}
+
+        	BGD = {
+				PREV = {
+					leave_faction = yes	
+				}
+        	    create_wargoal = {
+        	        type = annex_everything
+        	        target = PREV
+        	    }
+        	}
+        }
 	}
 }
 
@@ -1805,45 +1862,74 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = unasia.25.a
-		BGD = {
-			create_wargoal = {
-				type = annex_everything
-				target = KAZ
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = UZB
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = KYR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = TAJ
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = TMS
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = TAL
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = PER
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = AFG
-			}
-		}
-		hidden_effect = {
-			FIA = {
-				leave_faction = yes	
-			}
-		}
+		every_country = {
+        	limit = {
+        	    OR = {
+        	        controls_state = 419
+        	        controls_state = 421
+        	        controls_state = 1327
+        	        controls_state = 417
+        	        controls_state = 413
+        	        controls_state = 411
+        	        controls_state = 266
+        	        controls_state = 420
+        	        controls_state = 416
+        	        controls_state = 418
+        	        controls_state = 913
+        	        controls_state = 1326
+        	        controls_state = 912
+        	        controls_state = 916
+        	        controls_state = 414
+        	        controls_state = 412
+        	        controls_state = 410
+        	        controls_state = 1054
+        	        controls_state = 1055
+        	        controls_state = 1056
+        	        controls_state = 1051
+        	        controls_state = 1052
+        	        controls_state = 803
+        	        controls_state = 837
+        	        controls_state = 267
+        	        controls_state = 802
+        	        controls_state = 821
+        	        controls_state = 799
+        	        controls_state = 584
+        	        controls_state = 804
+        	        controls_state = 402
+        	        controls_state = 805
+        	        controls_state = 404
+        	        controls_state = 589
+        	        controls_state = 586
+        	        controls_state = 407
+        	        controls_state = 406
+        	        controls_state = 587
+        	        controls_state = 801
+        	        controls_state = 585
+        	        controls_state = 823
+        	        controls_state = 822
+        	        controls_state = 405
+        	        controls_state = 824
+        	        controls_state = 1058
+        	        controls_state = 1057
+        	        controls_state = 1053
+        	        controls_state = 732
+        	        controls_state = 415
+        	        controls_state = 1355
+        	    }
+        		NOT = { tag = BGD }  # 排除自己
+        		#is_subject = no      # 可选：排除附属国
+        	}
+
+        	BGD = {
+				PREV = {
+					leave_faction = yes	
+				}
+        	    create_wargoal = {
+        	        type = annex_everything
+        	        target = PREV
+        	    }
+        	}
+    	}
 	}
 }
 
@@ -1855,91 +1941,127 @@ country_event = {
 	picture = GFX_bangdream_victory
 	fire_only_once = yes
 	is_triggered_only = yes
-	option = {
-		name = unasia.26.a
-		BGD = {
-			create_wargoal = {
-				type = annex_everything
-				target = FIA
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = ROC
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = KUW
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = KUR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SYR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = HTS
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = LEB
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = ISR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = PAL
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = JOR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = UAE
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = QAT
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = OMA
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = HOU
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = HEZ
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = TUR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SAU
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = ARR
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = CYP
-			}
-		}
+	immediate = {
 		hidden_effect = {
 			TUR = {
 				leave_faction = yes
 			}
 		}
+	}
+	option = {
+		name = unasia.26.a
+		every_country = {
+        	limit = {
+        	    OR = {
+        	        controls_state = 791
+        	        controls_state = 914
+        	        controls_state = 341
+        	        controls_state = 340
+        	        controls_state = 347
+        	        controls_state = 356
+        	        controls_state = 355
+        	        controls_state = 49
+        	        controls_state = 343
+        	        controls_state = 339
+        	        controls_state = 342
+        	        controls_state = 346
+        	        controls_state = 349
+        	        controls_state = 345
+        	        controls_state = 344
+        	        controls_state = 827
+        	        controls_state = 1030
+        	        controls_state = 1034
+        	        controls_state = 677
+        	        controls_state = 1027
+        	        controls_state = 1108
+        	        controls_state = 1109
+        	        controls_state = 350
+        	        controls_state = 352
+        	        controls_state = 353
+        	        controls_state = 354
+        	        controls_state = 814
+        	        controls_state = 815
+        	        controls_state = 1035
+        	        controls_state = 680
+        	        controls_state = 1031
+        	        controls_state = 554
+        	        controls_state = 1032
+        	        controls_state = 928
+        	        controls_state = 553
+        	        controls_state = 929
+        	        controls_state = 1111
+        	        controls_state = 810
+        	        controls_state = 915
+        	        controls_state = 1110
+        	        controls_state = 1112
+        	        controls_state = 811
+        	        controls_state = 812
+        	        controls_state = 455
+        	        controls_state = 894
+        	        controls_state = 1433
+        	        controls_state = 893
+        	        controls_state = 1064
+        	        controls_state = 1061
+        	        controls_state = 1065
+                    controls_state = 1067
+        	        controls_state = 454
+        	        controls_state = 881
+        	        controls_state = 1033
+        	        controls_state = 1432
+        	        controls_state = 675
+        	        controls_state = 1028
+        	        controls_state = 836
+        	        controls_state = 183
+        	        controls_state = 1178
+        	        controls_state = 1176
+        	        controls_state = 348
+        	        controls_state = 1177
+        	        controls_state = 1181
+        	        controls_state = 676
+        	        controls_state = 656
+        	        controls_state = 1180
+        	        controls_state = 856
+        	        controls_state = 825
+        	        controls_state = 826
+        	        controls_state = 294
+        	        controls_state = 658
+        	        controls_state = 678
+        	        controls_state = 1063
+        	        controls_state = 292
+        	        controls_state = 1126
+        	        controls_state = 1179
+        	        controls_state = 1029
+        	        controls_state = 926
+        	        controls_state = 924
+        	        controls_state = 659
+        	        controls_state = 921
+        	        controls_state = 919
+        	        controls_state = 293
+        	        controls_state = 923
+        	        controls_state = 920
+        	        controls_state = 922
+        	        controls_state = 1062
+        	        controls_state = 895
+        	        controls_state = 679
+        	        controls_state = 1066
+        	        controls_state = 927
+        	        controls_state = 925
+        	        controls_state = 291
+        	    }
+        		NOT = { tag = BGD }  # 排除自己
+        		#is_subject = no      # 可选：排除附属国
+        	}
+
+        	BGD = {
+				PREV = {
+					leave_faction = yes	
+				}
+        	    create_wargoal = {
+        	        type = annex_everything
+        	        target = PREV
+        	    }
+        	}
+        }
 	}
 }
 
