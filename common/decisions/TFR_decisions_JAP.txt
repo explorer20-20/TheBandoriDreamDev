@@ -136,32 +136,63 @@ debug_decisions = {
 						conservative = 3
 						authoritarian_democrat = 2
 						}
+
 					set_party_name = {
-						ideology = libertarian_socialist
-						long_name = JAP_totalitarian_socialist_party_long
-						name = JAP_totalitarian_socialist_party
+						ideology = totalitarian_socialist 
+						long_name = BGD_totalitarian_socialist_party_long
+						name = BGD_totalitarian_socialist_party
 					}
 					set_party_name = {
-						ideology = social_democrat
-						long_name = JAP_totalitarian_socialist_party_long
-						name = JAP_totalitarian_socialist_party
+						   ideology = communist 
+						   long_name = BGD_communist_party_long
+						   name = BGD_communist_party
 					}
 					set_party_name = {
-						ideology = social_liberal
-						long_name = JAP_totalitarian_socialist_party_long
-						name = JAP_totalitarian_socialist_party
+						   ideology = libertarian_socialist 
+						   long_name = BGD_libertarian_socialist_party_long
+						   name = BGD_libertarian_socialist_party
 					}
 					set_party_name = {
-						ideology = market_liberal
-						long_name = JAP_totalitarian_socialist_party_long
-						name = JAP_totalitarian_socialist_party
+						   ideology = social_democrat 
+						   long_name = BGD_glittering_party_long
+						   name = BGD_glittering_party
 					}
 					set_party_name = {
-						ideology = communist
-						long_name = JAP_totalitarian_socialist_party_long
-						name = JAP_totalitarian_socialist_party
+						   ideology = social_liberal 
+						   long_name = BGD_social_liberal_party_long
+						   name = BGD_social_liberal_party
 					}
-					set_country_flag = JAP_military_coup_flag
+					set_party_name = {
+						   ideology = market_liberal 
+						   long_name = BGD_market_liberal_party_long
+						   name = BGD_market_liberal_party
+					}
+					set_party_name = {
+						   ideology = conservative 
+						   long_name = BGD_conservative_party_long
+						   name = BGD_conservative_party
+					}
+					set_party_name = {
+						   ideology = authoritarian_democrat 
+						   long_name = BGD_authoritarian_democrat_party_long
+						   name = BGD_authoritarian_democrat_party
+					}
+					set_party_name = {
+						   ideology = nationalist 
+						   long_name = BGD_nationalist_party_long
+						   name = BGD_nationalist_party
+					}
+					set_party_name = {
+						   ideology = fascist 
+						   long_name = BGD_fascist_party_long
+						   name = BGD_fascist_party
+					}
+					set_party_name = {
+						   ideology = national_socialist 
+						   long_name = BGD_national_socialist_party_long
+						   name = BGD_national_socialist_party
+					}
+					clr_country_flag = JAP_military_coup_flag
 					add_popularity = {
 						ideology = fascist
 						popularity = 0.07
@@ -180,7 +211,7 @@ debug_decisions = {
 					clr_country_flag = JAP_matsui_elected
 					clr_country_flag = JAP_kushibuchi_elected
 					set_country_flag = BGD_shenmi_jita_yingxiang
-					set_cosmetic_tag = BGD_ziyou_zhenxian
+					set_cosmetic_tag = BGD_ziyou_gongheguo
 					add_ideas = BGD_shenmi_jita_1
 					add_timed_idea = {
 						idea = BGD_jingyan_buzu	

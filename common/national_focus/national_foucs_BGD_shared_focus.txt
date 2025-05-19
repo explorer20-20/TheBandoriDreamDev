@@ -1197,6 +1197,12 @@ shared_focus = {
 	x = 28
 	y = 2
 	completion_reward = {
+		hidden_effect = {
+			country_event = {
+				id = expo.1
+				days = 10
+			}
+		}
 		unlock_decision_tooltip = BGD_zuzhi_jiaoliu
 		effect_tooltip = {
 			swap_ideas = {
