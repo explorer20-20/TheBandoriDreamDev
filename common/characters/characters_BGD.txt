@@ -678,4 +678,113 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+#M
+	BGD_Tsukushi_char = {
+		name = BGD_Tsukushi_char
+		portraits = {
+			army = {
+				small = "gfx\interface\ideas\BGD\ministers\BGD_Tsukushi_1.png"
+			}
+			army = {
+				large = GFX_portrait_Tsukushi
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGD_Tsukushi_char_high_command
+			ledger = army
+			allowed = { 
+				original_tag = BGD
+			}
+			available = {
+			    has_country_leader = {
+			        character = BGD_kasumi_char
+		        }
+				has_country_flag = BGD_Morfonica_Commander
+			}
+			traits = {
+				houqin_guanzhu
+			}
+			cost = 0
+			ai_will_do = {
+				factor = 1
+			}
+			desc = BGD_Tsukushi_DESC
+		}
+		#corps_commander = {
+		#	traits = {
+		#		shaonv_yvgangtie
+		#	}
+		#	skill = 3
+		#	attack_skill = 3
+		#	defense_skill = 3
+		#	planning_skill = 3
+		#	logistics_skill = 3
+		#}
+	}
+
+	BGD_Rui_char = {
+		name = BGD_Rui_char
+		portraits = {
+			army = {
+				small = "gfx\interface\ideas\BGD\ministers\BGD_Rui_1.png"
+			}
+			army = {
+				large = GFX_portrait_Rui
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGD_Rui_char_high_command
+			ledger = army
+			allowed = { 
+				original_tag = BGD
+			}
+			available = {
+			    has_country_leader = {
+			        character = BGD_kasumi_char
+		        }
+				has_country_flag = BGD_Morfonica_Commander
+			}
+			traits = {
+				dimian_zhuanjin
+			}
+			cost = 0
+			ai_will_do = {
+				factor = 1
+			}
+			desc = BGD_Rui_DESC
+		}
+		#corps_commander = {
+		#	traits = {
+		#		shaonv_yvgangtie
+		#	}
+		#	skill = 3
+		#	attack_skill = 3
+		#	defense_skill = 3
+		#	planning_skill = 3
+		#	logistics_skill = 3
+		#}
+	}
+	BGD_nanami_char = {
+		name = BGD_nanami_char
+		portraits = {
+			army = {
+				small = "gfx\interface\ideas\BGD\ministers\BGD_nanami_1.png"
+			}
+			army = {
+				large = GFX_portrait_Nanami
+			}
+		}
+		#field_marshal = {
+		#	traits = {
+		#		shaonv_yvgangtie
+		#	}
+		#	skill = 4
+		#	attack_skill = 3
+		#	defense_skill = 3
+		#	planning_skill = 3
+		#	logistics_skill = 3
+		#}
+	}
 }
