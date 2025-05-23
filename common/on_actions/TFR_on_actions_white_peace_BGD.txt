@@ -48,6 +48,10 @@ on_actions = {
 						original_tag = NSM
 					}
 				}
+				ROOT = {
+					dismantle_faction = yes
+					leave_faction = yes
+				}
 				FROM = {
 					white_peace = ROOT
 					USN = {
