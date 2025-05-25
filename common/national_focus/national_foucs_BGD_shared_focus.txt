@@ -36,7 +36,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_guanbing_pingdeng
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_equality_between_officers_and_soldiers
 	prerequisite = { focus = BGD_jianli_guofangjun }
 	cost = 4
 	x = -1
@@ -55,7 +55,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_lixiang_jianjun
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_ideal_army
 	prerequisite = { focus = BGD_jianli_guofangjun }
 	cost = 4
 	x = -4
@@ -335,7 +335,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_chuanduo_shizhong
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_many_ships_many_forces
 	prerequisite = { focus = BGD_quanmian_gaige}
 	cost = 4
 	x = -1
@@ -391,7 +391,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_langqun_zhanshu
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_wolfpack_tactics
 	prerequisite = { focus = BGD_xiandai_haizhan }
 	cost = 4
 	x = -1
@@ -615,7 +615,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_qvyv_fazhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_promote_regional_development
 	prerequisite = { focus = BGD_jingji_jianshe }
 	cost = 4
 	x = 22
@@ -716,7 +716,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_beibu_fazhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_northern_development
 	prerequisite = { focus = BGD_nanbu_fazhan }
 	cost = 4
 	x = 23
@@ -742,7 +742,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_zhongbu_fazhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_central_development
 	prerequisite = { focus = BGD_qvyv_fazhan }
 	cost = 4
 	x = 23
@@ -806,7 +806,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_nanbu_fazhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_southern_development
 	prerequisite = { focus = BGD_zhongbu_fazhan }
 	cost = 4
 	x = 23

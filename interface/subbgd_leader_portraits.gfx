@@ -1,10 +1,12 @@
 spriteTypes = {
-
-	spriteType = {
-		name = "GFX_portrait_shounao"
-		texturefile = "gfx\leaders\EAS\shounao.dds"
-	}
-
+	frameAnimatedSpriteType = {
+        name = "GFX_portrait_shounao"
+        texturefile = "gfx\leaders\EAS\shounao.dds"
+        noOfFrames = 32
+        animation_rate_fps = 12.9
+        looping = yes
+        play_on_show = yes
+    }
 
 	spriteType = {
 		name = "GFX_portrait_Tsukushi"
