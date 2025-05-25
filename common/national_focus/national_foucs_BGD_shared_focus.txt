@@ -621,16 +621,17 @@ shared_focus = {
 	x = 22
 	y = 1
 	completion_reward = {
+		country_event = { id = bgd.93 }
 		set_temp_variable = {
 			var = industrial_development_var_temp
 			value = 0.15
 		}
 		add_industrial_development = yes
-	every_owned_state = {
-				limit = {
-					is_core_of = BGD
-				}
-				add_extra_state_shared_building_slots = 2
+		every_owned_state = {
+			limit = {
+				is_core_of = BGD
+			}
+			add_extra_state_shared_building_slots = 2
 		}
 	}
 }
@@ -722,6 +723,7 @@ shared_focus = {
 	x = 23
 	y = 4
 	completion_reward = {
+		country_event = { id = bgd.96 }
 		unlock_decision_tooltip = BGD_beibu_mingong
 		unlock_decision_tooltip = BGD_beibu_jungong
 		unlock_decision_tooltip = BGD_beibu_bangong
@@ -748,6 +750,7 @@ shared_focus = {
 	x = 23
 	y = 2
 	completion_reward = {
+		country_event = { id = bgd.95 }
 		unlock_decision_tooltip = BGD_zhongbu_mingong
 		unlock_decision_tooltip = BGD_zhongbu_jungong
 		unlock_decision_tooltip = BGD_zhongbu_bangong
@@ -812,6 +815,7 @@ shared_focus = {
 	x = 23
 	y = 3
 	completion_reward = {
+		country_event = { id = bgd.94 }
 		unlock_decision_tooltip = BGD_nanbu_mingong
 		unlock_decision_tooltip = BGD_nanbu_jungong
 		unlock_decision_tooltip = BGD_nanbu_bangong
