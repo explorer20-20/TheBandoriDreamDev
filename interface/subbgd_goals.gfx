@@ -253,4 +253,8 @@ spriteTypes = {
 		name = "GFX_BGD_promote_regional_development"
 		texturefile = "gfx\interface\goals\BGD\BGD_promote_regional_development.png"
 	}
+	SpriteType = {
+		name = "GFX_BGD_dq_far_right_parliamentarians"
+		texturefile = "gfx\interface\goals\BGD\BGD_dq_far_right_parliamentarians.png"
+	}
 }

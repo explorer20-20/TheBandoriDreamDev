@@ -11,6 +11,7 @@ focus_tree = {
 	shared_focus = BGD_zuizhong_zhizhan
 	shared_focus = BGD_space_project
 	shared_focus = BGD_hawaii_negotiations
+	shared_focus = BGD_dq_far_right_parliamentarians
 	 
 	focus = {
 	    id = BGD_zhixian_huiyi

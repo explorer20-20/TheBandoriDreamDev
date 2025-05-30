@@ -1,0 +1,120 @@
+# Starting Focus
+shared_focus = {
+	id = BGD_dq_far_right_parliamentarians
+	icon = GFX_BGD_dq_far_right_parliamentarians
+	cost = 10
+	x = 1
+	y = 9
+	available = {
+		has_country_flag = reconstruction_completed
+	}
+	completion_reward = {
+		country_event = { id = bgd.97 days = 3 }
+	}
+}
+# First Layer Branches
+shared_focus = {
+	id = BGD_judicial_independence_reform
+	icon = GFX_guoce_zhanwei
+	cost = 5
+	x = -1
+	y = 10
+	prerequisite = { focus = BGD_dq_far_right_parliamentarians }
+}
+shared_focus = {
+	id = BGD_citizen_rights_protection_act
+	icon = GFX_guoce_zhanwei
+	cost = 5
+	x = 3
+	y = 10
+	prerequisite = { focus = BGD_dq_far_right_parliamentarians }
+}
+# Second Layer Branches (from Judicial Independence Reform)
+shared_focus = {
+	id = BGD_purge_old_era_crimes
+	icon = GFX_guoce_zhanwei
+	cost = 4
+	x = -3
+	y = 11
+	prerequisite = { focus = BGD_judicial_independence_reform }
+}
+shared_focus = {
+	id = BGD_combat_organized_crime
+	icon = GFX_guoce_zhanwei
+	cost = 4
+	x = 0
+	y = 11
+	prerequisite = { focus = BGD_judicial_independence_reform }
+}
+# Second Layer Branches (from Citizen Rights Protection Act)
+shared_focus = {
+	id = BGD_workers_rights_bill
+	icon = GFX_guoce_zhanwei
+	cost = 6
+	x = 2
+	y = 11
+	prerequisite = { focus = BGD_citizen_rights_protection_act }
+}
+shared_focus = {
+	id = BGD_social_equality_legislation
+	icon = GFX_guoce_zhanwei
+	cost = 6
+	x = 5
+	y = 11
+	prerequisite = { focus = BGD_citizen_rights_protection_act }
+}
+# Third Layer Branches (from Combat Organized Crime)
+shared_focus = {
+	id = BGD_police_reform_act
+	icon = GFX_guoce_zhanwei
+	cost = 7
+	x = 0
+	y = 12
+	prerequisite = { focus = BGD_combat_organized_crime }
+}
+# Third Layer Branches (from Worker's Rights Bill)
+shared_focus = {
+	id = BGD_international_legal_cooperation
+	icon = GFX_guoce_zhanwei
+	cost = 7
+	x = 2
+	y = 12
+	prerequisite = { focus = BGD_workers_rights_bill }
+}
+# Fourth Layer Branches (from Purge Old Era Crimes)
+shared_focus = {
+	id = BGD_truth_and_reconciliation_commission
+	icon = GFX_guoce_zhanwei
+	cost = 6
+	x = -3
+	y = 12
+	prerequisite = { focus = BGD_purge_old_era_crimes }
+}
+# Fourth Layer Branches (from Social Equality Legislation)
+shared_focus = {
+	id = BGD_digital_rights_protection
+	icon = GFX_guoce_zhanwei
+	cost = 6
+	x = 5
+	y = 12
+	prerequisite = { focus = BGD_social_equality_legislation }
+}
+# Fifth Layer (Culminating Focus)
+shared_focus = {
+	id = BGD_justice_for_all
+	icon = GFX_guoce_zhanwei
+	cost = 10
+	x = 1
+	y = 13
+	prerequisite = {
+		focus = BGD_truth_and_reconciliation_commission
+		focus = BGD_police_reform_act
+		focus = BGD_international_legal_cooperation
+		focus = BGD_digital_rights_protection
+	}
+	# Using relative_position_id to place it centrally below the branches
+	# relative_position_id = BGD_police_reform_act # Example, adjust as needed
+	# x = 0 # Relative to the chosen prerequisite
+	# y = 1 # Relative to the chosen prerequisite
+}
+

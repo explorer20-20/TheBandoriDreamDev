@@ -1914,3 +1914,42 @@ country_event = {
 		name = bgd.96.a
 	}
 }
+
+country_event = {
+	#DQ极右翼议员
+	id = bgd.97
+	title = bgd.97.t
+	desc = bgd.97.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.97.a
+		country_event = { id = bgd.98 }
+	}
+}
+country_event = {
+	#DQ极右翼议员
+	id = bgd.98
+	title = bgd.98.t
+	desc = bgd.98.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.98.a
+		country_event = { id = bgd.99 }
+	}
+}
+country_event = {
+	#DQ极右翼议员
+	id = bgd.99
+	title = bgd.99.t
+	desc = bgd.99.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.99.a
+	}
+}
