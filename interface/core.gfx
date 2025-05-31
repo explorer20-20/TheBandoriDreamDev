@@ -1751,7 +1751,6 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "tahoma_60"
 		fontfiles = {
-            "gfx/fonts/chinese/hoi_mapfont4"
 			"gfx/fonts/chinese/mapfont_chn_0"
 			"gfx/fonts/chinese/mapfont_chn_1"	
 			"gfx/fonts/chinese/mapfont_chn_2"	
