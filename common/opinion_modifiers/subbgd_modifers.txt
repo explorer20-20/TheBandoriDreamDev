@@ -1,0 +1,6 @@
+
+opinion_modifiers = {
+	anti_fascist_kor_1 = {
+	    value = 50
+	}
+}

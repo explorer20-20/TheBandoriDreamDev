@@ -10,6 +10,8 @@ shared_focus = {
 	}
 	completion_reward = {
 		country_event = { id = bgd.97 days = 3 }
+		add_stability = 0.05
+		add_war_support	= -0.05
 	}
 }
 # First Layer Branches
@@ -20,6 +22,12 @@ shared_focus = {
 	x = -1
 	y = 10
 	prerequisite = { focus = BGD_dq_far_right_parliamentarians }
+	completion_reward = {
+		add_timed_idea = {
+			idea = BGD_The_pain_of_judicial_reform
+			days = 180
+		}
+	}
 }
 shared_focus = {
 	id = BGD_citizen_rights_protection_act
@@ -27,6 +35,9 @@ shared_focus = {
 	cost = 5
 	x = 3
 	y = 10
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_dq_far_right_parliamentarians }
 }
 # Second Layer Branches (from Judicial Independence Reform)
@@ -37,6 +48,12 @@ shared_focus = {
 	x = -3
 	y = 11
 	prerequisite = { focus = BGD_judicial_independence_reform }
+	available = {
+		has_country_flag = APFNO_member
+	}
+	completion_reward = {
+		country_event = { id = bgd.100 days = 3 }
+	}
 }
 shared_focus = {
 	id = BGD_combat_organized_crime
@@ -44,6 +61,9 @@ shared_focus = {
 	cost = 4
 	x = 0
 	y = 11
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_judicial_independence_reform }
 }
 # Second Layer Branches (from Citizen Rights Protection Act)
@@ -53,6 +73,9 @@ shared_focus = {
 	cost = 6
 	x = 2
 	y = 11
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_citizen_rights_protection_act }
 }
 shared_focus = {
@@ -61,6 +84,9 @@ shared_focus = {
 	cost = 6
 	x = 5
 	y = 11
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_citizen_rights_protection_act }
 }
 # Third Layer Branches (from Combat Organized Crime)
@@ -70,6 +96,9 @@ shared_focus = {
 	cost = 7
 	x = 0
 	y = 12
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_combat_organized_crime }
 }
 # Third Layer Branches (from Worker's Rights Bill)
@@ -79,6 +108,12 @@ shared_focus = {
 	cost = 7
 	x = 2
 	y = 12
+	available = {
+		has_country_flag = APFNO_member
+	}
+	completion_reward = {
+		add_stability = 0.05
+	}
 	prerequisite = { focus = BGD_workers_rights_bill }
 }
 # Fourth Layer Branches (from Purge Old Era Crimes)
@@ -89,6 +124,9 @@ shared_focus = {
 	x = -3
 	y = 12
 	prerequisite = { focus = BGD_purge_old_era_crimes }
+	completion_reward = {
+		country_event = { id = bgd.102 days = 3 }
+	}
 }
 # Fourth Layer Branches (from Social Equality Legislation)
 shared_focus = {
@@ -98,6 +136,9 @@ shared_focus = {
 	x = 5
 	y = 12
 	prerequisite = { focus = BGD_social_equality_legislation }
+	completion_reward = {
+		add_stability = 0.05
+	}
 }
 # Fifth Layer (Culminating Focus)
 shared_focus = {
@@ -108,13 +149,23 @@ shared_focus = {
 	y = 13
 	prerequisite = {
 		focus = BGD_truth_and_reconciliation_commission
+	}
+	prerequisite = {
 		focus = BGD_police_reform_act
+	}
+	prerequisite = {
 		focus = BGD_international_legal_cooperation
+	}
+	prerequisite = {
 		focus = BGD_digital_rights_protection
+	}
+	completion_reward = {
+		country_event = { id = bgd.104 days = 3 }
 	}
 	# Using relative_position_id to place it centrally below the branches
 	# relative_position_id = BGD_police_reform_act # Example, adjust as needed
 	# x = 0 # Relative to the chosen prerequisite
 	# y = 1 # Relative to the chosen prerequisite
+	# Thanks to Cline & Gemini 2.5 Pro ww
 }
 

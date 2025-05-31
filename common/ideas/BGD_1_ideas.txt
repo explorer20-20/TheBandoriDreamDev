@@ -40,6 +40,60 @@ ideas = {
 				income_growth_factor = 0.1
 			}
 		}
+		BGD_Liquidation_of_Fascist_War_Criminals = {
+			#肃清法西斯分子
+			picture = jingshen_zhanwei
+			
+			modifier = {
+				social_democrat_drift = 0.05
+				custom_modifier_tooltip = ANTI_FASCIST
+			 	national_socialist_drift = -0.1
+				nationalist_drift = -0.1
+				authoritarian_democrat_drift = -0.1
+				totalitarian_socialist_drift = -0.1
+				
+			}
+		}
+		BGD_Historical_Responsibility = {
+			#历史的担当
+			picture = jingshen_zhanwei
+			
+			modifier = {
+				improve_relations_maintain_cost = -0.5
+				trade_opinion_factor = 0.2
+			}
+		}
+		BGD_The_pain_of_judicial_reform = {
+			#司法改革的阵痛
+			picture = jingshen_zhanwei
+			
+			modifier = {
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+			}
+		}
+		BGD_Justice_for_All = {
+			#全民正义
+			picture = jingshen_zhanwei
+			
+			modifier = {
+				stability_factor = 0.20
+            	war_support_factor = 0.15
+            	political_power_gain = 0.25
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.20
+				core_attack_factor = 0.15
+				core_defence_factor = 0.20
+				non_core_manpower = 0.10
+				max_planning = 0.20
+				operative_slot_gain = 1
+				trade_opinions_factor = 0.15
+				intelligence_agency_upgrade_time_factor = -0.20
+				income_growth_factor = 0.1
+			}
+		}
 
 		BGD_mingyun_zhizhan = {
 		   picture = jingshen_zhanwei

@@ -1951,5 +1951,87 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = bgd.99.a
+		add_manpower = -17
+	}
+}
+
+country_event = {
+	#靖国神社的黄昏
+	id = bgd.100
+	title = bgd.100.t
+	desc = bgd.100.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.100.a
+		country_event = { id=bgd.101 days=7 }
+	}
+}
+
+country_event = {
+	#涤荡旧尘，昭示正义
+	id = bgd.101
+	title = bgd.101.t
+	desc = bgd.101.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.101.a
+		add_timed_idea = {
+			idea = BGD_Liquidation_of_Fascist_War_Criminals
+			days = 365
+		}
+	}
+}
+
+country_event = {
+	#迟来的正义
+	id = bgd.102
+	title = bgd.102.t
+	desc = bgd.102.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.102.a
+		country_event = { id = bgd.103 days = 7 }
+	}
+}
+
+country_event = {
+	#首尔的致意
+	id = bgd.103
+	title = bgd.103.t
+	desc = bgd.103.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.103.a
+		add_timed_idea = {
+			idea = BGD_Historical_Responsibility
+			days = 365
+		}
+		KOR = {
+			add_opinion_modifier = {
+				target = BGD
+				modifier = anti_fascist_kor_1
+			}
+		}
+	}
+}
+
+country_event = {
+	#正义之光
+	id = bgd.104
+	title = bgd.104.t
+	desc = bgd.104.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		add_ideas = BGD_Justice_for_All
 	}
 }
