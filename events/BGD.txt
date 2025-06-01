@@ -2032,6 +2032,20 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
+		name = bgd.104.a
 		add_ideas = BGD_Justice_for_All
+	}
+}
+
+country_event = {
+	#正义之光
+	id = bgd.105
+	title = bgd.105.t
+	desc = bgd.105.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.105.a
 	}
 }
