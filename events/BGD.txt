@@ -1367,6 +1367,7 @@ country_event = {
 	}
 	option = {
 		name = bgd.4981.a
+		country_event = { id = bgd.105 days = 3 }
 	}
 }
 country_event = {
@@ -2038,14 +2039,41 @@ country_event = {
 }
 
 country_event = {
-	#正义之光
+	#历史的回响
 	id = bgd.105
 	title = bgd.105.t
 	desc = bgd.105.d
-	picture = GFX_popipa_doublerainbow
+	picture = GFX_JAP_mao
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = bgd.105.a
+	}
+}
+
+country_event = {
+	#复兴的基石
+	id = bgd.106
+	title = bgd.106.t
+	desc = bgd.106.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.106.a
+		country_event = { id = bgd.107 days = 3 }
+	}
+}
+
+country_event = {
+	#心跳的旋律
+	id = bgd.107
+	title = bgd.107.t
+	desc = bgd.107.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.107.a
 	}
 }

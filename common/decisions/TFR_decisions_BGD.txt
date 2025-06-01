@@ -166,7 +166,7 @@ BGD_riben_neizhan = { #日本内战决议
 }
 BGD_chongjian_guojia = { #国家重建决议
 	BGD_chongjian_zhongbu = {
-
+		#重建中部地区
 		priority = 1
 
 		icon = GFX_JAP_election_day
@@ -198,7 +198,7 @@ BGD_chongjian_guojia = { #国家重建决议
 		}
 			
 		complete_effect = {
-			
+			country_event = { id = bgd.107 days = 4 }
 		}
 
 		remove_effect = {
@@ -220,7 +220,7 @@ BGD_chongjian_guojia = { #国家重建决议
 		}
 	}
 	BGD_chongjian_nanbu = {
-
+		#重建南部地区
 		priority = 1
 
 		icon = GFX_JAP_election_day
@@ -274,7 +274,7 @@ BGD_chongjian_guojia = { #国家重建决议
 		}
 	}
 	BGD_chongjian_beibu = {
-
+		#重建北部地区
 		priority = 1
 
 		icon = GFX_JAP_election_day
@@ -328,7 +328,7 @@ BGD_chongjian_guojia = { #国家重建决议
 		}
 	}
 	BGD_chongjian_chengshi = {
-
+		#重建城市地区
 		priority = 1
 
 		icon = GFX_JAP_election_day
@@ -382,7 +382,7 @@ BGD_chongjian_guojia = { #国家重建决议
 		}
 	}
 	BGD_chongjian_nongcun = {
-
+		#重建农村地区
 		priority = 1
 
 		icon = GFX_JAP_election_day
