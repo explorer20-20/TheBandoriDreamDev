@@ -98,7 +98,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_APFNO"
-		textureFile = "gfx\interface\factions\status\GFX_APFNO_Member.dds"
+		textureFile = "gfx\interface\factions\status\GFX_APFNO_Member.png"
 	}
 	spriteType = {
 		name = "GFX_idea_UNE"
