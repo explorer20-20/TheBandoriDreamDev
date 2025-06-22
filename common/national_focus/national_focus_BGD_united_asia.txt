@@ -594,25 +594,25 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		#邀请欧盟
-		id = UNITED_ASIA_Inviting_Europe
-		icon = GFX_guoce_zhanwei
-		cost = 3
-		prerequisite = {
-			focus = UNITED_ASIA_New_Chapter_for_North_Asia
-		}
-		prerequisite = {
-			focus = UNITED_ASIA_New_Chapter_for_Middle_Asia
-		}
-		prerequisite = {
-			focus = UNITED_ASIA_New_Chapter_for_West_Asia
-		}
-		x = 8
-		y = 12
-		completion_reward = {
-			country_event = { id = unasia.5 }
-		}
-	}
+	#focus = {
+	#	#邀请欧盟
+	#	id = UNITED_ASIA_Inviting_Europe
+	#	icon = GFX_guoce_zhanwei
+	#	cost = 3
+	#	prerequisite = {
+	#		focus = UNITED_ASIA_New_Chapter_for_North_Asia
+	#	}
+	#	prerequisite = {
+	#		focus = UNITED_ASIA_New_Chapter_for_Middle_Asia
+	#	}
+	#	prerequisite = {
+	#		focus = UNITED_ASIA_New_Chapter_for_West_Asia
+	#	}
+	#	x = 8
+	#	y = 12
+	#	completion_reward = {
+	#		country_event = { id = unasia.5 }
+	#	}
+	#}
 }
 
