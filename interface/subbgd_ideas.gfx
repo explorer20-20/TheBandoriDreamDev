@@ -116,4 +116,8 @@ spriteTypes = {
 		name = "GFX_idea_asia_union"
 		textureFile = "gfx\interface\ideas\asia_union.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Enthusiastic_Army"
+		textureFile = "gfx\interface\laws\military_laws\BGX_Enthusiastic_Army.png"
+	}
 }
