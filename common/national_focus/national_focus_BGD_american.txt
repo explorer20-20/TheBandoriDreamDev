@@ -171,7 +171,7 @@ shared_focus = {
 shared_focus = {
 	#重启“天使之城”
 	id = BGD_Restarting_the_City_of_Angels
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Rebuild_LA
 	cost = 3
 	prerequisite = {
 		focus = BGD_Crush_Separatism
