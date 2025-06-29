@@ -1,0 +1,72 @@
+defined_text = {
+	name = head_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = head_minister_BGD
+	}
+	text = {
+		localization_key = head_minister_b
+	}
+}
+defined_text = {
+	name = foreign_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = foreign_minister_BGD
+	}
+	text = {
+		localization_key = foreign_minister_b
+	}
+}
+defined_text = {
+	name = economic_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = economic_minister_BGD
+	}
+	text = {
+		localization_key = economic_minister_b
+	}
+}
+defined_text = {
+	name = interior_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = interior_minister_BGD
+	}
+	text = {
+		localization_key = interior_minister_b
+	}
+}
+defined_text = {
+	name = intelligence_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = intelligence_minister_BGD
+	}
+	text = {
+		localization_key = intelligence_minister_b
+	}
+}
+defined_text = {
+	name = theorist_minister
+    text = {
+		trigger = {
+			original_tag = BGD
+		}
+		localization_key = theorist_minister_BGD
+	}
+	text = {
+		localization_key = theorist_minister_b
+	}
+}

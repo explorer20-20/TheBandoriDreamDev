@@ -25,7 +25,7 @@ characters = {
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 1
+			logistics_skill = 4
 		}
 	}
 
@@ -130,7 +130,7 @@ characters = {
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 2
-			logistics_skill = 1
+			logistics_skill = 4
 		}
 	}
 
@@ -342,11 +342,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_lisa_char = {
@@ -384,11 +384,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_sayo_char = {
@@ -425,11 +425,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_ako_char = {
@@ -466,11 +466,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_rinko_char = {
@@ -507,11 +507,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_chuchu_char = {
@@ -548,11 +548,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_masking_char = {
@@ -589,11 +589,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_lock_char = {
@@ -630,11 +630,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	BGD_pareo_char = {
@@ -671,11 +671,11 @@ characters = {
 			traits = {
 				shaonv_yvgangtie
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 #M

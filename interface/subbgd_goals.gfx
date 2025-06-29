@@ -265,4 +265,8 @@ spriteTypes = {
 		name = "GFX_BGD_Rebuild_LA"
 		texturefile = "gfx\interface\goals\BGD\BGD_Rebuild_LA.png"
 	}
+	SpriteType = {
+		name = "GFX_BGD_Beyond_the_Limits"
+		texturefile = "gfx\interface\goals\BGD\BGD_Beyond_the_Limits.png"
+	}
 }

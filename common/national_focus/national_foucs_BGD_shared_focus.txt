@@ -1034,6 +1034,21 @@ shared_focus = {
 			add_to_variable = { BGD_guomin_jingji_global_building_slots_factor = 0.15 }
 	}
 }
+
+shared_focus = {
+	id = BGD_Beyond_the_Limits
+	icon = GFX_BGD_Beyond_the_Limits
+	prerequisite = { focus = BGD_jingji_qiji }
+	cost = 4
+	x = 19
+	y = 6
+	completion_reward = {
+		country_event = {
+			id = bdrlabs.0
+		}
+	}
+}
+
 shared_focus = {
 	id = BGD_yazi_zuzhi
 	icon = GFX_chengli_APFNO
