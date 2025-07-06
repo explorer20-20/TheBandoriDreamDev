@@ -220,10 +220,10 @@ guiTypes = {
 		}
 		iconType = {
 			name = "TFR_APFNO_icon"
-			position = { x = 1 y = 0 }
+			position = { x = -4 y = -2 }
 			spriteType = "GFX_idea_APFNO"
 			pdx_tooltip = "TFR_GLOBAL_ASSOCIATION_TT"
-			scale = 0.87
+			scale = 1
 		}
 		iconType = {
 			name = "TFR_UNE_icon"
