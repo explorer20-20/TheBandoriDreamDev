@@ -308,7 +308,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BGD_Capitalism_with_a_human_face"
-		texturefile = "gfx\interface\goals\BGD\BGD_Promote_the_Dream_Army.png"
+		texturefile = "gfx\interface\goals\BGD\BGD_Capitalism_with_a_human_face.png"
 	}
 	SpriteType = {
 		name = "GFX_BGD_Nationalization_Wave"
