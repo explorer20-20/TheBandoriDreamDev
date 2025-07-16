@@ -444,7 +444,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_luli_tongxin
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Working_together
 	prerequisite = { focus = BGD_heping_shiyan }
 	cost = 4
 	x = -6
@@ -468,7 +468,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_mengxiang_zhijun
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Promote_the_Dream_Army
 	prerequisite = { focus = BGD_heping_shiyan }
 	cost = 4
 	x = -2

@@ -269,4 +269,74 @@ spriteTypes = {
 		name = "GFX_BGD_Beyond_the_Limits"
 		texturefile = "gfx\interface\goals\BGD\BGD_Beyond_the_Limits.png"
 	}
+
+	SpriteType = {
+		name = "GFX_BGD_Towards_tomorrow"
+		texturefile = "gfx\interface\goals\BGD\BGD_Towards_tomorrow.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Live_up_to"
+		texturefile = "gfx\interface\goals\BGD\BGD_Live_up_to.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Breaking_with_traditional_politics"
+		texturefile = "gfx\interface\goals\BGD\BGD_Breaking_with_traditional_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Working_together"
+		texturefile = "gfx\interface\goals\BGD\BGD_Working_together.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Expanding_social_security"
+		texturefile = "gfx\interface\goals\BGD\BGD_Expanding_social_security.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Young_peoples_party"
+		texturefile = "gfx\interface\goals\BGD\BGD_Young_peoples_party.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Improve_social_atmosphere"
+		texturefile = "gfx\interface\goals\BGD\BGD_Improve_social_atmosphere.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Cultural_power"
+		texturefile = "gfx\interface\goals\BGD\BGD_Cultural_power.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Promote_the_Dream_Army"
+		texturefile = "gfx\interface\goals\BGD\BGD_Promote_the_Dream_Army.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Capitalism_with_a_human_face"
+		texturefile = "gfx\interface\goals\BGD\BGD_Promote_the_Dream_Army.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Nationalization_Wave"
+		texturefile = "gfx\interface\goals\BGD\BGD_Nationalization_Wave.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Material_enrichment"
+		texturefile = "gfx\interface\goals\BGD\BGD_Material_enrichment.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Judicial_independence_reform"
+		texturefile = "gfx\interface\goals\BGD\BGD_Judicial_independence_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Civil_Rights_Protection_Act"
+		texturefile = "gfx\interface\goals\BGD\BGD_Civil_Rights_Protection_Act.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Settling_the_crimes_of_the_past"
+		texturefile = "gfx\interface\goals\BGD\BGD_Settling_the_crimes_of_the_past.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Establishm_nt_of_the_National_Reform_Commission"
+		texturefile = "gfx\interface\goals\BGD\BGD_Establishm_nt_of_the_National_Reform_Commission.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Justice_for_All"
+		texturefile = "gfx\interface\goals\BGD\BGD_Justice_for_All.png"
+	}
+
 }

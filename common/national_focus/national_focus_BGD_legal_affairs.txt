@@ -17,7 +17,7 @@ shared_focus = {
 # First Layer Branches
 shared_focus = {
 	id = BGD_judicial_independence_reform
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Judicial_independence_reform
 	cost = 5
 	x = -1
 	y = 10
@@ -31,7 +31,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_citizen_rights_protection_act
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Civil_Rights_Protection_Act
 	cost = 5
 	x = 3
 	y = 10
@@ -43,7 +43,7 @@ shared_focus = {
 # Second Layer Branches (from Judicial Independence Reform)
 shared_focus = {
 	id = BGD_purge_old_era_crimes
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Settling_the_crimes_of_the_past
 	cost = 4
 	x = -3
 	y = 11
@@ -143,7 +143,7 @@ shared_focus = {
 # Fifth Layer (Culminating Focus)
 shared_focus = {
 	id = BGD_justice_for_all
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Justice_for_All
 	cost = 10
 	x = 1
 	y = 13

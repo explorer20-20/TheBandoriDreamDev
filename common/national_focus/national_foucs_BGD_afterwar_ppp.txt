@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	 focus = {
 	    id = BGD_gaige_weiyuanhui
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Establishm_nt_of_the_National_Reform_Commission
         prerequisite = { focus = BGD_xingzheng_gaige }
 		cost = 3
 		x = 7
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_guoyouhua_chanye
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Nationalization_Wave
         prerequisite = { focus = BGD_kuoda_shanyaodang focus = BGD_kuoda_gongwuyuan }
 		cost = 4
 		x = 9
@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_kuoda_baozhang
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Expanding_social_security
         prerequisite = { focus = BGD_guoyouhua_chanye }
 		cost = 4
 		x = 8
@@ -208,7 +208,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_renxing_zibenzhuyi
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Capitalism_with_a_human_face
         prerequisite = { focus = BGD_guoyouhua_chanye }
 		cost = 4
 		x = 10
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_zhengzhi_shehui
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Improve_social_atmosphere
         prerequisite = { focus = BGD_shehui_gaige }
 		cost = 4
 		x = 12
@@ -312,7 +312,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_wenhua_qiangguo
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Cultural_power
         prerequisite = { focus = BGD_zhengzhi_shehui }
 		prerequisite = { focus = BGD_ziyou_pingdeng }
 		cost = 4
@@ -364,7 +364,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_wuzhi_chongshi
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Material_enrichment
         prerequisite = { focus = BGD_jiaqiang_jiaoyv}
 		cost = 4
 		x = 9
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_bufu_guomin
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Live_up_to
         prerequisite = { focus = BGD_jianshe_dangpai }
 		cost = 4
 		x = 4
@@ -507,7 +507,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_dapo_chuantong
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Breaking_with_traditional_politics
         prerequisite = { focus = BGD_bufu_guomin }
 		prerequisite = { focus = BGD_xina_zuoyi }
 		prerequisite = { focus = BGD_qingxi_youyi }
@@ -566,7 +566,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_nianqing_zhichi
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Young_peoples_party
         prerequisite = { focus = BGD_dapo_chuantong }
 		cost = 4
 		x = 5
@@ -629,7 +629,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_benxiang_mingri
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Towards_tomorrow
         prerequisite = { focus = BGD_guohui_gaige }
 		prerequisite = { focus = BGD_wenhua_dagexin }
 		cost = 4
