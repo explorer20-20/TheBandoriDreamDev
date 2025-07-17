@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_shehui_gaige
-		icon = GFX_guoce_zhanwei
+		icon = BGD_Start_social_reform
         prerequisite = { focus = BGD_kuoda_shanyaodang focus = BGD_kuoda_gongwuyuan }
 		cost = 4
 		x = 11
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_jiaqiang_jiaoyv
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Education_is_the_future
         prerequisite = { focus = BGD_renxing_zibenzhuyi }
 		prerequisite = { focus = BGD_kuoda_baozhang }
 		cost = 4
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_mengxiang_jihua
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_National_Dream_Plan
         prerequisite = { focus = BGD_wenhua_qiangguo }
 		cost = 4
 		x = 13
@@ -388,7 +388,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_wenhua_dagexin
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Cultural_innovation
         prerequisite = { focus = BGD_mengxiang_jihua }
 		prerequisite = { focus = BGD_wuzhi_chongshi }
 		cost = 4
@@ -416,7 +416,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_jianshe_dangpai
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Building_a_Shining_Party
         prerequisite = { focus = BGD_kuoda_shanyaodang focus = BGD_kuoda_gongwuyuan }
 		cost = 4
 		x = 4
@@ -538,7 +538,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_zhanxin_daolu
-		icon = GFX_guoce_zhanwei
+		icon = GFX_BGD_Pursuing_a_new_path
         prerequisite = { focus = BGD_dapo_chuantong }
 		cost = 4
 		x = 3

@@ -57,7 +57,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_combat_organized_crime
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Fighting_Organized_Crime
 	cost = 4
 	x = 0
 	y = 11

@@ -339,4 +339,28 @@ spriteTypes = {
 		texturefile = "gfx\interface\goals\BGD\BGD_Justice_for_All.png"
 	}
 
+	SpriteType = {
+		name = "GFX_BGD_Education_is_the_future"
+		texturefile = "gfx\interface\goals\BGD\BGD_Education_is_the_future.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Building_a_Shining_Party"
+		texturefile = "gfx\interface\goals\BGD\BGD_Building_a_Shining_Party.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Fighting_Organized_Crime"
+		texturefile = "gfx\interface\goals\BGD\BGD_Fighting_Organized_Crime.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_National_Dream_Plan"
+		texturefile = "gfx\interface\goals\BGD\BGD_National_Dream_Plan.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Pursuing_a_new_path"
+		texturefile = "gfx\interface\goals\BGD\BGD_Pursuing_a_new_path.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Cultural_innovation"
+		texturefile = "gfx\interface\goals\BGD\BGD_Cultural_innovation.png"
+	}
 }
