@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 	    id = BGD_shehui_gaige
-		icon = BGD_Start_social_reform
+		icon = GFX_BGD_Start_social_reform
         prerequisite = { focus = BGD_kuoda_shanyaodang focus = BGD_kuoda_gongwuyuan }
 		cost = 4
 		x = 11

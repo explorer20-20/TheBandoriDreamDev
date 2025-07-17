@@ -363,4 +363,8 @@ spriteTypes = {
 		name = "GFX_BGD_Cultural_innovation"
 		texturefile = "gfx\interface\goals\BGD\BGD_Cultural_innovation.png"
 	}
+	SpriteType = {
+		name = "GFX_BGD_Start_social_reform"
+		texturefile = "gfx\interface\goals\BGD\BGD_Start_social_reform.png"
+	}
 }
