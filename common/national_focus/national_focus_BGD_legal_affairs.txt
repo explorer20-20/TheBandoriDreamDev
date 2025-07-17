@@ -80,7 +80,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_social_equality_legislation
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Social_equality_legislation
 	cost = 6
 	x = 5
 	y = 11
