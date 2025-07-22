@@ -192,3 +192,17 @@ music = {
         base = 10		
 	}
 }
+
+#演讲
+music = {
+	song = "户山香澄-GAW胜利演讲"
+	chance = {
+        base = 0		
+	}
+}
+music = {
+	song = "户山香澄-对东亚国宣战"
+	chance = {
+        base = 0		
+	}
+}

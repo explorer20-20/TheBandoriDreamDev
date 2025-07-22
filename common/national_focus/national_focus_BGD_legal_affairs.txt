@@ -69,7 +69,7 @@ shared_focus = {
 # Second Layer Branches (from Citizen Rights Protection Act)
 shared_focus = {
 	id = BGD_workers_rights_bill
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Workers_Rights_Act
 	cost = 6
 	x = 2
 	y = 11
@@ -92,7 +92,7 @@ shared_focus = {
 # Third Layer Branches (from Combat Organized Crime)
 shared_focus = {
 	id = BGD_police_reform_act
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_National_Police_Agency_Reform_Bill
 	cost = 7
 	x = 0
 	y = 12
@@ -104,7 +104,7 @@ shared_focus = {
 # Third Layer Branches (from Worker's Rights Bill)
 shared_focus = {
 	id = BGD_international_legal_cooperation
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_International_Legal_Cooperation
 	cost = 7
 	x = 2
 	y = 12
@@ -119,7 +119,7 @@ shared_focus = {
 # Fourth Layer Branches (from Purge Old Era Crimes)
 shared_focus = {
 	id = BGD_truth_and_reconciliation_commission
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Truth_and_Reconciliation_Commission
 	cost = 6
 	x = -3
 	y = 12
@@ -131,7 +131,7 @@ shared_focus = {
 # Fourth Layer Branches (from Social Equality Legislation)
 shared_focus = {
 	id = BGD_digital_rights_protection
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Digital_Rights_Protection
 	cost = 6
 	x = 5
 	y = 12

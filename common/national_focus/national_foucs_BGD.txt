@@ -61,7 +61,7 @@ focus_tree = {
 			}
 		focus = {
 				id = BGD_jianli_zhengfu
-				icon = GFX_guoce_zhanwei
+				icon = GFX_BGD_Establishing_a_government
 				prerequisite = { focus = BGD_civil_war_begin }
 				cost = 2
 				x = 6

@@ -1087,7 +1087,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_duikang_dongya
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Countering_East_Asian_ambitions
 	prerequisite = { focus = BGD_yazi_zuzhi }
 	cost = 3
 	x = 35
@@ -1117,7 +1117,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_tuanjie_yatai
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Uniting_Asia_Pacific_Allies
 	prerequisite = { focus = BGD_duikang_dongya }
 	cost = 3
 	x = 36
@@ -1137,7 +1137,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_guoji_zhichi
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Seeking_international_support
 	prerequisite = { focus = BGD_duikang_dongya }
 	cost = 3
 	x = 34
@@ -1210,7 +1210,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_wenhua_jiaoliu
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_In_depth_cultural_exchanges
 	prerequisite = { focus = BGD_chengli_jingjiquan }
 	cost = 3
 	x = 28
@@ -1254,7 +1254,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_shendu_hezuo
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Deep_cooperation
 	prerequisite = { focus = BGD_wenhua_jiaoliu }
 	prerequisite = { focus = BGD_keji_xiezuo }
 	cost = 3
@@ -1311,7 +1311,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_zuizhong_zhizhan
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Dreams_freedom_and_the_battle_of_destiny
 	cost = 1
 	x = 25
 	y = 10
@@ -1324,7 +1324,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_shangdianjie_xingdong
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Shopping_Street_Action
 	prerequisite = { focus = BGD_zuizhong_zhizhan }
 	cost = 3
 	x = 25
@@ -1366,7 +1366,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_ring_xingdong
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_RiNG_Action
 	prerequisite = { focus = BGD_zuizhong_zhizhan }
 	cost = 3
 	x = 20
@@ -1408,7 +1408,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_circle_xingdong
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_CiRCEL_Action
 	prerequisite = { focus = BGD_zuizhong_zhizhan }
 	cost = 3
 	x = 30
@@ -1450,7 +1450,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = BGD_space_jihua
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_SPACE_Nation_Program
 	prerequisite = { focus = BGD_zuizhong_zhizhan }
 	cost = 3
 	x = 36

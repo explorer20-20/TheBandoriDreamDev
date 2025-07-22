@@ -158,3 +158,14 @@ music = {
 	file = "ピコっと！パピっと！！ガルパ☆ピコ！！！.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "户山香澄-GAW胜利演讲"
+	file = "户山香澄-GAW胜利演讲.ogg"
+	volume = 0.65
+}
+music = {
+	name = "户山香澄-对东亚国宣战"
+	file = "户山香澄-对东亚国宣战.ogg"
+	volume = 0.65
+}

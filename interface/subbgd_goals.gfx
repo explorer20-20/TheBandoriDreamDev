@@ -371,4 +371,75 @@ spriteTypes = {
 		name = "GFX_BGD_Social_equality_legislation"
 		texturefile = "gfx\interface\goals\BGD\BGD_Social_equality_legislation.png"
 	}
+
+	SpriteType = {
+		name = "GFX_BGD_Workers_Rights_Act"
+		texturefile = "gfx\interface\goals\BGD\BGD_Workers_Rights_Act.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Truth_and_Reconciliation_Commission"
+		texturefile = "gfx\interface\goals\BGD\BGD_Truth_and_Reconciliation_Commission.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_International_Legal_Cooperation"
+		texturefile = "gfx\interface\goals\BGD\BGD_International_Legal_Cooperation.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_National_Police_Agency_Reform_Bill"
+		texturefile = "gfx\interface\goals\BGD\BGD_National_Police_Agency_Reform_Bill.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Digital_Rights_Protection"
+		texturefile = "gfx\interface\goals\BGD\BGD_Digital_Rights_Protection.png"
+	}
+
+	SpriteType = {
+		name = "GFX_BGD_Seeking_international_support"
+		texturefile = "gfx\interface\goals\BGD\BGD_Seeking_international_support.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Countering_East_Asian_ambitions"
+		texturefile = "gfx\interface\goals\BGD\BGD_Countering_East_Asian_ambitions.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Uniting_Asia_Pacific_Allies"
+		texturefile = "gfx\interface\goals\BGD\BGD_Uniting_Asia_Pacific_Allies.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Deep_cooperation"
+		texturefile = "gfx\interface\goals\BGD\BGD_Deep_cooperation.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Peacekeeping_fleet_sets_sail"
+		texturefile = "gfx\interface\goals\BGD\BGD_Peacekeeping_fleet_sets_sail.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Establishing_a_government"
+		texturefile = "gfx\interface\goals\BGD\BGD_Establishing_a_government.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_In_depth_cultural_exchanges"
+		texturefile = "gfx\interface\goals\BGD\BGD_In_depth_cultural_exchanges.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Shopping_Street_Action"
+		texturefile = "gfx\interface\goals\BGD\BGD_Shopping_Street_Action.png"
+	}
+
+	SpriteType = {
+		name = "GFX_BGD_RiNG_Action"
+		texturefile = "gfx\interface\goals\BGD\BGD_RiNG_Action.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_SPACE_Nation_Program"
+		texturefile = "gfx\interface\goals\BGD\BGD_SPACE_Nation_Program.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_CiRCEL_Action"
+		texturefile = "gfx\interface\goals\BGD\BGD_CiRCEL_Action.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Dreams_freedom_and_the_battle_of_destiny"
+		texturefile = "gfx\interface\goals\BGD\BGD_Dreams_freedom_and_the_battle_of_destiny.png"
+	}
 }

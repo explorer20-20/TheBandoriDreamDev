@@ -75,7 +75,7 @@ shared_focus = {
 shared_focus = {
 	#远征舰队启航
 	id = BGD_Expeditionary_Fleet_Sets_Sail
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Peacekeeping_fleet_sets_sail
 	cost = 3
 	prerequisite = {
 		focus = BGD_PH_Forward_Base
