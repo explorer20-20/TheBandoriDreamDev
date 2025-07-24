@@ -1002,30 +1002,29 @@ country_event = {
 	is_triggered_only = yes
 		immediate = {
 			hidden_effect = {
-			dismantle_faction = yes
-			set_politics = {
-				ruling_party = totalitarian_socialist
-				elections_allowed = no
-			}
-			add_popularity = {
-				ideology = totalitarian_socialist
-				popularity = 0.75
-			}
-			set_party_name = {
-				ideology = totalitarian_socialist
-				long_name = EAS_dongya_guojiadang_long
-				name = EAS_dongya_guojiadang
-			}
-			set_cosmetic_tag = PRC_dongyaguo
-			create_country_leader = {
+				dismantle_faction = yes
+				set_politics = {
+					ruling_party = totalitarian_socialist
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = totalitarian_socialist
+					popularity = 0.75
+				}
+				set_party_name = {
+					ideology = totalitarian_socialist
+					long_name = EAS_dongya_guojiadang_long
+					name = EAS_dongya_guojiadang
+				}
+				set_cosmetic_tag = PRC_dongyaguo
+				create_country_leader = {
 					name = "BGD_shounao_char"
 					desc = "BGD_SHOUNAO_DESC"
 					picture = GFX_portrait_shounao
 					ideology = transhumanism
-					traits = {
-					}
-					}
-			remove_ideas_with_trait = ZZZ_blank_idea_trait
+					traits = {}
+				}
+				remove_ideas_with_trait = ZZZ_blank_idea_trait
 			}
 		}
 	option = {
@@ -1205,6 +1204,7 @@ country_event = {
 			white_peace = PRK
 			
 			PRC = {
+				load_focus_tree = TFR_tree_prc_after_gaw_bdr
 				set_cosmetic_tag = PRC_chongjian_zhengfu
 				set_politics = {
 					ruling_party = social_democrat
@@ -1225,6 +1225,13 @@ country_event = {
 			        long_name = PRC_zhonghua_shanyaodang_long
 			        name = PRC_zhonghua_shanyaodang
 		        }
+				create_country_leader = {
+					name = "BGD_APFNO_PRC"
+					desc = "BGD_APFNO_PRC_DESC"
+					picture = GFX_portrait_APFNO
+					ideology = kirakira_dokidoki
+					traits = {rebuild_gov}
+				}
 				set_country_flag = APFNO_member
 				add_ideas = EAS_riben_jingti_zhuyi
 				add_ideas = EAS_zhongguo_chongjian
@@ -1247,8 +1254,11 @@ country_event = {
 				remove_ideas = EAS_jiaqiang_zhong
 				remove_ideas = EAS_jiaqiang_gao
 				remove_ideas = BGD_quanmian_bengkui
+				remove_ideas = eadi_member
+				remove_ideas_with_trait = ZZZ_blank_idea_trait
 			}
 			VIN = {
+				remove_ideas = eadi_member
 				set_cosmetic_tag = VIN_chongjian_zhengfu
 				set_politics = {
 					ruling_party = social_democrat
@@ -1264,9 +1274,22 @@ country_event = {
 					conservative = 5
 					authoritarian_democrat = 5
 				}
+				create_country_leader = {
+					name = "BGD_APFNO_VIN"
+					desc = "BGD_APFNO_VIN_DESC"
+					picture = GFX_portrait_APFNO
+					ideology = kirakira_dokidoki
+					traits = {rebuild_gov}
+				}
+				set_party_name = {
+			        ideology = social_democrat
+			        long_name = VIN_shanyaodang_long
+			        name = VIN_shanyaodang
+		        }
 				set_country_flag = APFNO_member
 			}
 			BRM = {
+				remove_ideas = eadi_member
 				set_cosmetic_tag = BRM_chongjian_zhengfu
 				set_politics = {
 					ruling_party = social_democrat
@@ -1282,9 +1305,22 @@ country_event = {
 					conservative = 5
 					authoritarian_democrat = 5
 				}
+				create_country_leader = {
+					name = "BGD_APFNO_BRM"
+					desc = "BGD_APFNO_BRM_DESC"
+					picture = GFX_portrait_APFNO
+					ideology = kirakira_dokidoki
+					traits = {rebuild_gov}
+				}
+				set_party_name = {
+			        ideology = social_democrat
+			        long_name = BRM_shanyaodang_long
+			        name = BRM_shanyaodang
+		        }
 				set_country_flag = APFNO_member
 			}
 			BHU = {
+				remove_ideas = eadi_member
 				set_cosmetic_tag = new
 				set_politics = {
 					ruling_party = social_democrat
@@ -1300,15 +1336,26 @@ country_event = {
 					conservative = 5
 					authoritarian_democrat = 5
 				}
+				set_party_name = {
+			        ideology = social_democrat
+			        long_name = BHU_budan_shanyaodang
+			        name = BHU_budan_shanyaodang_long
+		        }
 				set_country_flag = APFNO_member
 			}
 			NEP = {
+				remove_ideas = eadi_member
 				set_cosmetic_tag = new
 				set_politics = {
 					ruling_party = social_democrat
 					elections_allowed = yes
 					election_frequency = 48
 				}
+				set_party_name = {
+			        ideology = social_democrat
+			        long_name = NEP_niboer_shanyaodang
+			        name = NEP_niboer_shanyaodang_long
+		        }
 				set_popularities = {
 					social_democrat = 50
 					social_liberal = 5
@@ -1324,11 +1371,26 @@ country_event = {
 				annex_country = { target = PRK }
 				set_country_flag = APFNO_member
 			}
-			PAK = { set_country_flag = APFNO_member }
-			RAJ = { set_country_flag = APFNO_member }
-			BAN = { set_country_flag = APFNO_member }
-			SRL = { set_country_flag = APFNO_member }
-			SAJ = { set_country_flag = APFNO_member }
+			PAK = {
+				set_country_flag = APFNO_member
+				remove_ideas = eadi_member
+			}
+			RAJ = {
+				set_country_flag = APFNO_member
+				remove_ideas = eadi_member
+			}
+			BAN = {
+				set_country_flag = APFNO_member
+				remove_ideas = eadi_member
+			}
+			SRL = {
+				set_country_flag = APFNO_member
+				remove_ideas = eadi_member
+			}
+			SAJ = {
+				set_country_flag = APFNO_member
+				remove_ideas = eadi_member
+			}
 			BGD = {
 			    add_to_faction = PRC
 			    add_to_faction = PAK
@@ -2060,5 +2122,66 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = bgd.107.a
+	}
+}
+
+country_event = {
+	#心跳的旋律
+	id = bgd.107
+	title = bgd.107.t
+	desc = bgd.107.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.107.a
+	}
+}
+
+country_event = {
+	#亚自接管印度
+	id = bgd.11451
+	title = bgd.11451.t
+	desc = bgd.11451.d
+	picture = GFX_FRA_nukes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.11451.a
+		BGD = {
+			add_to_faction = RAJ
+			puppet = RAJ
+		}
+		RAJ = {
+			set_country_flag = APFNO_member
+			remove_ideas_with_trait = ZZZ_blank_idea_trait
+			set_cosmetic_tag = RAJ_APFNO_rebuilds_gov
+			set_politics = {
+				ruling_party = social_democrat
+				elections_allowed = yes
+				election_frequency = 48
+			}
+			set_popularities = {
+				social_democrat = 50
+				social_liberal = 5
+				libertarian_socialist = 5
+				communist = 25
+				market_liberal = 5
+				conservative = 5
+				authoritarian_democrat = 5
+			}
+			create_country_leader = {
+				name = "BGD_APFNO_RAJ"
+				desc = "BGD_APFNO_RAJ_DESC"
+				picture = GFX_portrait_APFNO
+				ideology = kirakira_dokidoki
+				traits = {rebuild_gov}
+			}
+			set_party_name = {
+			    ideology = social_democrat
+			    long_name = RAJ_kp_inc_long
+			    name = RAJ_kp_inc
+		    }
+		}
 	}
 }

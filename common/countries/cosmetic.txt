@@ -1962,8 +1962,20 @@ BHU_gaoyuan_xiaqv = {
 	color_ui = rgb { 54 54 54 }
 }
 PRC_chongjian_zhengfu = {
-	color = rgb { 102 204 255 }
-	color_ui = rgb { 102 204 255 }
+	color = rgb { 0 52 102 }
+	color_ui = rgb { 0 52 102 }
+}
+VIN_chongjian_zhengfu = {
+	color = rgb { 0 52 102 }
+	color_ui = rgb { 0 52 102 }
+}
+BRM_chongjian_zhengfu = {
+	color = rgb { 0 52 102 }
+	color_ui = rgb { 0 52 102 }
+}
+RAJ_APFNO_rebuilds_gov = {
+	color = rgb { 0 52 102 }
+	color_ui = rgb { 0 52 102 }
 }
 BGD_united_asia = {
 	color = rgb { 2 165 237 }

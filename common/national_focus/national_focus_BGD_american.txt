@@ -243,7 +243,7 @@ shared_focus = {
 shared_focus = {
 	#蝶与雄鹰
 	id = BGD_Butterfly_and_Eagle
-	icon = GFX_guoce_zhanwei
+	icon = GFX_BGD_Butterfly_and_Eagle
 	cost = 3
 	prerequisite = {
 		focus = BGD_Msr_Diplomatic_Initiative

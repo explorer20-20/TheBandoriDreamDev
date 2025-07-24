@@ -1044,7 +1044,7 @@ shared_focus = {
 	y = 6
 	completion_reward = {
 		country_event = {
-			id = bdrlabs.0
+			id = bgdlab.0
 		}
 	}
 }
@@ -1066,6 +1066,7 @@ shared_focus = {
 		unlock_decision_tooltip = BGD_yaoqing_yinni
 		unlock_decision_tooltip = BGD_yaoqing_feilvbing
 		unlock_decision_tooltip = BGD_yaoqing_yindu
+		unlock_decision_tooltip = BGD_Intervention_in_India
 		create_faction = BANGAPFNO
 		
 		effect_tooltip = {

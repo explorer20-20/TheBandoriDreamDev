@@ -1,0 +1,7 @@
+focus_tree = {
+    id = TFR_tree_prc_after_gaw_bdr
+	country = {
+		base = 0
+	}
+	default = no
+}

@@ -293,11 +293,11 @@ eas_dongya_waijiao = {
 				transfer_state = 1404
 				set_cosmetic_tag = BRM_miandian_xiaqv
 				set_politics = {
-					ruling_party = nationalist
+					ruling_party = totalitarian_socialist
 					elections_allowed = no
 				}
 				set_popularities = {
-					nationalist = 65
+					totalitarian_socialist = 65
 					communist = 5
 					libertarian_socialist = 5
 					social_democrat = 10
@@ -305,6 +305,19 @@ eas_dongya_waijiao = {
 					market_liberal = 5
 					conservative = 5
 				}
+				set_party_name = {
+					ideology = totalitarian_socialist
+					long_name = EAS_dongya_guojiadang_long
+					name = EAS_dongya_guojiadang
+				}
+				create_country_leader = {
+					name = "BGD_shounao_char"
+					desc = "BGD_SHOUNAO_DESC"
+					picture = GFX_portrait_shounao
+					ideology = transhumanism
+					traits = {}
+				}
+				remove_ideas_with_trait = ZZZ_blank_idea_trait
 			}
 		}
 	}
@@ -370,11 +383,11 @@ eas_dongya_waijiao = {
 				}
 				set_cosmetic_tag = VIN_zhongnan_xiaqv
 				set_politics = {
-					ruling_party = nationalist
+					ruling_party = totalitarian_socialist
 					elections_allowed = no
 				}
 				set_popularities = {
-					nationalist = 65
+					totalitarian_socialist = 65
 					communist = 5
 					libertarian_socialist = 5
 					social_democrat = 10
@@ -382,6 +395,19 @@ eas_dongya_waijiao = {
 					market_liberal = 5
 					conservative = 5
 				}
+				set_party_name = {
+					ideology = totalitarian_socialist
+					long_name = EAS_dongya_guojiadang_long
+					name = EAS_dongya_guojiadang
+				}
+				create_country_leader = {
+					name = "BGD_shounao_char"
+					desc = "BGD_SHOUNAO_DESC"
+					picture = GFX_portrait_shounao
+					ideology = transhumanism
+					traits = {}
+				}
+				remove_ideas_with_trait = ZZZ_blank_idea_trait
 			}
 		}
 	}
@@ -426,11 +452,11 @@ eas_dongya_waijiao = {
 			BHU = {
 				set_cosmetic_tag = BHU_gaoyuan_xiaqv
 				set_politics = {
-					ruling_party = nationalist
+					ruling_party = totalitarian_socialist
 					elections_allowed = no
 				}
 				set_popularities = {
-					nationalist = 65
+					totalitarian_socialist = 65
 					communist = 5
 					libertarian_socialist = 5
 					social_democrat = 10
@@ -438,6 +464,19 @@ eas_dongya_waijiao = {
 					market_liberal = 5
 					conservative = 5
 				}
+				set_party_name = {
+					ideology = totalitarian_socialist
+					long_name = EAS_dongya_guojiadang_long
+					name = EAS_dongya_guojiadang
+				}
+				create_country_leader = {
+					name = "BGD_shounao_char"
+					desc = "BGD_SHOUNAO_DESC"
+					picture = GFX_portrait_shounao
+					ideology = transhumanism
+					traits = {}
+				}
+				remove_ideas_with_trait = ZZZ_blank_idea_trait
 			}
 		}
 	}

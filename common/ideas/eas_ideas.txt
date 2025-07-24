@@ -3,19 +3,19 @@ ideas = {
 	country = {	
 		EAS_heian_yinying = {
 		   picture = jingshen_zhanwei
-			
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			allowed = {
 				always = no
-			}
-
+			}	
 			allowed_civil_war = {
 				always = yes
-			}
-
+			}	
 			removal_cost = -1
 			
 			modifier = {
-                stability_factor = 0.1
+        	    stability_factor = 0.1
 				war_support_factor = 0.1
 				political_power_factor = 0.1
 				political_power_gain = 0.15
@@ -23,7 +23,9 @@ ideas = {
 		}
 		EAS_guonei_panluan = {
 		   picture = jingshen_zhanwei
-			
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			allowed = {
 				always = no
 			}
@@ -49,7 +51,9 @@ ideas = {
 		}
 		EAS_guonei_panluan_1 = {
 		   picture = jingshen_zhanwei
-			
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			allowed = {
 				always = no
 			}
@@ -75,6 +79,9 @@ ideas = {
 		}
 		EAS_laodage = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -97,6 +104,9 @@ ideas = {
 		}
 		EAS_laodage_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -123,6 +133,9 @@ ideas = {
 		}
 		EAS_zhiduxing_pinkun = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -146,6 +159,9 @@ ideas = {
 		}
 		EAS_zhixv_senyan = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -168,6 +184,9 @@ ideas = {
 		}
 		EAS_heian_yinying_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -189,6 +208,9 @@ ideas = {
 		}
 		EAS_heian_yinying_2 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -214,6 +236,9 @@ ideas = {
 		}
 		EAS_gangtie_yizhi = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -233,6 +258,9 @@ ideas = {
 		}
 		EAS_wuzhuang_yachi = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -253,6 +281,9 @@ ideas = {
 		}
 		EAS_wuzhuang_yachi_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -273,6 +304,9 @@ ideas = {
 		}
 		EAS_gangtie_yizhi_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -294,6 +328,9 @@ ideas = {
 		}
 		EAS_wuzhuang_yachi_2 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -315,6 +352,9 @@ ideas = {
 		}
 		EAS_gangtie_yizhi_2 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -337,6 +377,9 @@ ideas = {
 		}
 		EAS_chaosu_gongye = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -358,6 +401,9 @@ ideas = {
 		}
 		EAS_shijie_yexin = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -377,6 +423,9 @@ ideas = {
 		}
 		EAS_shijie_yexin_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -397,6 +446,9 @@ ideas = {
 		}
 		EAS_weiyi_zhigao = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -426,6 +478,9 @@ ideas = {
 		}
 		EAS_chaoziran_yingxiang = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -447,6 +502,9 @@ ideas = {
 		}
 		EAS_dikang_kuangchao = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -473,6 +531,9 @@ ideas = {
 		}
 		EAS_dayazhou_zhanzheng = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -491,6 +552,9 @@ ideas = {
 		}
 		EAS_jiaotu_zhanshu = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -512,6 +576,9 @@ ideas = {
 		}
 		EAS_jiaotu_zhanshu_1 = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -533,6 +600,9 @@ ideas = {
 		}
 		EAS_jiaqiang_di = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -568,6 +638,9 @@ ideas = {
 		}
 		EAS_jiaqiang_zhong = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -603,6 +676,9 @@ ideas = {
 		}
 		EAS_jiaqiang_gao = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -638,6 +714,9 @@ ideas = {
 		}
 		EAS_riben_jingti_zhuyi = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -658,6 +737,9 @@ ideas = {
 		}
 		EAS_zhongguo_chongjian = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -687,6 +769,9 @@ ideas = {
 		}
 		EAS_lianhe_zhengfu = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no
@@ -713,6 +798,9 @@ ideas = {
 		}
 		EAS_xijin_tongyi = {
 		   picture = jingshen_zhanwei
+			traits = {
+			        ZZZ_blank_idea_trait
+			    }
 			
 			allowed = {
 				always = no

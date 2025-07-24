@@ -442,4 +442,29 @@ spriteTypes = {
 		name = "GFX_BGD_Dreams_freedom_and_the_battle_of_destiny"
 		texturefile = "gfx\interface\goals\BGD\BGD_Dreams_freedom_and_the_battle_of_destiny.png"
 	}
+
+	SpriteType = {
+		name = "GFX_BGD_Secret_Front"
+		texturefile = "gfx\interface\goals\BGD\BGD_Secret_Front.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Shining_Logistics"
+		texturefile = "gfx\interface\goals\BGD\BGD_Shining_Logistics.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Search_Inventory"
+		texturefile = "gfx\interface\goals\BGD\BGD_Search_Inventory.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Mobilizing_the_militia"
+		texturefile = "gfx\interface\goals\BGD\BGD_Mobilizing_the_militia.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Unyielding_Dreams"
+		texturefile = "gfx\interface\goals\BGD\BGD_Unyielding_Dreams.png"
+	}
+	SpriteType = {
+		name = "GFX_BGD_Butterfly_and_Eagle"
+		texturefile = "gfx\interface\goals\BGD\BGD_Butterfly_and_Eagle.png"
+	}
 }

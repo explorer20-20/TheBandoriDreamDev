@@ -44,7 +44,7 @@ focus_tree = {
 	}
 		focus = {
 			id = BGD_dongyuan_minbing
-			icon = GFX_guoce_zhanwei
+			icon = GFX_BGD_Mobilizing_the_militia
 			prerequisite = { focus = BGD_civil_war_begin }
 			cost = 2
 			x = 4
@@ -78,7 +78,7 @@ focus_tree = {
 				}
 		focus = {
 			id = BGD_sougua_kucun
-			icon = GFX_guoce_zhanwei
+			icon = GFX_BGD_Search_Inventory
 			prerequisite = { focus = BGD_civil_war_begin }
 			cost = 2
 			x = 2
@@ -132,7 +132,7 @@ focus_tree = {
 			}
 		focus = {
 			id = BGD_shanyao_houqin
-			icon = GFX_guoce_zhanwei
+			icon = GFX_BGD_Shining_Logistics
 			prerequisite = { focus = BGD_sougua_kucun }
 			cost = 2
 			x = 2
@@ -146,7 +146,7 @@ focus_tree = {
 		    }	
 		focus = {
 			id = BGD_mimi_zhanxian
-			icon = GFX_guoce_zhanwei
+			icon = GFX_BGD_Secret_Front
 			prerequisite = { focus = BGD_jianli_zhengfu }
 			cost = 2
 			x = 6
@@ -160,7 +160,7 @@ focus_tree = {
 			}
 		focus = {
 			id = BGD_mengxiang_buqv
-			icon = GFX_guoce_zhanwei
+			icon = GFX_BGD_Unyielding_Dreams
 			prerequisite = { focus = BGD_zhanji_qifei }
 			prerequisite = { focus = BGD_shanyao_houqin }
 			prerequisite = { focus = BGD_mimi_zhanxian }

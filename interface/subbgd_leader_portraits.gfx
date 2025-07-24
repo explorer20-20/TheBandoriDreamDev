@@ -41,4 +41,13 @@ spriteTypes = {
 		name = "GFX_Mashiro_Left"
 		texturefile = "gfx\leaders\USN\Mashiro_Left.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_Tsukushi"
+		texturefile = "gfx\leaders\USN\Tsukushi.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_APFNO"
+		texturefile = "gfx\leaders\APFNO.png"
+	}
 }
