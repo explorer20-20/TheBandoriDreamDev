@@ -2787,7 +2787,7 @@ PRC_taiwan_war_cat = {
 		days_mission_timeout = 365
 		complete_effect = {
 			country_event = {
-				id = china.23
+				id = bgd.1984
 			}				
 		}
 		timeout_effect = {
@@ -13342,10 +13342,15 @@ PRC_indo_pakistan_war = {
 	}
 	PRC_host_non_nuclear_negotiations = {
 		available = {
-			
+			NOT = {
+				has_cosmetic_tag = PRC_dongyaguo
+			}
 		}
 		visible = {
 			tag = PRC
+			NOT = {
+				has_cosmetic_tag = PRC_dongyaguo
+			}
 		}
 		complete_effect = {
 			

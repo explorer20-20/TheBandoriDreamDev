@@ -1002,6 +1002,14 @@ country_event = {
 	is_triggered_only = yes
 		immediate = {
 			hidden_effect = {
+				every_country = {
+					limit = {
+						has_idea = ETH_chinese_investments
+					}
+					THIS = {
+						remove_ideas = ETH_chinese_investments
+					}
+				}
 				dismantle_faction = yes
 				set_politics = {
 					ruling_party = totalitarian_socialist
@@ -1025,6 +1033,8 @@ country_event = {
 					traits = {}
 				}
 				remove_ideas_with_trait = ZZZ_blank_idea_trait
+				remove_dynamic_modifier = { modifier = PRC_made_in_china_dynamic }
+				remove_dynamic_modifier = { modifier = PRC_chinese_enviroment_dynamic }
 			}
 		}
 	option = {
@@ -1206,6 +1216,8 @@ country_event = {
 			PRC = {
 				load_focus_tree = TFR_tree_prc_after_gaw_bdr
 				set_cosmetic_tag = PRC_chongjian_zhengfu
+				remove_dynamic_modifier = { modifier = PRC_made_in_china_dynamic }
+				remove_dynamic_modifier = { modifier = PRC_chinese_enviroment_dynamic }
 				set_politics = {
 					ruling_party = social_democrat
 					elections_allowed = yes
@@ -2150,9 +2162,24 @@ country_event = {
 		name = bgd.11451.a
 		BGD = {
 			add_to_faction = RAJ
+			add_to_faction = BAN
 			puppet = RAJ
+			declare_war_on = {
+				target = HUL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ULF
+				type = annex_everything
+			}
+		}
+		BAN = {
+			set_country_flag = APFNO_member
 		}
 		RAJ = {
+			set_capital = {
+				state = 429
+			}
 			set_country_flag = APFNO_member
 			remove_ideas_with_trait = ZZZ_blank_idea_trait
 			set_cosmetic_tag = RAJ_APFNO_rebuilds_gov
@@ -2182,6 +2209,65 @@ country_event = {
 			    long_name = RAJ_kp_inc_long
 			    name = RAJ_kp_inc
 		    }
+			declare_war_on = {
+				target = HUL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ULF
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {
+	#心跳的旋律
+	id = bgd.107
+	title = bgd.107.t
+	desc = bgd.107.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.107.a
+	}
+}
+
+country_event = {
+	#印巴核谈判
+	id = bgd.108
+	title = bgd.108.t
+	desc = bgd.108.d
+	picture = GFX_FRA_nukes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.108.a
+		ai_chance = {
+			base = 100
+		}
+		if = {
+			limit = {
+				tag = RAJ
+			}
+			BGD = {
+				country_event = {
+					id = china.136
+					days = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = PAK
+			}
+			BGD = {
+				country_event = {
+					id = china.137
+					days = 2
+				}
+			}
 		}
 	}
 }
