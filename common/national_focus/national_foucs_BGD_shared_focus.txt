@@ -1060,6 +1060,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		unlock_decision_category_tooltip = BGD_guojia_waijiao
+		unlock_decision_category_tooltip = BGD_Interference_in_Thailand
 		unlock_decision_tooltip = BGD_yaoqing_aoxin
 		unlock_decision_tooltip = BGD_yaoqing_taiguo
 		unlock_decision_tooltip = BGD_yaoqing_maxin

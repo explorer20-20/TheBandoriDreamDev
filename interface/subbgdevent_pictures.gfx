@@ -39,4 +39,8 @@ spriteTypes = {
 		name = "GFX_japan_peacekeeper"
 		texturefile = "gfx\event_pictures\japan_peacekeeper.png"
 		}
+	spriteType = {
+		name = "GFX_JMNDF_1"
+		texturefile = "gfx\event_pictures\BGD_JMNDF1.png"
+	}
 }

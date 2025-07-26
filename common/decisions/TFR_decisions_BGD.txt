@@ -3599,50 +3599,50 @@ BGD_jingji_gongzuo = { #经济建设决议
 	}
 }
 BGD_guojia_waijiao = { #外交决议
-	BGD_yaoqing_taiguo = {
-
-		priority = 1
-
-		icon = GFX_JAP_election_day
-
-		cost = 30
-		days_remove = 60
-
-		fire_only_once = yes
-		
-		allowed = {
-			tag = BGD
-		}
-
-		available = {
-			has_completed_focus = BGD_yazi_zuzhi
-		}
-
-		visible = {
-			has_completed_focus = BGD_yazi_zuzhi
-        }
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		modifier = {
-			political_power_cost = 1
-		}
-			
-		complete_effect = {
-			
-		}
-
-		remove_effect = {
-		BGD = {
-			add_to_faction = SIA
-		}
-		SIA = {
-			set_country_flag = APFNO_member
-		}
-		}
-	}
+	#BGD_yaoqing_taiguo = {
+#
+	#	priority = 1
+#
+	#	icon = GFX_JAP_election_day
+#
+	#	cost = 30
+	#	days_remove = 60
+#
+	#	fire_only_once = yes
+	#	
+	#	allowed = {
+	#		tag = BGD
+	#	}
+#
+	#	available = {
+	#		has_completed_focus = BGD_yazi_zuzhi
+	#	}
+#
+	#	visible = {
+	#		has_completed_focus = BGD_yazi_zuzhi
+    #    }
+#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+#
+	#	modifier = {
+	#		political_power_cost = 1
+	#	}
+	#		
+	#	complete_effect = {
+	#		
+	#	}
+#
+	#	remove_effect = {
+	#	BGD = {
+	#		add_to_faction = SIA
+	#	}
+	#	SIA = {
+	#		set_country_flag = APFNO_member
+	#	}
+	#	}
+	#}
 	BGD_yaoqing_maxin = {
 
 		priority = 1
@@ -4766,73 +4766,73 @@ BGD_guojia_waijiao = { #外交决议
 			}
 		}
 	}
-	BGD_taiguo_shanyao = {
-
-		priority = 1
-
-		icon = GFX_JAP_election_day
-
-		cost = 0
-		days_remove = 50
-
-		fire_only_once = yes
-		
-		allowed = {
-			tag = BGD
-		}
-
-		available = {
-			has_completed_focus = BGD_chuanbo_shanyao
-			SIA = {
-				social_democrat > 0.5
-			}
-		}
-
-		visible = {
-			has_completed_focus = BGD_chuanbo_shanyao
-        }
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		modifier = {
-			political_power_gain = -0.25
-			political_power_factor = -0.05
-		}
-			
-		complete_effect = {
-
-		}
-
-		remove_effect = {
-			add_offsite_building = { 
-			    type = industrial_complex
-			    level = 1
-		    }
-			add_offsite_building = { 
-			    type = arms_factory
-			    level = 1
-		    }
-			add_offsite_building = { 
-			    type = dockyard
-			    level = 1
-		    }
-			SIA = {
-			    set_politics = {
-			        ruling_party = social_democrat
-			        elections_allowed = yes
-					election_frequency = 48
-		        }
-				set_party_name = {
-				    ideology = social_democrat
-				    long_name = BGD_taiguo_shanyaodang_long
-				    name = BGD_taiguo_shanyaodang
-			    }
-				add_ideas = BGD_shanyao_guojia
-			}
-		}
-	}
+	#BGD_taiguo_shanyao = {
+#
+	#	priority = 1
+#
+	#	icon = GFX_JAP_election_day
+#
+	#	cost = 0
+	#	days_remove = 50
+#
+	#	fire_only_once = yes
+	#	
+	#	allowed = {
+	#		tag = BGD
+	#	}
+#
+	#	available = {
+	#		has_completed_focus = BGD_chuanbo_shanyao
+	#		SIA = {
+	#			social_democrat > 0.5
+	#		}
+	#	}
+#
+	#	visible = {
+	#		has_completed_focus = BGD_chuanbo_shanyao
+    #    }
+#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+#
+	#	modifier = {
+	#		political_power_gain = -0.25
+	#		political_power_factor = -0.05
+	#	}
+	#		
+	#	complete_effect = {
+#
+	#	}
+#
+	#	remove_effect = {
+	#		add_offsite_building = { 
+	#		    type = industrial_complex
+	#		    level = 1
+	#	    }
+	#		add_offsite_building = { 
+	#		    type = arms_factory
+	#		    level = 1
+	#	    }
+	#		add_offsite_building = { 
+	#		    type = dockyard
+	#		    level = 1
+	#	    }
+	#		SIA = {
+	#		    set_politics = {
+	#		        ruling_party = social_democrat
+	#		        elections_allowed = yes
+	#				election_frequency = 48
+	#	        }
+	#			set_party_name = {
+	#			    ideology = social_democrat
+	#			    long_name = BGD_taiguo_shanyaodang_long
+	#			    name = BGD_taiguo_shanyaodang
+	#		    }
+	#			add_ideas = BGD_shanyao_guojia
+	#		}
+	#	}
+	#}
 	BGD_yindu_shanyao = {
 
 		priority = 1
@@ -6355,5 +6355,736 @@ BGD_shaonv_paifa = { #Circle齐聚一堂
 	remove_effect = {
 
 	}
+	}
+}
+
+BGD_Interference_in_Thailand = {
+	End_of_interference = {
+		priority = 1
+
+		icon = generic_industry
+
+		cost = 100
+		days_remove = 1
+
+		fire_only_once = yes
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ETI_republic_of_siam_tt
+				ETI = {
+					has_cosmetic_tag = ETI_republic_of_siam
+				}
+				NOT = { country_exists = SIA }
+			}
+		}
+
+		visible = {
+			country_exists = ETI
+    	}
+
+		complete_effect = {
+			
+		}
+	}
+
+	The_Thai_Civil_War = {
+		priority = 1
+
+		icon = generic_ignite_civil_war
+
+		cost = 150
+		days_remove = 15
+
+		fire_only_once = yes
+		allowed = {
+			tag = BGD
+			NOT = { country_exists = ETI }
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = The_Thai_Civil_War_tt
+				check_variable = {
+					student_athletic_readiness > 74.99
+				}
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+
+    	}
+
+		remove_effect = {
+			SIA = {
+				country_event = {
+					id = thailand.17
+				}
+			}
+		}
+	}
+
+	The_military_government_is_on_alert = { #军政府有所警觉
+		priority = 100
+		icon = GFX_decision_generic_arrest
+		activation = {
+			check_variable = {
+				student_athletic_readiness > 24.99
+			}
+			NOT = { country_exists = ETI }
+		}
+		available = {
+			OR = {
+				check_variable = {
+					student_athletic_readiness < 25
+				}
+				country_exists = ETI
+			}
+		}
+
+		is_good = no
+		fire_only_once = no
+
+		timeout_effect = {
+			custom_effect_tooltip = Add_social_tension_in_thailand_tt
+			hidden_effect = {
+				activate_mission = The_military_government_is_on_alert
+			}
+			if = {
+				limit = {
+					check_variable = {
+						student_athletic_readiness < 50
+					}
+				}
+				add_to_variable = {
+					social_tension_in_thailand = 10
+				}
+				clamp_variable = {
+					var = social_tension_in_thailand
+					max = 100
+					min = 0
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						student_athletic_readiness < 70
+					}
+				}
+				add_to_variable = {
+					social_tension_in_thailand = 15
+				}
+				clamp_variable = {
+					var = social_tension_in_thailand
+					max = 100
+					min = 0
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						student_athletic_readiness < 80
+					}
+				}
+				add_to_variable = {
+					social_tension_in_thailand = 20
+				}
+				clamp_variable = {
+					var = social_tension_in_thailand
+					max = 100
+					min = 0
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						student_athletic_readiness < 90
+					}
+				}
+				add_to_variable = {
+					social_tension_in_thailand = 25
+				}
+				clamp_variable = {
+					var = social_tension_in_thailand
+					max = 100
+					min = 0
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						student_athletic_readiness = 100
+					}
+				}
+				SIA = {
+					country_event = thailand.17
+				}
+			}
+		}
+		days_mission_timeout = 20
+	}
+
+	Thai_Encourage_students_to_march = { #鼓励学生游行
+		priority = 1
+
+		icon = GFX_decision_generic_political_rally
+
+		cost = 0
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 10
+			}
+		}
+		custom_cost_text = dx_more_than_10B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			add_to_variable = {
+				student_athletic_readiness = 5
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			add_war_support = 0.1
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -10
+				}
+			}
+		}
+	}
+
+
+	Thai_Encourage_attacks_on_Congress = { #鼓动抨击国会
+		priority = 1
+
+		icon = GFX_decision_generic_protest_riot
+
+		cost = 0
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 10
+			}
+		}
+		custom_cost_text = dx_more_than_10B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			custom_effect_tooltip = Add_social_tension_in_thailand_tt
+			add_to_variable = {
+				student_athletic_readiness = 10
+			}
+			add_to_variable = {
+				social_tension_in_thailand = 10
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			clamp_variable = {
+				var = social_tension_in_thailand
+				max = 100
+				min = 0
+			}
+			add_war_support = 0.1
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -10
+				}
+			}
+		}
+	}
+
+	Thai_Encourage_criticism_of_the_king = { #鼓动抨击泰王
+		priority = 1
+
+		icon = GFX_decision_generic_protest_riot
+
+		cost = 0
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 10
+			}
+		}
+		custom_cost_text = dx_more_than_10B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			custom_effect_tooltip = Add_social_tension_in_thailand_tt
+			add_to_variable = {
+				student_athletic_readiness = 10
+			}
+			add_to_variable = {
+				social_tension_in_thailand = 15
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			clamp_variable = {
+				var = social_tension_in_thailand
+				max = 100
+				min = 0
+			}
+			add_war_support = 0.1
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -10
+				}
+			}
+		}
+	}
+
+	Thai_Encourage_criticism_of_the_military_government = { #鼓动抨击军政府
+		priority = 1
+
+		icon = GFX_decision_generic_protest_riot
+
+		cost = 0
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 10
+			}
+		}
+		custom_cost_text = dx_more_than_10B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			custom_effect_tooltip = Add_social_tension_in_thailand_tt
+			add_to_variable = {
+				student_athletic_readiness = 10
+			}
+			add_to_variable = {
+				social_tension_in_thailand = 5
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			clamp_variable = {
+				var = social_tension_in_thailand
+				max = 100
+				min = 0
+			}
+			add_war_support = 0.1
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -10
+				}
+			}
+		}
+	}
+
+	Thai_Condemning_Thailand_in_international_forums = { #在国际场合谴责泰国
+		priority = 0
+
+		icon = GFX_decision_generic_propaganda_campaigns
+
+		cost = 75
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			add_to_variable = {
+				student_athletic_readiness = 10
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			clamp_variable = {
+				var = social_tension_in_thailand
+				max = 100
+				min = 0
+			}
+			add_war_support = 0.1
+		}
+	}
+
+
+	Thai_Training_student_troops = { #训练学生部队
+		priority = 1
+
+		icon = GFX_decision_generic_military_support
+
+		cost = 0
+		days_remove = 15
+
+		fire_only_once = no
+		days_re_enable = 30
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 5
+			}
+		}
+		custom_cost_text = dx_more_than_5B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			add_to_variable = {
+				student_athletic_readiness = 5
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -5
+				}
+			}
+		}
+	}
+
+	Thai_Sponsoring_students = { #资助学生
+		priority = 1
+
+		icon = GFX_generic_buy_arms
+
+		cost = 0
+		fire_only_once = no
+		days_remove = 20
+		days_re_enable = 20
+
+		fire_only_once = yes
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Not_Thai_Civil_tt
+				NOT = { country_exists = ETI }
+			}
+		}
+
+		visible = {
+			NOT = { country_exists = ETI }
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 35
+			}
+		}
+		custom_cost_text = dx_more_than_35B
+		remove_effect = {
+			custom_effect_tooltip = Add_student_athletic_readiness_tt
+			add_to_variable = {
+				student_athletic_readiness = 10
+			}
+			clamp_variable = {
+				var = student_athletic_readiness
+				max = 100
+				min = 0
+			}
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -35
+				}
+			}
+		}
+	}
+
+	Thai_Distribution_of_equipment = { #发放装备
+		priority = 2
+
+		icon = generic_industry
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 20
+
+		fire_only_once = no
+		days_remove = 15
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Thai_Civil_tt
+				country_exists = ETI
+				country_exists = SIA
+			}
+			has_equipment = {
+				infantry_equipment > 20000
+			}
+			has_equipment = {
+				support_equipment > 20000
+			}
+			has_equipment = {
+				motorized_equipment > 10000
+			}
+		}
+
+		visible = {
+			country_exists = ETI
+			country_exists = SIA
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 15
+			}
+		}
+		custom_cost_text = dx_more_than_15B
+		remove_effect = {
+			#custom_effect_tooltip = Add_student_athletic_readiness_tt
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -10000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -10000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = -5000
+			}
+			ETI = {
+				add_war_support = 0.1
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+					producer = BGD
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 10000
+					producer = BGD
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 5000
+					producer = BGD
+				}
+			}
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -15
+				}
+			}
+		}
+	}
+
+
+	Thai_Training_Armored_Division = { #训练装甲师
+		priority = 2
+
+		icon = GFX_decision_generic_tank
+
+		cost = 0
+		fire_only_once = no
+		days_remove = 20
+		days_re_enable = 20
+
+		fire_only_once = yes
+		allowed = {
+			tag = BGD
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = Thai_Civil_tt
+				country_exists = ETI
+				country_exists = SIA
+			}
+		}
+
+		visible = {
+			country_exists = ETI
+			country_exists = SIA
+    	}
+
+		custom_cost_trigger = {
+			check_variable = {
+				var = income_var
+				value = 15
+			}
+		}
+		custom_cost_text = dx_more_than_15B
+		remove_effect = {
+			#custom_effect_tooltip = Add_student_athletic_readiness_tt
+			ETI = {
+				add_war_support = 0.1
+				if = {
+					limit = {
+						NOT = { has_template = "APFNO联军机械化师" }
+					}
+					division_template = {
+						name = "APFNO联军机械化师"
+						division_names_group = TP_TYPE_01
+						regiments = {
+							mechanized = { x = 0 y = 0 }
+							mechanized = { x = 0 y = 1 }
+							mechanized = { x = 0 y = 2 }
+							mechanized = { x = 0 y = 3 }
+							mechanized = { x = 0 y = 4 }
+			
+							mechanized = { x = 1 y = 0 }
+							mechanized = { x = 1 y = 1 }
+							mechanized = { x = 1 y = 2 }
+							mechanized = { x = 1 y = 3 }
+							mechanized = { x = 1 y = 4 }
+					
+							mechanized = { x = 2 y = 0 }
+							mechanized = { x = 2 y = 1 }
+							mechanized = { x = 2 y = 2 }
+							mechanized = { x = 2 y = 3 }
+							mechanized = { x = 2 y = 4 }
+								
+							mechanized = { x = 3 y = 0 }
+							mechanized = { x = 3 y = 1 }
+							mechanized = { x = 3 y = 2 }
+							mechanized = { x = 3 y = 3 }
+							mechanized = { x = 3 y = 4 }
+						}
+					}
+				}
+				289 = {
+					create_unit = { 
+						division = "name = \"APFNO联军机械化师\" division_template = \"APFNO联军机械化师\" start_experience_factor = 0.7"  
+						owner = ETI
+					}
+				}
+			}
+			hidden_effect = {
+				set_temp_variable = {
+					var = income_var_temp
+					value = -15
+				}
+			}
+		}
 	}
 }

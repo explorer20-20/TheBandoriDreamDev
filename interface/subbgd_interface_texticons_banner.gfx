@@ -7,6 +7,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	    }
 	spriteType = {
+		name = "GFX_BGD_Interference_in_Thailand_decisions_image"
+		texturefile = "gfx\texticons\banners\decisions\BGD_Interference_in_Thailand_decisions_image.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_bang_ppp_kiraism"
 		texturefile = "gfx\texticons\banners\ideology\bang_ppp_kiraism.png"
 		legacy_lazy_load = no

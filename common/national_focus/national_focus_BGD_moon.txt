@@ -22,11 +22,12 @@ shared_focus = {
 	cost = 3
 	x = 31
 	y = 7
-	bypass = {
-		has_country_flag = rocket_complete
-	}
+	#bypass = {
+	#	has_country_flag = rocket_complete
+	#}
 	available = {
-		has_country_flag = rocket_complete
+	#	has_country_flag = rocket_complete
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -40,11 +41,12 @@ shared_focus = {
 	cost = 3
 	x = 33
 	y = 7
-	bypass = {
-		has_country_flag = base_complete
-	}
+	#bypass = {
+	#	has_country_flag = base_complete
+	#}
 	available = {
-		has_country_flag = base_complete
+	#	has_country_flag = base_complete
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -59,11 +61,12 @@ shared_focus = {
 	cost = 3
 	x = 32
 	y = 8
-	bypass = {
-		has_country_flag = astronaut_selection
-	}
+	#bypass = {
+	#	has_country_flag = astronaut_selection
+	#}
 	available = {
-		has_country_flag = astronaut_selection
+	#	has_country_flag = astronaut_selection
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -77,11 +80,12 @@ shared_focus = {
 	cost = 3
 	x = 28
 	y = 9
-	bypass = {
-		has_country_flag = manned_centrifuge
-	}
+	#bypass = {
+	#	has_country_flag = manned_centrifuge
+	#}
 	available = {
-		has_country_flag = manned_centrifuge
+	#	has_country_flag = manned_centrifuge
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -94,11 +98,12 @@ shared_focus = {
 	cost = 3
 	x = 30
 	y = 9
-	bypass = {
-		has_country_flag = anti_weightlessness_training
-	}
+	#bypass = {
+	#	has_country_flag = anti_weightlessness_training
+	#}
 	available = {
-		has_country_flag = anti_weightlessness_training
+	#	has_country_flag = anti_weightlessness_training
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -111,11 +116,12 @@ shared_focus = {
 	cost = 3
 	x = 32
 	y = 9
-	bypass = {
-		has_country_flag = temperature_training
-	}
+	#bypass = {
+	#	has_country_flag = temperature_training
+	#}
 	available = {
-		has_country_flag = temperature_training
+	#	has_country_flag = temperature_training
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -128,11 +134,12 @@ shared_focus = {
 	cost = 3
 	x = 34
 	y = 9
-	bypass = {
-		has_country_flag = simulator_training
-	}
+	#bypass = {
+	#	has_country_flag = simulator_training
+	#}
 	available = {
-		has_country_flag = simulator_training
+	#	has_country_flag = simulator_training
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -145,11 +152,12 @@ shared_focus = {
 	cost = 3
 	x = 36
 	y = 9
-	bypass = {
-		has_country_flag = EVA_training
-	}
+	#bypass = {
+	#	has_country_flag = EVA_training
+	#}
 	available = {
-		has_country_flag = EVA_training
+	#	has_country_flag = EVA_training
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}
@@ -166,11 +174,12 @@ shared_focus = {
 	cost = 3
 	x = 32
 	y = 10
-	bypass = {
-		has_country_flag = bang_landing_moon
-	}
+	#bypass = {
+	#	has_country_flag = bang_landing_moon
+	#}
 	available = {
-		has_country_flag = bang_landing_moon
+	#	has_country_flag = bang_landing_moon
+		has_country_flag = bgd_focus_auto_complete
 	}
 	completion_reward = {
 	}

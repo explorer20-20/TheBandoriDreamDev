@@ -2271,3 +2271,63 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	#泰国内战报告
+	id = bgd.109
+	title = bgd.109.t
+	desc = bgd.109.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.109.a
+		custom_effect_tooltip = "unlock_thai_civil_war_tt"
+		hidden_effect = {
+			country_event = {
+				id = bgd.111
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	#泰国内战结算
+	id = bgd.110
+	title = bgd.110.t
+	desc = bgd.110.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.110.a
+		custom_effect_tooltip = "Mana_leader_thailand_tt"
+		hidden_effect = {
+			ETI = {
+				create_country_leader = {
+					name = "BGD_Mana"
+					desc = "BGD_Mana_DESC"
+					picture = GFX_portrait_Mana
+					ideology = kirakira_dokidoki
+					traits = {}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	#海军首次出击 - 泰国内战
+	id = bgd.111
+	title = bgd.111.t
+	desc = bgd.111.d
+	picture = GFX_JMNDF_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bgd.111.a
+		navy_experience = 25
+		add_war_support = 0.05
+	}
+}

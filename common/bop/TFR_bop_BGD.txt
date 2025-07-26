@@ -18,7 +18,7 @@ BGD_power_balance = {
 	}
 	side = {
 		id = BGD_minzhuzhenxian_side
-		icon = GFX_bop_PRC_nationalization
+		icon = GFX_bop_JAP_cc_socialist
 		range = {
 			id = BGD_min_1_side
 			min = -0.45

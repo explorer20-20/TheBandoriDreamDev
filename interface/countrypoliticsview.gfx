@@ -844,5 +844,9 @@ spriteTypes = { #NVX# Tag for changes
 		name = "GFX_autonomy_committee_state_icon"
 		textureFile = "gfx/interface/autonomy/committee_state.png"
 	}
+	spriteType = {
+		name = "GFX_bgd_allied_countries_state_icon"
+		textureFile = "gfx/interface/autonomy/bgd_allied_countries.png"
+	}
 	
 }
