@@ -61,7 +61,7 @@ shared_focus = {
 		SIG = {
 			has_country_flag = APFNO_member
 		}
-		SIA = {
+		ETI = {
 			has_country_flag = APFNO_member
 		}
 		PHI = {

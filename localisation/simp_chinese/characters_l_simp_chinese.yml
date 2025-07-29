@@ -552,6 +552,7 @@ debug_decisions_BGD_afterwar: "邦多利之梦debug决议"
 BGD_load_ppp_tree_debug: "读取Poppin'Party内战后国策树"
 BGD_arisa_military_coup_debug: "军事政变"
 BGD_zengjia_zhengcedian_debug: "增加5000点§p政§!§d策§!§V推§!§G动§!§O力§!§C点§!§6数§!"
+Unlock_National_Assembly_tt: "这将会§G解锁§!§N国民议会§!"
 
 
 BGD_Liquidation_of_Fascist_War_Criminals: "肃清法西斯分子"
@@ -584,3 +585,6 @@ ETI_republic_of_siam: "暹罗共和国"
 ETI_republic_of_siam_DEF: "暹罗共和国"
 ETI_republic_of_siam_ADJ: "暹罗共和国"
 bgd_allied_countries_state: "战友国"
+
+BGD_Bannde_LDP_effect_tt: "§N国民议会§!席位将发生变化 - §R自民党将失去所有席位§!"
+BGD_parliament_effect_tt: "§N国民议会§!席位将发生变化"

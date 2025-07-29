@@ -335,3 +335,7 @@ bgd.110.a: "好"
 bgd.111.t: "内阁官房关于日本海上国防军支援泰国学生起义事件之报告"
 bgd.111.d: "致 总统阁下：\n\n内阁官房谨就近日日本海上国民防卫军依亚太自由组织授权介入泰国学生起义事件之相关情况，向阁下呈简\n短报如下：\n\n三天前，泰国学生武装起义因王室镇压升级。日本基于地区维稳义务，出动日本海上国民防卫军第1护卫群（旗舰DDH-183出云、含DDG-152、AOE-425等，联邦海军维和司令部提供信息支持，详情见附件）自佐世保基地驰援泰国湾。双方舰队于湾口对峙，泰国发射CM-302导弹，遭日方宙斯盾系统拦截。行动中，日本潜艇SS-501击沉泰舰2艘，直升机协同击毁巡逻艇PB-711/712，其中DDG-170取得的战果最为卓越，其使用MK41垂发系统击毁了五艘轻型护卫舰，一艘两栖攻击舰，其余战果，经过核查，应该由高波级和初月级取得；后日维和司令部海军摧毁泰方导弹阵地及雷达设施，并且派出两栖登陆舰登陆。因补给短缺及伤亡压力，敌方撤退。\n\n此次行动交战上确保APFNO掌控湾口航道，已经基本可以保证制海权，但对于反潜任务和小型自杀艇袭击，依然需要防范。\n\n内阁官房长官：户山明日香\n[GetDateText]\n（印）\n\n― 内阁官房对策室 附注 ―"
 bgd.111.a: "好"
+
+bgd.112.t: "2025国会参议院选举"
+bgd.112.d:0 "结果如下：\n与党：\n£GFX_KKP_logo 日本闪耀党：[?parliament_seat_array^2]\n\n野党：\n£GFX_JCP_logo 日本共产党：[?parliament_seat_array^0]\n£GFX_SDP_logo 社会民主党：[?parliament_seat_array^1]\n£GFX_REI_logo 日本新选组：[?parliament_seat_array^3]\n£GFX_CDP_logo 立宪民主党：[?parliament_seat_array^4]\n£GFX_DPP_logo 国民民主党：[?parliament_seat_array^5]\n£GFX_LDP_logo 自由民主党：[BGD_LDP_house_seats]\n£GFX_INO_logo 日本维新会：[?parliament_seat_array^7]\n\n无所属议员：[?parliament_seat_array^8]"
+bgd.111.a: "好"

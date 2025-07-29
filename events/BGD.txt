@@ -1416,10 +1416,54 @@ country_event = {
 				add_to_faction = RAJ
 				add_to_faction = BAN
 				transfer_state = 876
-				puppet = VIN
-				puppet = BRM
-				puppet = BHU
-				puppet = NEP
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = VIN
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
+				else = {
+					puppet = VIN
+				}
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = BRM
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
+				else = {
+					puppet = BRM
+				}
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = BHU
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
+				else = {
+					puppet = BHU
+				}
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = NEP
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
+				else = {
+					puppet = NEP
+				}
 				load_focus_tree = BGD_united_asia
 		    }
 		}
@@ -1553,6 +1597,8 @@ country_event = {
 			long_name = BGD_guomin_minzhudang_long
 			name = BGD_guomin_minzhudang
 		}
+		BGD_Bannde_LDP_effect = yes
+		custom_effect_tooltip = BGD_Bannde_LDP_effect_tt
 	}
 	option = {
 		name = bgd.72.b
@@ -2329,5 +2375,26 @@ country_event = {
 		name = bgd.111.a
 		navy_experience = 25
 		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	#2025大选
+	id = bgd.112
+	title = bgd.112.t
+	desc = bgd.112.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+        date > 2025.10.1
+		tag = BGD
+    }
+	immediate = {
+		BGD_general_election_2025 = yes
+	}
+	option = {
+		name = bgd.112.a
+		custom_effect_tooltip = BGD_parliament_effect_tt
 	}
 }

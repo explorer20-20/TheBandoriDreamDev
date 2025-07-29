@@ -21,7 +21,17 @@ spriteTypes = {
 		texturefile = "gfx\event_pictures\idea_kiradoki_picture.png"
 		legacy_lazy_load = no
 	    }
+	spriteType = {
+		name = "GFX_KKP_logo"
+		texturefile = "gfx\texticons\BGD\BGD_KKP.png"
+		legacy_lazy_load = no
+	}
 
+	spriteType = {
+		name = "GFX_BGD_Kasumi"
+		texturefile = "gfx\leaders\BGD\BGD_kasumi.png"
+		legacy_lazy_load = no
+	}
 	spriteType = {
 		name = "GFX_BGD_Arisa"
 		texturefile = "gfx\leaders\BGD\ppp\BGD_arisa_1.png"

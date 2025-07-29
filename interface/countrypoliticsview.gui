@@ -1,6 +1,19 @@
 guiTypes = {
 
 	containerWindowType = {
+		name = "TFR_bgd_special_icons"
+		position = { x = 305 y = 260 }
+		size = { width = 250 height = 200 }
+		clipping = yes
+		buttonType = {
+			name = "bgd_ia_gui_start"
+			spriteType = "GFX_ia_gui_start"
+			pdx_tooltip = "TFR_BGD_IA_TT"
+			pdx_tooltip_delayed = "TFR_BGD_IA_TT_LONG"
+		}
+	}
+
+	containerWindowType = {
 		name = "TFR_economic_type_countrypoliticsview_container"
 		position = { x = 15 y = 322 }
 		size = { width = 250 height = 200 }
@@ -558,7 +571,7 @@ guiTypes = {
 				spriteType = "GFX_ideology_kirakira_dokidoki"
 				pdx_tooltip = "BGD_GOV_TT"
 				pdx_tooltip_delayed = "BGD_GOV_TT_LONG"
-			}	
+			}
 		}
 	}
 	containerWindowType = {

@@ -80,6 +80,9 @@ focus_tree = {
 		x = 7
 		y = 2
 		completion_reward = {
+		custom_effect_tooltip = Unlock_National_Assembly_tt
+		parliament_gui_initial = yes
+		initialization_political_interface = yes
 		country_event = {
 			id = bgd.83
 		}
