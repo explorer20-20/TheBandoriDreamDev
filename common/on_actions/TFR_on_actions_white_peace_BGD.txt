@@ -63,6 +63,44 @@ on_actions = {
 				}
 				set_global_flag = skip_default_capitulation
 			}
+			if = {
+				#赛里斯打死东南亚三宝直接吞并
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = PRC
+							PRC = {
+								has_cosmetic_tag  = PRC_dongyaguo
+							}
+						}
+					}
+					ROOT = {
+						original_tag = LAO
+						original_tag = VIL
+						original_tag = CAM
+					}
+				}
+				ROOT = {
+					dismantle_faction = yes
+					leave_faction = yes
+				}
+				FROM = {
+					white_peace = ROOT
+					ROOT = {
+						every_controlled_state = {
+							add_core_of = FROM
+							remove_core_of = ROOT
+						}
+					}
+					PRC = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+				}
+				set_global_flag = skip_default_capitulation
+			}
 		}
 	}
 }
