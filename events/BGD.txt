@@ -2358,6 +2358,23 @@ country_event = {
 					ideology = kirakira_dokidoki
 					traits = {}
 				}
+				every_state = {
+    			    limit = {
+    			        is_core_of = ETI
+    			    }
+    			    transfer_state_to = ETI
+    			}
+			}
+			BGD = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = ETI
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
 			}
 		}
 	}

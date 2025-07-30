@@ -101,6 +101,136 @@ on_actions = {
 				}
 				set_global_flag = skip_default_capitulation
 			}
+
+
+			if = {
+				# Students Kill SIA
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = ETI
+						}
+					}
+					ROOT = {
+						original_tag = SIA
+					}
+				}
+				SIA = {
+					transfer_navy = {
+						target = ETI
+					}
+				}
+				ETI = {
+					white_peace = FROM
+					set_cosmetic_tag = ETI_republic_of_siam
+					annex_country = {
+						target = SIA
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							is_core_of = SIA
+						}
+						remove_core_of = SIA
+						remove_dynamic_modifier = { modifier = BRM_peoples_war }
+					}
+					remove_ideas_with_trait = ZZZ_blank_idea_trait
+					set_popularities = {
+						social_democrat = 50
+						social_liberal = 5
+						libertarian_socialist = 5
+						communist = 25
+						market_liberal = 5
+						conservative = 5
+						authoritarian_democrat = 5
+					}
+					set_politics = {
+						ruling_party = social_democrat
+						elections_allowed = yes
+						election_frequency = 48
+					}
+					#create_country_leader = {
+					#	name = "BGD_Mana"
+					#	desc = "BGD_Mana_DESC"
+					#	picture = GFX_portrait_Mana
+					#	ideology = kirakira_dokidoki
+					#	traits = {}
+					#}
+				}
+				BGD = {
+					country_event = {
+						id = bgd.110
+						days = 3
+					}
+				}
+			}
+			if = {
+				# APFNO and Thai's Students Kill SIA
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = BGD
+						}
+					}
+					ROOT = {
+						original_tag = SIA
+					}
+				}
+				SIA = {
+					transfer_navy = {
+						target = ETI
+					}
+				}
+				ETI = {
+					white_peace = SIA
+					set_cosmetic_tag = ETI_republic_of_siam
+					annex_country = {
+						target = SIA
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							is_core_of = SIA
+						}
+						remove_core_of = SIA
+						remove_dynamic_modifier = { modifier = BRM_peoples_war }
+					}
+					every_state = {
+    				    limit = {
+    				        is_core_of = ETI
+    				    }
+    				    transfer_state_to = ETI
+    				}
+					remove_ideas_with_trait = ZZZ_blank_idea_trait
+					set_popularities = {
+						social_democrat = 50
+						social_liberal = 5
+						libertarian_socialist = 5
+						communist = 25
+						market_liberal = 5
+						conservative = 5
+						authoritarian_democrat = 5
+					}
+					set_politics = {
+						ruling_party = social_democrat
+						elections_allowed = yes
+						election_frequency = 48
+					}
+					#create_country_leader = {
+					#	name = "BGD_Mana"
+					#	desc = "BGD_Mana_DESC"
+					#	picture = GFX_portrait_Mana
+					#	ideology = kirakira_dokidoki
+					#	traits = {}
+					#}
+				}
+				BGD = {
+					country_event = {
+						id = bgd.110
+						days = 3
+					}
+				}
+			}
 		}
 	}
 }

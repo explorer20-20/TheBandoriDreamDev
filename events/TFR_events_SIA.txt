@@ -827,6 +827,23 @@ country_event = { #CIVIL WAR TIME RAAAAAAAAGGGGGGGGHHHHHH!!!! 内战时刻吼吼
 	option = {
 		name = thailand.17.a
 		set_country_flag = SIA_civil_war_flag
+		BGD = {
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = ETI
+					autonomy_state = bgd_allied_countries_state
+				}
+			}
+			else = {
+				puppet = ETI
+			}
+			country_event  = {
+				id = bgd.109
+			}
+		}
 		ETI = {
 			declare_war_on = { 
 				target = SIA 
@@ -838,9 +855,6 @@ country_event = { #CIVIL WAR TIME RAAAAAAAAGGGGGGGGHHHHHH!!!! 内战时刻吼吼
 				targeted_alliance = ETI
 				enemy = SIA
 				hostility_reason = asked_to_join
-			}
-			country_event  = {
-				id = bgd.109
 			}
 		}
 		#if = {
