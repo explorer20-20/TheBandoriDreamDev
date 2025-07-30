@@ -6387,7 +6387,7 @@ BGD_Interference_in_Thailand = {
     	}
 
 		complete_effect = {
-			
+			set_country_flag = Thai_End_of_interference
 		}
 	}
 

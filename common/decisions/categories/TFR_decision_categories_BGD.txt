@@ -111,6 +111,7 @@ BGD_Interference_in_Thailand = {
 
     visible = {
         has_completed_focus = BGD_yazi_zuzhi
+        NOT = { has_country_flag = Thai_End_of_interference }
     }
 
     priority = 97
