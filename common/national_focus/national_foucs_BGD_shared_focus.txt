@@ -567,6 +567,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		country_event = { id = bgd.91 }
+		custom_effect_tooltip = BGD_economic_actions_tt
 		unlock_decision_category_tooltip = BGD_jingji_gongzuo
 		unlock_decision_tooltip = BGD_jiashui
 		add_political_power = 50
@@ -576,6 +577,7 @@ shared_focus = {
 			add_ideas = BGD_guomin_jingji_1
 		}
 		hidden_effect = {
+			BGD_economic_actions = yes
 			add_dynamic_modifier = {
 				modifier = BGD_guomin_jingji
 			}

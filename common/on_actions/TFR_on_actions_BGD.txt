@@ -1,4 +1,21 @@
 on_actions = {
+    on_startup = {
+        effect = {
+            create_entity = {
+		    	entity = japan_diet_entity
+		    	id = 1
+		    	x = 0
+		    	y = 0
+		    	z = 1.5
+		    	province = 1182
+		    	state = 1332
+		    	rotation = 2
+		    	scale = 0.4
+		    	min_zoom = 5555.0
+		    	#visible = scripted_trigger_name ####To do: test if hoi iv renders models properly after some time of active gameplay
+		    }
+        }
+    }
     on_war = {
         effect = { 
         if= {

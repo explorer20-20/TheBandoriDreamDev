@@ -325,7 +325,7 @@ scripted_gui = {
 				has_country_flag = esto_member
 			}
 			TFR_eadi_politics_icon_visible = {
-				has_country_flag = eadi_member
+				always = no
 			}
 			TFR_psf_politics_icon_visible = {
 				has_country_flag = psf_member
@@ -383,7 +383,8 @@ scripted_gui = {
 				has_country_flag = esto_member
 			}
 			TFR_eadi_diplo_icon_visible = {
-				has_country_flag = eadi_member
+				#has_country_flag = eadi_member
+				always = no
 			}
 			TFR_psf_diplo_icon_visible = {
 				has_country_flag = psf_member

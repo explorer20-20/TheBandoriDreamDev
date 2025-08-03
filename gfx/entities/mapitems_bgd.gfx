@@ -1,0 +1,10 @@
+objectTypes = {
+	pdxmesh = {
+		name = "tokyo_dome_mesh"
+		file = "gfx/models/buildings/tokyo/dome.mesh"
+	}
+	pdxmesh = {
+		name = "japan_diet_mesh"
+		file = "gfx/models/buildings/tokyo/japan_diet.mesh"
+	}
+}

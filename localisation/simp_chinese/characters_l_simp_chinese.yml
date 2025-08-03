@@ -486,6 +486,7 @@ Add_social_tension_in_thailand_tt: "§Y增加§!泰国当前§R社会紧张度§
 unlock_thai_civil_war_tt: "解锁@SIA泰国内战@ETI相关决议"
 Mana_leader_thailand_tt: "@BGD§Y纯田真奈§!将领导@ETI暹罗共和国，直到@ETI暹罗获得民主能力"
 
+BGD_tokyo_dome_modifier: "东京穹顶"
 BGD_xunyan_yingxiang: "§p已巡演地区——受神秘吉他力量影响§!"      
 BGD_quanguo_xunyan: "§p日§!§d本§!§V全§!§G国§!§O大§!§C巡§!§6演§!"
 BGD_quanguo_xunyan_desc: "\n\n\n\n\n£GFX_bang_quanguo_xunyan_1\n\n\n\n\n\n\n\n§p大§!§d家§!，§G一§!§V起§!§O演§!§C出§!§6吧§!！\n\n我们手中的神秘吉他有着影响人心的力量，既然如此，不如就让我们所有的少女乐队成员一起走遍全国各地，把这把能带来星之鼓动的吉他的声音演奏给国民们听吧！当然，其他乐器的演奏和我们的歌声也是必不可少的。这不仅能带来精神上的鼓舞，还能提高听到神秘吉他的演奏的人们的工作效率，事不宜迟，现在就开始制定计划，准备出发！\n\n注意：最多只能同时在一个区域进行巡演。"
@@ -588,3 +589,4 @@ bgd_allied_countries_state: "战友国"
 
 BGD_Bannde_LDP_effect_tt: "§N国民议会§!席位将发生变化 - §R自民党将失去所有席位§!"
 BGD_parliament_effect_tt: "§N国民议会§!席位将发生变化"
+BGD_economic_actions_tt: "§G解锁§!§Y经济界面§!决议"

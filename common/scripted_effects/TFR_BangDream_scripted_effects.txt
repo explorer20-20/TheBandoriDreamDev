@@ -2,3 +2,18 @@ TFR_JAPAN = {
 	tag = JAP
 	tag = BGD
 }
+
+BGD_economic_actions = {
+	add_to_array = {
+		economic_actions_array = token:print_money_economic_action
+	}
+	add_to_array = {
+		economic_actions_array = token:quantitative_tightening_economic_action 
+	}
+	add_to_array = {
+		economic_actions_array = token:war_taxes_economic_action
+	}
+	add_to_array = {
+		economic_actions_array = token:develop_state_economic_action
+	}
+}

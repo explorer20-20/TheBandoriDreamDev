@@ -1161,6 +1161,19 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			scoped_play_song = "户山香澄-对东亚国宣战"
+			PRC = {
+				every_state = {
+					limit = {
+						is_owned_by = PRC
+					}
+					remove_dynamic_modifier = {
+						modifier = PRC_unplanned_offensive
+					}
+					remove_dynamic_modifier = {
+						modifier = PRC_non_combat_area
+					}
+				}
+			}
 		}
 	}
 	option = {
@@ -1333,7 +1346,7 @@ country_event = {
 			}
 			BHU = {
 				remove_ideas = eadi_member
-				set_cosmetic_tag = new
+				drop_cosmetic_tag = yes
 				set_politics = {
 					ruling_party = social_democrat
 					elections_allowed = yes
@@ -1357,7 +1370,7 @@ country_event = {
 			}
 			NEP = {
 				remove_ideas = eadi_member
-				set_cosmetic_tag = new
+				drop_cosmetic_tag = yes
 				set_politics = {
 					ruling_party = social_democrat
 					elections_allowed = yes
@@ -1384,6 +1397,26 @@ country_event = {
 				set_country_flag = APFNO_member
 			}
 			PAK = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+					election_frequency = 48
+				}
+				set_party_name = {
+			        ideology = social_democrat
+			        long_name = PAK_bajisitan_shanyaodang
+			        name = PAK_bajisitan_shanyaodang_long
+		        }
+				set_popularities = {
+					social_democrat = 50
+					social_liberal = 5
+					libertarian_socialist = 5
+					communist = 25
+					market_liberal = 5
+					conservative = 5
+					authoritarian_democrat = 5
+				}
 				set_country_flag = APFNO_member
 				remove_ideas = eadi_member
 			}
@@ -1396,10 +1429,12 @@ country_event = {
 				remove_ideas = eadi_member
 			}
 			SRL = {
+				drop_cosmetic_tag = yes
 				set_country_flag = APFNO_member
 				remove_ideas = eadi_member
 			}
 			SAJ = {
+				drop_cosmetic_tag = yes
 				set_country_flag = APFNO_member
 				remove_ideas = eadi_member
 			}
@@ -1463,6 +1498,18 @@ country_event = {
 				}
 				else = {
 					puppet = NEP
+				}
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = PAK
+						autonomy_state = bgd_allied_countries_state
+					}
+				}
+				else = {
+					puppet = PAK
 				}
 				load_focus_tree = BGD_united_asia
 		    }
@@ -2413,5 +2460,41 @@ country_event = {
 	option = {
 		name = bgd.112.a
 		custom_effect_tooltip = BGD_parliament_effect_tt
+	}
+}
+
+country_event = {
+	#东京穹顶
+	id = bgd.113
+	title = bgd.113.t
+	desc = bgd.113.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		#destroy_entity = {
+		#	id = 1
+		#}
+	}
+	option = {
+		name = bgd.113.a
+		1332 = {
+			add_dynamic_modifier = {
+				modifier = BGD_tokyo_dome_modifier
+			}
+		}
+		create_entity = {
+			entity = tokyo_dome_entity
+			id = 2
+			x = 0
+			y = 0
+			z = 1.5
+			province = 1182
+			state = 1332
+			rotation = 0
+			scale = 0.08
+			min_zoom = 5555.0
+			#visible = scripted_trigger_name ####To do: test if hoi iv renders models properly after some time of active gameplay
+		}
 	}
 }

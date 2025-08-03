@@ -1,0 +1,10 @@
+entity = {
+	name = "tokyo_dome_entity"
+	pdxmesh = "tokyo_dome_mesh"
+
+	default_state = "idle"
+}
+entity = {
+	name = "japan_diet_entity"
+	pdxmesh = "japan_diet_mesh"
+}

@@ -169,7 +169,7 @@ BGD_yazi_lingdao = {
     industrial_capacity_dockyard = BGD_yazi_lingdao_industrial_capacity_dockyard
 }
 BGD_xunyan_yingxiang = {
-    icon = GFX_modifiers_PRC_economic_zone
+    icon = GFX_idea_jingshen_zhanwei
 	enable = {
 		always = yes
 	}
@@ -178,4 +178,15 @@ BGD_xunyan_yingxiang = {
 	local_supplies = 0.15
     local_manpower = 0.12
     mobilization_speed = 0.25
+}
+
+BGD_tokyo_dome_modifier = {
+    icon = GFX_idea_jingshen_zhanwei
+	enable = {
+		always = yes
+	}
+	army_defence_factor = 500
+	enemy_attrition = 500
+	air_defence_factor = 500
+	defence = 500
 }

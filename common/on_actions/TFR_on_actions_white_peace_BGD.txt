@@ -231,6 +231,47 @@ on_actions = {
 					}
 				}
 			}
+
+			if = {
+				# PRC Kill ROC
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = PRC
+						}
+					}
+					ROOT = {
+						original_tag = CHI
+					}
+				}
+				ROC = {
+					transfer_navy = {
+						target = PRC
+					}
+				}
+				PRC = {
+					white_peace = ROC
+					annex_country = {
+						target = ROC
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							is_core_of = ROC
+						}
+						remove_core_of = ROC
+					}
+					every_state = {
+    				    limit = {
+    				        is_core_of = ROC
+    				    }
+    				    transfer_state_to = ROC
+    				}
+					country_event = {
+						id = bgd.1984
+					}
+				}
+			}
 		}
 	}
 }
