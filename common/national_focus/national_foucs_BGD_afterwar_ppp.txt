@@ -91,6 +91,10 @@ focus_tree = {
 				id = bgd.72
 				days = 14
 			}
+			country_event = {
+				id = bgd.114
+				days = 30
+			}
 		}
 		unlock_decision_category_tooltip = BGD_guojia_gaige
 		unlock_decision_tooltip = BGD_jianhua_xingzheng
@@ -427,6 +431,10 @@ focus_tree = {
 		completion_reward = {
 		country_event = {
 			id = bgd.82
+		}
+		news_event = {
+			id = bdrnews.1224
+			days = 5
 		}
 		unlock_decision_tooltip = BGD_xuanchuan_weiyuanhui
 			add_political_power = 150

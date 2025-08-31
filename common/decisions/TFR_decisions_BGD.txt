@@ -6577,6 +6577,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -10
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6639,6 +6640,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -10
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6700,6 +6702,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -10
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6761,6 +6764,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -10
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6857,6 +6861,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -5
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6909,6 +6914,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -35
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -6994,6 +7000,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -15
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}
@@ -7084,6 +7091,7 @@ BGD_Interference_in_Thailand = {
 					var = income_var_temp
 					value = -15
 				}
+				add_income_with_inflation = yes
 			}
 		}
 	}

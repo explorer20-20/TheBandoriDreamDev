@@ -1082,6 +1082,10 @@ shared_focus = {
 			news_event = {
 				id = news.1220
 			}
+			country_event = {
+				id = bgd.116
+				days = 14
+			}
 			set_country_flag = APFNO_member
 			}
 			add_to_variable = { BGD_yazi_lingdao_stability_factor = 0.05 }

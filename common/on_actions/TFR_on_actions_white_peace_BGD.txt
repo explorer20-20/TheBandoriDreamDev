@@ -232,6 +232,55 @@ on_actions = {
 				}
 			}
 
+
+			if = {
+				# APFNO Kill USA
+				limit = {
+					FROM = {
+						has_country_flag = APFNO_member
+					}
+					ROOT = {
+						has_country_flag = USA_battle_for_america_idea
+					}
+				}
+				USN = {
+					annex_country = {
+						target = ROOT
+					}
+				}
+			}
+
+			if = {
+				# APFNO Kill APLA
+				limit = {
+					FROM = {
+						OR = {
+							has_country_flag = APFNO_member
+							original_tag = BGD
+						}
+					}
+					ROOT = {
+						original_tag = APA
+					}
+				}
+				USN = {
+					annex_country = {
+						target = APA
+					}
+				}
+				if = {
+					limit = {
+						NNN = { exists = yes }
+						APA = { is_in_faction_with = NNN }
+					}
+					USN = {
+						annex_country = {
+							target = NNN
+						}
+					}
+				}
+			}
+
 			if = {
 				# PRC Kill ROC
 				limit = {

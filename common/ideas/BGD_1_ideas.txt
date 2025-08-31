@@ -27,46 +27,37 @@ ideas = {
 			picture = jingshen_zhanwei
 			
 			modifier = {
-				enemy_spies_targetting_us_effectiveness = -1.0      # 敌方针对我方的情报人员效率 -100%
-    			foreign_agent_detection_chance = 1.0                # 侦测到外国间谍的几率 +100%
-    			enemy_intel_network_gain_on_us = -1.0               # 敌方在我方领土上建立情报网络的效率 -100%
-    			own_operative_capture_chance = -0.9                 # 我方情报人员被捕几率 -90%
-						
-    			# 对敌方军事行动的预知与干扰
-    			enemy_planning_speed = -0.75                        # 敌方计划速度 -75% (模拟AI对敌方指挥链的干扰)
-    			enemy_air_detection_chance = -0.9                   # 敌方空军索敌效率 -90% (模拟电子战压制)
-    			enemy_naval_detection_chance = -0.9                 # 敌方海军索敌效率 -90% (同上)
-						
-    			# 对核心区域的绝对保护
-    			core_territory_defense_factor = 0.5                 # 核心领土防御效率 +50%
-    			damage_to_garrison_factor = -0.75                   # 驻防部队所受伤害 -75%
-						
-    			# ===================================================================
-    			# SECTION 2: ULTIMATE EFFICIENCY - "The Perfect Machine"
-    			# 体现“白神”对国家机器的深度优化
-    			# ===================================================================
-						
-    			# 科技与生产的飞跃
-    			research_speed_factor = 0.25                        # 研究速度 +25% (模拟AI辅助科研)
+				agency_upgrade_time = 0.1
+				intelligence_agency_defense = 1
+				enemy_army_speed_factor = -0.1
+				enemy_declare_war_tension = 0.1
+				enemy_local_supplies = -0.1
+				planning_speed = 0.5
+				defence = 0.25
+				attrition = -0.25
+				military_industrial_organization_research_bonus = 0.25
     			production_efficiency_cap = 0.2                     # 生产效率上限 +20% (模拟最优生产线管理)
-    			factory_output_factor = 0.15                        # 工厂产出 +15%
-    			production_resource_cost_factor = -0.1              # 生产资源消耗 -10% (消除浪费)
-						
-    			# 政府与军事指挥的优化
+				production_factory_start_efficiency_factor = 0.15
+    			production_factory_efficiency_gain_factor = 0.2              # 生产资源消耗 -10% (消除浪费)
     			political_power_gain = 0.25                         # 政治点数获取 +25% (模拟行政效率最大化)
     			stability_factor = 0.15                             # 稳定度 +15% (模拟舆情精准引导与社会问题预警)
-    			command_power_gain_factor = 0.5                     # 指挥点数获取 +50% (模拟最优军事资源调配)
+    			command_power_gain_mult = 0.15           			        # 指挥点数获取 +50% (模拟最优军事资源调配)
     			planning_speed = 0.5                                # 计划速度 +50% (我方指挥官能更快制定计划)
-						
-    			# ===================================================================
-    			# SECTION 3: THE PRICE OF PERFECTION - "The Silence"
-    			# Roselia式的孤高与完美主义带来的“副作用”或特性
-    			# ===================================================================
-						
-    			# 意识形态的绝对坚定与排外
-    			justify_war_goal_time_on_us_factor = 1.0            # 对我方制造战争目标的所需时间 +100% (模拟外交上的无懈可击)
+				
 			}
 		}
+		BGD_R_fuschicho_alloy_idea = {
+       		picture = jingshen_zhanwei
+
+       		modifier = {
+       		    production_speed_buildings_factor = 0.10     # 生产效率上限 +10%
+       		    political_power_gain = 0.25
+				army_speed_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.25
+				stability_weekly = 0.05
+       		}
+    	}
+
 		#ADD
 		BGD_NVIDIA = {
 			picture = nvidia

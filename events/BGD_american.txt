@@ -84,6 +84,17 @@ country_event = {
 				USN = {
 					annex_country = { target = APA }
 				}
+				if = {
+					limit = {
+						NNN = { exists = yes }
+						APA = { is_in_faction_with = NNN }
+					}
+					USN = {
+						annex_country = {
+							target = NNN
+						}
+					}
+				}
 				#BGD = { country_event = { id = usnavy.3 } }
 			}
 		}

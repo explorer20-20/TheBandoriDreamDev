@@ -43,4 +43,17 @@ spriteTypes = {
 		name = "GFX_JMNDF_1"
 		texturefile = "gfx\event_pictures\BGD_JMNDF1.png"
 	}
+	#CP kasumi x arisa
+	spriteType = {
+		name = "GFX_kasr_1"
+		texturefile = "gfx\event_pictures\kasr_1.png"
+	}
+	spriteType = {
+		name = "GFX_kasr_2"
+		texturefile = "gfx\event_pictures\kasr_2.png"
+	}
+	spriteType = {
+		name = "GFX_kasr_3"
+		texturefile = "gfx\event_pictures\kasr_3.png"
+	}
 }
