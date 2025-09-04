@@ -134,7 +134,19 @@ decisions_BGD_usn = {
 		complete_effect = {
 			every_state = {
 				limit = {
-					is_controlled_by = BGD
+					OR = {
+						is_controlled_by = BGD
+						is_controlled_by = RAJ
+						is_controlled_by = BAN
+						is_controlled_by = SIA
+						is_controlled_by = INS
+						is_controlled_by = MAL
+						is_controlled_by = SIG
+						is_controlled_by = AST
+						is_controlled_by = NZL
+						is_controlled_by = PNG
+						is_controlled_by = MAL
+					}
 					is_core_of = USA
 				}
 				USN = {
