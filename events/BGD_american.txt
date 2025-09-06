@@ -175,15 +175,21 @@ country_event = {
 	option = {
 		name = usnavy.4.a
 		BGD = {
-			declare_war_on ={
-				type = annex_everything
-                        target = USB
-			}
-			declare_war_on ={
-				type = annex_everything
-                        target = USC
-			}
-		}		
+			every_country = {
+                limit = {
+                    has_idea = USA_battle_for_america_idea
+                    exists = yes
+                    NOT = { tag = USN }
+                }
+
+                BGD = {
+                    create_wargoal = {
+                        type = annex_everything
+                        target = PREV
+                    }
+                }
+            }
+		}
 	}
 }
 
@@ -243,22 +249,6 @@ country_event = {
 				limit = { controller = { tag = USN } }
 				add_core_of = USN
 			}
-		}
-		BGD = {
-			every_country = {
-                limit = {
-                    has_idea = USA_battle_for_america_idea
-                    exists = yes
-                    NOT = { tag = USN }
-                }
-
-                BGD = {
-                    declare_war_on = {
-                        type = annex_everything
-                        target = PREV
-                    }
-                }
-            }
 		}
 	}
 }
@@ -445,34 +435,6 @@ country_event = {
 				limit = { controller = { tag = USN } }
 				add_core_of = USN
 			}
-		PTF = {
-				declare_war_on ={
-				type = annex_everything
-                        target = USN
-			}
-		}
-		ATW = {
-				declare_war_on ={
-					type = annex_everything
-                    target = USN
-			}
-		}
-		}
-		BGD = {
-			every_country = {
-                limit = {
-                    has_idea = USA_battle_for_america_idea
-                    exists = yes
-                    NOT = { tag = USN }
-                }
-
-                BGD = {
-                    create_wargoal = {
-                        type = annex_everything
-                        target = PREV
-                    }
-                }
-            }
 		}
 	}
 }
@@ -509,34 +471,7 @@ country_event = {
 				add_core_of = USN
 			}
 		}
-		PTF = {
-				declare_war_on ={
-				type = annex_everything
-                        target = USN
-			}
-		}
-		ATW = {
-				declare_war_on ={
-					type = annex_everything
-                    target = USN
-			}
-		}
-		BGD = {
-			every_country = {
-                limit = {
-                    has_idea = USA_battle_for_america_idea
-                    exists = yes
-                    NOT = { tag = USN }
-                }
-
-                BGD = {
-                    create_wargoal = {
-                        type = annex_everything
-                        target = PREV
-                    }
-                }
-            }
-		}
+		
 	}
 }
 
@@ -566,22 +501,6 @@ country_event = {
 				limit = { controller = { tag = USN } }
 				add_core_of = USN
 			}
-		}
-		BGD = {
-			every_country = {
-                limit = {
-                    has_idea = USA_battle_for_america_idea
-                    exists = yes
-                    NOT = { tag = USN }
-                }
-
-                BGD = {
-                    declare_war_on = {
-                        type = annex_everything
-                        target = PREV
-                    }
-                }
-            }
 		}
 	}
 }
